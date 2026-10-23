@@ -1,0 +1,42 @@
+{
+  "verification_date": "2026-10-23",
+  "bundle": {
+    "file": "The_Stats_Git_Backup_2026-10-23.bundle",
+    "size_bytes": 59022040,
+    "sha256": "adf1bcc191d03526db5c67aff2411d33ad948730dbb57169a0e5da6610507dd3",
+    "expected_size_and_hash_match": true,
+    "git_bundle_verify": "PASS"
+  },
+  "zip": {
+    "file": "The_Stats_Project_Backup_2026-10-23.zip",
+    "size_bytes": 81069770,
+    "sha256": "a230d4126cf7aa924fd1cec7db0912e916cb41949ab3a84b4a7b6733be752d18",
+    "expected_size_and_hash_match": true,
+    "all_177_member_hashes_match_repository_files": true
+  },
+  "repository": {
+    "commit": "7ab715160f5f68fcd87424fce4b2a1c281c952bf",
+    "tree": "c808c36ce2be3a19644039776c0c3343afb238f0",
+    "branch": "main",
+    "tag": "snapshot-2026-10-23",
+    "tracked_files": 177,
+    "included_verifier": "PASS: 176 files match SHA-256 checksums.",
+    "git_fsck_full": "PASS",
+    "all_checkout_files_match_committed_blobs": true
+  },
+  "credential_screening": {
+    "unique_bytes_screened": 723571320,
+    "unique_contents": 1913,
+    "unique_zip_office_containers": 82,
+    "archive_member_paths": 3844,
+    "credential_pattern_findings": 0,
+    "credential_target_paths": 0,
+    "unsafe_or_duplicate_archive_paths": 0,
+    "scan_errors": 0,
+    "bounds_exceeded": false,
+    "limitation": "Pattern-based screening is not exhaustive secret detection. Images and PDFs received raw-byte screening without OCR or PDF-stream decoding."
+  },
+  "application_execution": "NOT_PERFORMED",
+  "application_test_suite": "NOT_PERFORMED",
+  "note": "This record describes verification performed during Windows publication. Remote verification is recorded separately. The original snapshot files remain unchanged."
+}

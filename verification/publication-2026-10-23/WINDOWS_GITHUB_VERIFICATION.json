@@ -1,0 +1,1135 @@
+{
+  "verified_at_utc": "2026-10-23T06:56:20.402993+00:00",
+  "repository": "https://github.com/bug220r-lab/the-stats",
+  "branch": "windows-snapshot-2026-10-23-062048Z",
+  "tag": "snapshot-windows-2026-10-23-062048Z",
+  "commit": "7825dee4362f0d9dee193833a098721a713827d6",
+  "tree": "1f6bfb4b1a7e1bc70b2840d5ecfb0bdd5aa05d24",
+  "snapshot_path": "windows-snapshots/2026-10-23_062048Z",
+  "snapshot_subtree_tree": "bd3e0c0875a32468349c74b90bb540283abf091b",
+  "atomic_push_completed": true,
+  "network_fetch_into_separate_bare_repository_completed": true,
+  "readback_repository": "C:\\Users\\jlewi\\OneDrive\\Documents\\ChatGPT\\The Stats™️\\backups\\publish_2026-10-23\\github-readback.git",
+  "readback_has_no_object_alternates": true,
+  "frozen_staging_inventory_sha256": "3a38b54e5d1267d9789038a07d3e95bb1ea7d62cdacccea81c77c7b5e6dc2b70",
+  "snapshot_files_verified_exact_sha256": 181,
+  "snapshot_bytes_verified": 653973458,
+  "maximum_blob_bytes": 47185920,
+  "total_repository_files": 358,
+  "original_historical_preservation": {
+    "commit": "7ab715160f5f68fcd87424fce4b2a1c281c952bf",
+    "tree": "c808c36ce2be3a19644039776c0c3343afb238f0",
+    "file_count": 177,
+    "all_original_paths_and_blobs_unchanged": true,
+    "main_and_original_tag_still_at_original_commit_at_remote_readback": true
+  },
+  "remote_repository_metadata": {
+    "verified_at_utc": "2026-10-23T06:55:01.029Z",
+    "full_name": "bug220r-lab/the-stats",
+    "owner": "bug220r-lab",
+    "private": true,
+    "visibility": "private",
+    "push_permission": true
+  },
+  "remote_refs_api_readback": {
+    "refs/heads/main": "7ab715160f5f68fcd87424fce4b2a1c281c952bf",
+    "refs/heads/windows-snapshot-2026-10-23-062048Z": "7825dee4362f0d9dee193833a098721a713827d6",
+    "refs/tags/snapshot-2026-10-23": "7ab715160f5f68fcd87424fce4b2a1c281c952bf",
+    "refs/tags/snapshot-windows-2026-10-23-062048Z": "7825dee4362f0d9dee193833a098721a713827d6"
+  },
+  "git_fsck": {
+    "command": "git fsck --full",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "application_tests_run": false,
+  "verified_snapshot_blobs": [
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/.gitattributes",
+      "bytes": 8,
+      "git_blob": "fa1385d99a319b43c06f5309d1aae9fdd3adea46",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/.gitignore",
+      "bytes": 317,
+      "git_blob": "3a250fdfc616dbd901324ffa6985424e816cf9ac",
+      "sha256": "ebfa4ff34327c90752261550d4751e6797b9dad2e419e27de470c7ef7a9e5735"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/.streamlit/config.toml",
+      "bytes": 383,
+      "git_blob": "2ec7bf886b83e4b84064e71750190f98b2f01b87",
+      "sha256": "8098f0d6c89212696a316aa00dcb009e85ce4a0fe4f6582868ca148710502ff1"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/.streamlit/secrets.example.toml",
+      "bytes": 342,
+      "git_blob": "6c36f1908a78a8c30b503e5b20689bcbe7a2aa89",
+      "sha256": "5a435911acb226779f6322a6618a6ccca0dd2c2f92cc44964280bc8bdf1145f8"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/app.py",
+      "bytes": 38,
+      "git_blob": "2eca7d3c9aa84f45a7336ed163dfe99c684840b2",
+      "sha256": "1819d07964f22849879097d130e15bf5665206e65b14532456e92434ddeef6a6"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/approved_users.example.json",
+      "bytes": 359,
+      "git_blob": "b8c729836a014d22bb293184f8e67546b805de93",
+      "sha256": "d6d4893cbc46c057d816e0d551539520c52503add3ac6890300c1f7d6b517624"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/assets/branding/couch-sticker-original.png",
+      "bytes": 71908,
+      "git_blob": "56646cd90b5b8035037e0eb2b62cb004fb43f794",
+      "sha256": "8f79cb00debaaf1d5eaf7a6eb4953b4da2263bb3b100a54819beee230fa62b66"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/assets/branding/README.md",
+      "bytes": 3252,
+      "git_blob": "5d35e26f7f2f85ced8ba094de18169ce3bcf89d2",
+      "sha256": "3b164dd8d87ddb096a83c4a747e55181ad968af8f634c5ee2b69c20b56b05b47"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/assets/branding/redacted-sticker-original.png",
+      "bytes": 1486040,
+      "git_blob": "5cf3cbe178a44f521215912f828f95940400d33e",
+      "sha256": "43219d140026835be608ba4792c3cea24da53863996826829554ef57a2d9b90f"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/assets/branding/sources.json",
+      "bytes": 3520,
+      "git_blob": "c243616fb8ce37e7c44ccc0d2525c302e49fcf05",
+      "sha256": "fc941b020d9aedfa069916ce7fa521bcfd0f86afd5a62b131049a24615913343"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/config.example.env",
+      "bytes": 516,
+      "git_blob": "aad91e618fc4565130aadc9aadbfb5604444589a",
+      "sha256": "86795322f3dffdc6e63fda9b2cc630b1ec51724389d8b4a146ce52418839c946"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/COORDINATION_STATUS_2026-10-23T061459Z_a7c11445.md",
+      "bytes": 4125,
+      "git_blob": "dc9376b19e06e94e890d2302445dfa388dcd05b2",
+      "sha256": "7f1600c9f6039623661ebcc23bc5cd7b528c24c99279c5a7b3670306503ac6bf"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/ADDITIONAL_DATA.md",
+      "bytes": 6966,
+      "git_blob": "0462ca4f3298de7fb900224f1d43459e0de367aa",
+      "sha256": "9f27eae273f5cecf02f6b62b7373867ef374931130d8696a4e1d5b78e3a4034f"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/ANALYSIS_REPRODUCTION.md",
+      "bytes": 5746,
+      "git_blob": "37bbced5f55d4d4fb6329fdb7fc8f3781ec93d78",
+      "sha256": "9bffd877798a73ae6cf4c41fe44a0494a3fc2e3ce4092213a785d82c2ba1a31f"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/ARCHIVE_BACKUP.md",
+      "bytes": 3089,
+      "git_blob": "fd187dd6e9f33535341077cf75f739add4ab7897",
+      "sha256": "de187b9a23003da98523443e2d32b4c0fc4777ae342170df2a8999bd541de475"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/CAMPAIGNS.md",
+      "bytes": 6335,
+      "git_blob": "d7f9d1b7cd191f617c86da94572cd0d4467d5f97",
+      "sha256": "70b942e475c071012a3adfe83956c4ea5d6786a80ba247b231e4cd86ea503248"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/DECISION_VALIDATION_2026-10-23.md",
+      "bytes": 4929,
+      "git_blob": "db465f5d06dda3493907ed4dbe0b6ba351bda5fd",
+      "sha256": "02dac3063f914699f9f7bc33984334eda132b9723cdecb48be6738f36727ba10"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/DECISION_WORKFLOW.md",
+      "bytes": 6459,
+      "git_blob": "af90f6d069b6a0ea272a3ac2c4f25f95a2d6fe76",
+      "sha256": "357e95fc185a6d44f14df358183a49e1cb5d974dc5e895f00dee46e18a023a01"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/HOSTING.md",
+      "bytes": 7256,
+      "git_blob": "fdd02e7cd51f59a4a4cdcabc4360b0c8732ee5fd",
+      "sha256": "830a85e1909c0f1bb57dc8af43bf5902ebfb7a1c5731c06047bce7bc56129f83"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/IMPORTS.md",
+      "bytes": 6436,
+      "git_blob": "a901e9692f2a13261c171c0d0a81a5fa393e7e61",
+      "sha256": "4d710884adc735242e1ae3ba5f4f779821f4a2ef6320d5e5f19dd74c0f7027a8"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/INSTAGRAM_AUDIO_STORAGE.md",
+      "bytes": 2846,
+      "git_blob": "ab9f52b51c9f7470758a288b5455ae8defb525bf",
+      "sha256": "f348376921621eb1c6aa6f59fc6b803346886fe164c9060b34d7925a7ad0f031"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/INSTAGRAM_STORY_OWNER_STORAGE.md",
+      "bytes": 2883,
+      "git_blob": "9f8b525fcc8be203395dc0fe692b0a76399f2559",
+      "sha256": "82a3ff309a70d473e231c4185fbbfde8c34445dbcca012f0d27c8685d16fd0a6"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/META_COLLECTION.md",
+      "bytes": 8481,
+      "git_blob": "10c56d8e40a85c87d40cb9ab3224de4e3ddadc21",
+      "sha256": "3bf825fc99da6b8c0eafc738defeb9fe2494cb6562fd077333a67e8cd771c8ff"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/META_COLLECTION_NORMALIZATION.md",
+      "bytes": 4168,
+      "git_blob": "2a97b43b630f88496343369f1fb0aa469c2a19bc",
+      "sha256": "f4c82711a385c56a714d25e6a39c1bfe497ad013cfdfef77e79c63a0062a3e61"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/META_FOLLOWUP_STORAGE.md",
+      "bytes": 3200,
+      "git_blob": "de48da73481c4c93ae2d21bd6a6670bd48abf192",
+      "sha256": "596f62a0ecd4c569fc265c67b33b33acf7d0bf50832bd9856daf0b7b589af2eb"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/METRICS.md",
+      "bytes": 3783,
+      "git_blob": "ae7d8d8c519fac14ddbfb5ce93885090c1d89041",
+      "sha256": "8e2ebab10cb7df072f1d1c2d4c766594a7ae5ad23db0452966204837b8c82566"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/POST_SONG_EVENT_MAPPING.md",
+      "bytes": 4734,
+      "git_blob": "b25af4ee34924b10beb9fc71d6bf4ba94c213ac3",
+      "sha256": "607dcdc318d54d3edeb4f50fc1a6de5ac609d36a4d970f784c7e9da658f85e80"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/RECOVERY.md",
+      "bytes": 7084,
+      "git_blob": "49abdac99ee9c8678ae2ebac148dd1798c71dd92",
+      "sha256": "6af5992a630027e045d7a0f7a2a98b2ec582c1a928bf026c9e6bd6f95d4be9fb"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/SOURCE_AUDIT_2026-10-23.md",
+      "bytes": 18155,
+      "git_blob": "f97a8a2d0b098c72b00e6ca4adae2d9ba24a0470",
+      "sha256": "2b16989142c8e20d1cc5873404721d2896d0ca5a12c5d6bf625cc4df05aecec5"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/VALIDATION.md",
+      "bytes": 6402,
+      "git_blob": "e9b16271dd40f1ad7d11049481cdf9d029c32400",
+      "sha256": "3f3bb240188362b93cc99b9300a051796fab0a201b56198ae245048542b8f9d8"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/WINDOWS.md",
+      "bytes": 6045,
+      "git_blob": "4524610d01f5a86bf0d881d87fec04ceb72c2c34",
+      "sha256": "3aeea08dd93c5fdfd522a34885e18ae7faff75b4900ddc2db488aa14b0e73a5e"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/docs/YOUTUBE.md",
+      "bytes": 7977,
+      "git_blob": "1712f2705c8e003f808f778a4bb375bb9d7470c0",
+      "sha256": "38ed7523d3d67c7078c4e3d0db30f89a84f7c04c3c10472ea931cce9469352bf"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/handoff/DECISION_WORKFLOW_20261023.md",
+      "bytes": 2658,
+      "git_blob": "b64e66059dd9da418317c03b7acc651868317fec",
+      "sha256": "953a0004fe3aeab76156169ee71187e9dd0198fde6f3c8f4489724543db5cfd6"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/handoff/HANDOFF.md",
+      "bytes": 9477,
+      "git_blob": "4fc8c4609e8fb56e0f88ecc7c4ba62da1a72e4bc",
+      "sha256": "0a7f5ca933b8644ed7371428e16b6008894a66a4ec69731c55c708550d64ffba"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/handoff/HANDOFF_before_decision_workflow_20261023.md",
+      "bytes": 8420,
+      "git_blob": "ebc6621748ca6996a1d932ab1ff1992ed29c3529",
+      "sha256": "fd95c64e6b5e6b94576dadadb44d2fa8a1fc86666d10040247fee6f0c11b687a"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/handoff/HANDOFF_before_instagram_audio_20261023.md",
+      "bytes": 9318,
+      "git_blob": "8f1ade90754e3091ec67a8b0d5ea20d47c3af420",
+      "sha256": "403ad2483c3db3910d5b086a29fe920c5edb3e8115ecbbc0a4c4bc326bedbc9a"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/handoff/HANDOFF_before_instagram_story_owner_20261023.md",
+      "bytes": 8766,
+      "git_blob": "98d73b630301eea7118afad2d66d868946ba7ebb",
+      "sha256": "58fc56d36b2c2fc54b642125b4851457dfa654ef9a8c7209d6df25175513cb36"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/handoff/HANDOFF_before_meta_collection_20261023.md",
+      "bytes": 14077,
+      "git_blob": "8578226b12c596703ab785f943048ce1c9f4f38e",
+      "sha256": "4a4b7a900a6258b58743f9860a26c3091c56600bdae57331f9e8921bb47a558d"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/handoff/HANDOFF_before_meta_followup_20261023.md",
+      "bytes": 12235,
+      "git_blob": "1c8ede16aec804560b66dc47482fac0b8d080a41",
+      "sha256": "a5019f07df66b9cbbad7756b69cc1a50aae85f0367cfc7a2fc5e11e55a146fa4"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/handoff/HANDOFF_before_spotify_recovery_20261023.md",
+      "bytes": 12947,
+      "git_blob": "0e6946f67284aca4dd131cf2ad7e35ab9dfcafda",
+      "sha256": "d3425a32707f7bb517b136088b94e3f0ca2ed853c15bc4a8cce4770c286304b6"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/handoff/INSTAGRAM_AUDIO_REVIEW_20261023.md",
+      "bytes": 8766,
+      "git_blob": "98d73b630301eea7118afad2d66d868946ba7ebb",
+      "sha256": "58fc56d36b2c2fc54b642125b4851457dfa654ef9a8c7209d6df25175513cb36"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/handoff/INSTAGRAM_STORY_LISTENING_20261023.md",
+      "bytes": 3959,
+      "git_blob": "ed9007a7f50998a8c832b16ac6d435c128f4549d",
+      "sha256": "8f29ea4d5c8d75ec6a34325131388d12effae320a9671e744cc6e1409e4a2795"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/handoff/INSTAGRAM_STORY_OWNER_20261023.md",
+      "bytes": 7374,
+      "git_blob": "403ff86a9062b2c09b9ffa862b198637b6128f13",
+      "sha256": "fddbae48f45b9fd7c89fd64c21618575f5325dcd42a37d3ce4819c98aa992cf4"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/handoff/YOUTUBE_DAILY_SUPPLEMENT_20261023.md",
+      "bytes": 6831,
+      "git_blob": "e909940b925e670be2ece6ea5d037708140b8fcb",
+      "sha256": "e6b5043ab67570992965efc4ed69baaad99fb2a79961fb54751ea01b8679ab39"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/handoff/YOUTUBE_INTEGRATION_20261023.md",
+      "bytes": 7870,
+      "git_blob": "a0a719b8f90237d20f34b300610e5f4deb7693f2",
+      "sha256": "b70fc010c997610a78688c6e2b24e1caf72d0121723ba9e60de6eea1029b0aa0"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/launch_windows.bat",
+      "bytes": 614,
+      "git_blob": "989c8e029bc4d30a931bc5304d5448c531861f1c",
+      "sha256": "d86967bbe57a3f9b40717eb548aba5cc2d41cbca0136a3fa1c01d9d4b6f3f752"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/pytest.ini",
+      "bytes": 59,
+      "git_blob": "a9b06edc43a526cceb9010f5b9ae201c90ff62ac",
+      "sha256": "f095bba1230875c386a2d0e776e3bb68a2971692aa8606228eb5ad1913181381"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/README.md",
+      "bytes": 12337,
+      "git_blob": "7091ed87650720cf6b5bf66c8e04eef2c3e2f951",
+      "sha256": "d0fb7a15878ea1b84784d728420482b2b7bc5525373289c2ed4ad913d59749dd"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/requirements.in",
+      "bytes": 115,
+      "git_blob": "e25fcc6c8373a54b0f44ecd6ac971abdf7468255",
+      "sha256": "4ebf0c66a41c113d432a3470d5853710a57620730f069414d0f1a521a82b8441"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/requirements.lock.txt",
+      "bytes": 1066,
+      "git_blob": "9f867c0ac45e457b439a7e583d41450d27d09c8f",
+      "sha256": "aa9ef4bfdcf11d79ea80cc5b66f658c4393a783d55b71ce22dc7c6d4547d73c4"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/requirements.txt",
+      "bytes": 95,
+      "git_blob": "832c14e9d225e954a1e185b8ebe35376a3dbda84",
+      "sha256": "9502acbe97901a017fbeab38fb5f4dc441492bf2ce7af6e26a9b2d9635902561"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/analyze_meta_spotify_ads.py",
+      "bytes": 11963,
+      "git_blob": "39137cc9e9f0c9ffc10b66cc147df916eb09bf46",
+      "sha256": "8d4b4cb6e884e401e4b14d0d9c608e9199849cc9e5c3de24961fbcc9090910f0"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/analyze_meta_spotify_correlations.py",
+      "bytes": 7896,
+      "git_blob": "39ffcda8b3215d66985e61db8fa8a24e7af9b1ba",
+      "sha256": "aa87977be12238cdddabb6de2e2e894207df5f6f7600e4f14e78becfcf1ba45a"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/analyze_meta_spotify_events.py",
+      "bytes": 15676,
+      "git_blob": "a3f24901c5dc39c87ba662abdf96e7c9a6d31b46",
+      "sha256": "d3f0e65ee01c480c6d913aec14edfebb2838e4825f97385057d702cb88b97b14"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/audit_additional_inputs.py",
+      "bytes": 20927,
+      "git_blob": "6ed64660e79e0a1074807338642d2ac87e2e58d1",
+      "sha256": "befdf30d658545e8a13385b8f795860fb658eef59cdca4212d412de137950076"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/audit_historical_ad_identity.py",
+      "bytes": 14436,
+      "git_blob": "88cf1ace9ad34ff1a9f3dbe13f7e9a7613b8ebf8",
+      "sha256": "98773e4e38f556c83b805b8ff3d0913969ac1f1703f0fdbb7756413f48dfa625"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/audit_meta_collection.py",
+      "bytes": 18092,
+      "git_blob": "f73707e0b47a6225267705934194043b7d539f5d",
+      "sha256": "6dff03f0db89823ad1d5f3c1c7f57a7145dd2e76352989bac3ec3686a962ab86"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/audit_meta_collection_independent.py",
+      "bytes": 21090,
+      "git_blob": "9f501169704df9624cd0364f0f3f2a6aa639d40e",
+      "sha256": "54d1759d54dddc18c2bda1bc8876e580fcd1eb4419a326fc9510c378b62d19dd"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/audit_meta_followup_semantics.py",
+      "bytes": 15044,
+      "git_blob": "ad0681b0f11918fd156d21616108b1d637e30088",
+      "sha256": "815d8824447bbf0dfb0a5b4f53b3b5f59635c47eb6e87dd6528c56613ae00ccf"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/audit_meta_followup_storage.py",
+      "bytes": 7001,
+      "git_blob": "8c79ef5698a9df75637fc1eac83fb4ec4a46ed52",
+      "sha256": "88e1254b5d46b67ba0a7b8f7aaeed123070dcf7f9211098a8811b9a277e90841"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/build_post_song_event_map.py",
+      "bytes": 26411,
+      "git_blob": "92b524368ce1ed1d5162b3670ef049f80db2c49d",
+      "sha256": "08a757827a2abed58587a0deae58f631e0086f2e41596f238b358e73dd737818"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/finalize_instagram_story_owner_handoff.py",
+      "bytes": 7386,
+      "git_blob": "8e004a3549dafe6ca826f60ff33598457694c582",
+      "sha256": "dc601df3632d3f4fb7895d33ada41ba783e2a8b9257e0d1db7e7a2c5e3a26fb8"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/finalize_meta_followup_evidence.py",
+      "bytes": 3752,
+      "git_blob": "b3199c3c0b6fd9d6714aaa52b0693fd8a31fa90e",
+      "sha256": "ad2682e83f9edbcd721e599903006c7910120b15d26728b8cb99a6fabae8e3cd"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/finalize_meta_followup_library.py",
+      "bytes": 4182,
+      "git_blob": "c69865f21081e4a8a8e8131cf6b59cfed8346a65",
+      "sha256": "1df11369406d86fbba77da9b108c0f73bd895a9bd4f1db423803cbed0e53d22c"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/integrate_spotify_recovery.py",
+      "bytes": 954,
+      "git_blob": "6de54e179bf5bc6a244677b8e8f94c226efbfc52",
+      "sha256": "c1fd984207eb7dc900e6d55f315802c092e104505bbbcd4c2e713ff02e022771"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/launch.py",
+      "bytes": 5818,
+      "git_blob": "d94faf5256b5a747224e4c5bb875f047086ca628",
+      "sha256": "e8418758d8443a2de2b61f0ca88d7e3a392a262117f3fa0252e599cff77267e0"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/normalize_instagram_audio_review.py",
+      "bytes": 8182,
+      "git_blob": "1b6f860aaf8e5117941df0db5ca5bf7f4c541db5",
+      "sha256": "304062294bbf9838086b9ee43dff3d3a6a42ea4ec0475c6d64a984f1f566294e"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/normalize_instagram_story_owner.py",
+      "bytes": 10650,
+      "git_blob": "ba674f520891e8abf45d077321d43bf55527b1ae",
+      "sha256": "58b3dffd6f60359348c76907daeff4f2c05ce655a8f51138e47f04714968cb66"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/normalize_meta_collection.py",
+      "bytes": 51043,
+      "git_blob": "4dc45b578c161cf2ac5b3b0a0a599aa28877b8be",
+      "sha256": "85fe490d51f5b9087524e9ee3368a823c36124908346a7268f963fc971827723"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/normalize_meta_followup_links.py",
+      "bytes": 17760,
+      "git_blob": "ab11a2db84f90a1ebb72e38c6aece4ebe387023f",
+      "sha256": "86815743eda46b92d62336e2f44acad7408698e00a6090eef88fbe3852fe2b5d"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/normalize_meta_followup_stories.py",
+      "bytes": 7520,
+      "git_blob": "82a0905580e3c7accc2608db0a9998e97cbe147b",
+      "sha256": "91a0505a878a4cec79ce36eb3fa81b85a5bcb1e28adcaae5c7eebf8c12b16559"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/preflight_meta_followup.py",
+      "bytes": 4153,
+      "git_blob": "c44a0b362cdedcd97ca46a03d1ca81ac065f5185",
+      "sha256": "4186ae78c54da43179a648fdb8ffd77b342b59591a92e828d4a63c6e09505e57"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/promote_analysis.py",
+      "bytes": 7851,
+      "git_blob": "732ca426d04474d7aa1a5be768971a61a0994181",
+      "sha256": "95cf49a70ccd9f335431cf9fa82909611c193fda89d389c9655fa59db6788b2a"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/promote_handoff.py",
+      "bytes": 4785,
+      "git_blob": "0dd0dfaafd178b03426b07b847ff9830b257f0e5",
+      "sha256": "2ddf906049366dd4bb6584855ad5f730e92a9df8aabcc92c7fe2859c63304746"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/refresh_analysis.py",
+      "bytes": 3246,
+      "git_blob": "c7f38fe29efb52bdd126b1dcc8528d6f6efa6dd9",
+      "sha256": "b05b075eda667d356e32363be0dd013d5a935c16a8194d18a2c7763dab0c7dd0"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/reproduce_analysis.py",
+      "bytes": 8930,
+      "git_blob": "017bbfa4363a97dcb826445d3d752e40ecf0441e",
+      "sha256": "c7c2acdd09cc686b2a47904ded72c5777e729a356eaa2d8635d8b08f5485475a"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/scripts/setup_windows.ps1",
+      "bytes": 4815,
+      "git_blob": "ef9f0a1452e210d4ab16160d927f13f475f7569a",
+      "sha256": "39d5b6a9025ea4f754f2d753a702a61f1abf85138481e6cba1addc41a2c2835a"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/setup_windows.bat",
+      "bytes": 550,
+      "git_blob": "4727620ce516513269be9936db3fdf0bcb98497e",
+      "sha256": "e57b50a55a608afe392f5f30c1a2898f50b01889ebe5724b5b458d4d4d4d37b5"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/__init__.py",
+      "bytes": 76,
+      "git_blob": "f078a3658ddda70c062356286975ffbe3461d08d",
+      "sha256": "bc8435223343d254b8481efe62ef58790ff478a35c993f3a138067a00e652bc9"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/access.py",
+      "bytes": 4195,
+      "git_blob": "cd044d4c81b84afb20238896650ac2d85ad7cc78",
+      "sha256": "b78360ace538062f582d4a18c81e1bf15eedf9a783a78d78a12f22012f48c95f"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/analysis_meta_ui.py",
+      "bytes": 17261,
+      "git_blob": "65a5896923bd71538048f7e233a83aaa62d575f6",
+      "sha256": "9592e5ef59f8cb6ff487bd584073ef4d701051dacd1bd54d99c847aebaa40a08"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/analysis_metrics.py",
+      "bytes": 17620,
+      "git_blob": "c0a12031a4f3c8dd16ec5448ddfd48b1f6cc6c64",
+      "sha256": "3935133e036ca095cc02718a8949f2076e4083b8be91a53703bd2be72dc67fae"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/analysis_recovery_ui.py",
+      "bytes": 7940,
+      "git_blob": "0cc9292c8d7f399bf6bb6c17fa43d20071ba013f",
+      "sha256": "be90eaa3d7744de3b8de9726ffd92160c9b7dd8b07a4207f27d3f289f6cddc35"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/analysis_repository.py",
+      "bytes": 21142,
+      "git_blob": "4c7d8b5b14cb513396ff1caa3eaa375e53d65156",
+      "sha256": "cabe0806f9a944613e138e8484b40b409c6e5ea1ada42f4c74509be97bc13b0b"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/analysis_social_metrics.py",
+      "bytes": 7350,
+      "git_blob": "ca192fc90cf052d21aac79322b0c99b975314046",
+      "sha256": "15e478ef1c3127b73fa75ab2d3caaac153c58e8097bfaf2755c605845a785734"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/analysis_social_ui.py",
+      "bytes": 16827,
+      "git_blob": "f0cd0c172837870e0d5b8a17289819c9ada3b840",
+      "sha256": "4c8ea4cfa7b6af152da19d1a937d1664846d22f5bab982eb00e072f02264c1a8"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/analysis_ui.py",
+      "bytes": 20572,
+      "git_blob": "aedfad2cdacd4fcc56c6d4d448287cdd6d400b5b",
+      "sha256": "80013d776ef3d0aeef1b24c39b8ca5c0b1d851dd6be4006a2ca931a7748a89da"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/analysis_ui_common.py",
+      "bytes": 1918,
+      "git_blob": "ed4bd0f4b8d3283b18561af3b13b76019cee71a6",
+      "sha256": "654bae098c43f3e2f09a8f8cbc6cf5eace4174288eaaab45b132f588f5546e08"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/archive_repository.py",
+      "bytes": 12430,
+      "git_blob": "5f35944f08653c86a55f57bd704b4a85a08404ca",
+      "sha256": "3513bb6a38ab72b9605e75899abe2ec8b252ff7d4d5786eec27cb14a5cc2ffc3"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/backup.py",
+      "bytes": 14215,
+      "git_blob": "6f68ba1b78b1e466f638c14a86b580af2bfd2e47",
+      "sha256": "832e46af16e6d6c3573abcbe199b637a199df0905fcb9dc1c0b53cf2940c8463"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/branding.py",
+      "bytes": 1982,
+      "git_blob": "98f8f9245665ef548f98406b2d75abc5b16ee224",
+      "sha256": "1f7e6cbf5f561dd806e63e3ea5c56be3daf7173302b46e309250f5978fa8640b"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/calculations.py",
+      "bytes": 7032,
+      "git_blob": "d63236f0b03b3355a7b1d9242f902b849048d8c4",
+      "sha256": "b5c8f6ff7d2a6f7bb386339014c2511bcadd007a0dd185fa580db404cdf385f1"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/campaign_log.py",
+      "bytes": 14243,
+      "git_blob": "f7bbc3bafa04e0bfa4bd991a8ca55ec649f40f9a",
+      "sha256": "3d5f6f9ee5698f3259f2fdfdb79169e91d986b130e3bf8009286859bb2a675c2"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/campaign_ui.py",
+      "bytes": 7971,
+      "git_blob": "35f700b34efef9f45546e476ad260d45de9d3669",
+      "sha256": "bb9e714b31537df241e78d403c05bb625e0d4ff2c3c0309152d0cb486d80464b"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/config.py",
+      "bytes": 1575,
+      "git_blob": "d050e4ac9543c4f25889c4107a03127d660f6793",
+      "sha256": "5303e66934a74ace6a33e8d31d430ee779f8ef4bd231d6c18750dbf65899d7ae"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/decision_report.py",
+      "bytes": 24454,
+      "git_blob": "6336614a813698834e5a5f1c46fb28ad6e7366b9",
+      "sha256": "f5277a0f38cc77039609d62913306b402b56f566c8542ec518d4e1847990f9bd"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/decision_ui.py",
+      "bytes": 8190,
+      "git_blob": "c1d3655dc29142289ee76cc80a7c3ef2e661a3c4",
+      "sha256": "3a0d24a4fad6b0b461f098a478d01f3aed2b085a2de214d06e67727464bab9a9"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/ingestion.py",
+      "bytes": 10347,
+      "git_blob": "77fe4c497c3e6526e08283c03671669206f989df",
+      "sha256": "6b8f308fa7ee2e4841ed18dfcfad56d20b4b6f088dabaafb5216ecfd0957e478"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/instagram_audio.py",
+      "bytes": 6778,
+      "git_blob": "f2303384cb10b540f760e208d8b2dee0d45ecffe",
+      "sha256": "d3e29f72bc032ee49448652e47a551b556081cd473de3a87fcffbe6981539202"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/instagram_story_owner.py",
+      "bytes": 7592,
+      "git_blob": "4859bc256cdcecf787e0276eee2009124a024d81",
+      "sha256": "c9c836dfab5ed7ca410546d93e2673a6556e1a4e517e7d4a06a46e9867757a10"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/library.py",
+      "bytes": 10599,
+      "git_blob": "58760aa73b3c11b58b5ee6ee7394340ba13c6d8a",
+      "sha256": "70c3aabd0f714b1036805fc95bc9a9bb81a48974ccb2e6386183d1a34d6ef87c"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/meta_collection.py",
+      "bytes": 19605,
+      "git_blob": "3805dad30559bdfab58de9d5e08a4f3a9268004f",
+      "sha256": "0ff12265bb9ca65558a32dbdaa388f66fa92e69ce234f1a320f9102d96bcb26a"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/meta_followup.py",
+      "bytes": 14384,
+      "git_blob": "89e8bfd8a2af6b1a901ddf556756888503f0cab3",
+      "sha256": "908d5eea0c2e1b2b71a652500ca06d972740f8f02c1a86811cd280e09a4ea353"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/retained_store.py",
+      "bytes": 33635,
+      "git_blob": "e6ef3ecd69c7fb75217b5206fae47c2ff523c5b7",
+      "sha256": "997890712124d4a905012296eb34912e4796d6f8ff6f0744bce05355a0cc3cd9"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/seed.py",
+      "bytes": 802,
+      "git_blob": "913a110bfcedcae10937cb5370f4d2a9a677436a",
+      "sha256": "5b9d01b6399f645f27294b7013962393ac01e155a3bf44e886426ea40018b848"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/service.py",
+      "bytes": 3481,
+      "git_blob": "282f6f891c8f5cafff5f57a94c6e20d6560c72ea",
+      "sha256": "45559dc8271e6fe8cc7de4532b403eb3772145d904d06b2e3c85f24355b26e8c"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/spotify_archive.py",
+      "bytes": 25800,
+      "git_blob": "4cb3734d4cc594225e5064e8ebabd1abb85e1a39",
+      "sha256": "214a888e1591aa91f62fc174ff5c4d51d83532323a6e33c5be5c0d8338353be2"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/spotify_recovery.py",
+      "bytes": 52250,
+      "git_blob": "685c724f0578cab9feb6691f6122ea8d62b05ff7",
+      "sha256": "97d53546d3407fde0368f264e9821d0a473188aced6df7f665a9ba8bc81f06e6"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/storage.py",
+      "bytes": 22401,
+      "git_blob": "c4672da7a6725d38f5cf6fbbaa132d231ef26982",
+      "sha256": "1f79aea00719a7bfbfc4cca0af854a85521103d6dc7bf7a72a5ed5c50aa96517"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/ui.py",
+      "bytes": 29866,
+      "git_blob": "d991a8e68750fe518598e8f807b813170b26c9c4",
+      "sha256": "1b0adba2ff65068a105c2f7493b77723da4f4964057fc54475ac477824745b5b"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/validation.py",
+      "bytes": 5390,
+      "git_blob": "3c175e685ff012cfedf29cfe7a01bdd98b27a9f7",
+      "sha256": "0efda6bb7a2978adcc746aa3701a9aa0377fe5b1cc005525a79ffc97ea1f137f"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/youtube_daily_supplement.py",
+      "bytes": 27322,
+      "git_blob": "4f470fb2f54ea3846d235595c5c8f8f3e3c49af0",
+      "sha256": "e026cdd74091f1ac23c72a8cc6315bc2bc5ad227b8d4e5175a69432c931d9126"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/youtube_daily_ui.py",
+      "bytes": 8583,
+      "git_blob": "c8854fcd990c4c6ef1f2f52a9b22645e28b08e0e",
+      "sha256": "ad7dab11f91a6124800ad1b1ea42d17607e2223e549db0cb1a5fed6fdbb8884c"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/youtube_repository.py",
+      "bytes": 30746,
+      "git_blob": "65e9810ccdb5521cbe003b083366d1d178a8dfbd",
+      "sha256": "8057c5b5b26e2c4763f43967eb4b7f59dfc689fe6ceabee235cefb9ab08515b1"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/stats_app/youtube_ui.py",
+      "bytes": 21749,
+      "git_blob": "d2ee77c8ee723c56677578a05774db403b804eca",
+      "sha256": "340a158e8486fef6e8675f7bfe435e5fb59fc083d55da6bed82aaa044dd37f51"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/templates/content_campaign_log.csv",
+      "bytes": 393,
+      "git_blob": "08f2f94e32602dfc019b942b6810cc7c69c82ed8",
+      "sha256": "b1809b80c91df1972f218cceb754098e603593ee986dbd5d1b8b86e8d7306ec4"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/templates/observations.csv",
+      "bytes": 217,
+      "git_blob": "5d77689b2f43e742cf4ada5c38b8b752e1e4e99d",
+      "sha256": "dcc1cf81b5241a33397be61f0f3d0129055be1ed9c13095ee691800a542a2212"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_analysis_app.py",
+      "bytes": 3762,
+      "git_blob": "71423491e28b82ea8e076735e867454a4d58f549",
+      "sha256": "32044550d2715b3619fd7a1ad37a01a357bc66218ff919946f89891c43ccc956"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_analysis_metrics.py",
+      "bytes": 4231,
+      "git_blob": "7b79563b129ad6676a2eec0f48b04add38f0daf6",
+      "sha256": "c7d82bb82164c1136a633c7504edddb490c5529fc2ece818ef5a098b0e908e82"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_analysis_repository.py",
+      "bytes": 6404,
+      "git_blob": "c20b46fda98c3045bba619c20aad4c6611279de0",
+      "sha256": "a8d4b0a7ade34b048a44492001877fa22066e004f1cabe3714519aa55f629b27"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_analysis_reproduction.py",
+      "bytes": 4704,
+      "git_blob": "ca798bd3bd0f1b8e6b67cabdb7849c7e981c4776",
+      "sha256": "17dfa26e23d178389b65d60299007b97c26bcefad72511f6a49b2ebb3b889a77"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_analysis_social.py",
+      "bytes": 9067,
+      "git_blob": "0273d200c960df00f31d041be264ac43f78d6639",
+      "sha256": "acd6b883d06880ce900f013b2f4d35467c9cc642472f093d97f5365044968102"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_analysis_versioning.py",
+      "bytes": 9837,
+      "git_blob": "dc7d77b71a47f64e8f29eac6f490702fb059cb86",
+      "sha256": "7a792407ff7f5145fd5542b395f9056c95113ea9ee2e651b4f4b61466bf2f790"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_app.py",
+      "bytes": 4685,
+      "git_blob": "2671d29383a29d683f63db11c2752a8867bb7109",
+      "sha256": "a5bf55c031ccc9636242bc3da52831acd7eb1efac960656b44a43e9d19756d76"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_archive_app.py",
+      "bytes": 8979,
+      "git_blob": "0bc7b451490f3836f9330e476be90896a92a6fd6",
+      "sha256": "b38b59ce2d21befd8099c7c4ffdc29091a8a1ff8f498ffaead31f7d498d6cbe6"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_archive_repository.py",
+      "bytes": 16667,
+      "git_blob": "bfe465baa4834f31829a1de2d1c42536ac8c0d57",
+      "sha256": "0b28a81287f90955a114391219c4ff81eaadd13fee9c17be6711320cf3a7d3be"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_audit_meta_collection.py",
+      "bytes": 1905,
+      "git_blob": "71f0ba90bae1b72f39e7e2b137d12490a77ab69d",
+      "sha256": "2f85a39f2ab157f904c85f254b2f5c054601ccc3c0b8ef4feef7e1e674519e7c"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_backup_library.py",
+      "bytes": 5742,
+      "git_blob": "c7dbf2a58b372edc22f310130b86bf100c09de7b",
+      "sha256": "81757d0aeb3c03cc2a5f14f1e1ba8aadfca95f49f81d5cc58d5dbaf2bd2b0177"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_calculations.py",
+      "bytes": 6485,
+      "git_blob": "5617a43de0a835a87d2360a75f39a4ddfb2e0cc6",
+      "sha256": "8a07d4e8be4a58c418c7d931e71167a7d56842517021001c2521bfc548b95e1f"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_campaign_log.py",
+      "bytes": 9603,
+      "git_blob": "0d75a8e3865e640fa421e2bbb012319d29e8ddb2",
+      "sha256": "4dd27eac55599e0daed11985228d401bfe3081aa928593a37c4ffd924963fec3"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_decision_metrics.py",
+      "bytes": 6866,
+      "git_blob": "1a3409f108b7a0e30ecfcbee8953e973d8cdf260",
+      "sha256": "f000cdacb2f7e9ce95bef2eb1dc44a5a3c6db1d0b8b6a74e034a45b9e0cba185"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_decision_report.py",
+      "bytes": 5166,
+      "git_blob": "5c58b65aef92271414b5e0b0f16798e5cd15f3bb",
+      "sha256": "536d2aec3d7710b038b1befee074072182f4dac761f70cd1228358f284e91e29"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_historical_ad_identity.py",
+      "bytes": 1461,
+      "git_blob": "ea043cc03eb852afe54fb6f8597ade8aac0ffb28",
+      "sha256": "f67903a926eb75be23d5950db923312bdaef1cb4457dd3b1b3da6e2029d879f6"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_ingestion.py",
+      "bytes": 5415,
+      "git_blob": "3cefa0ba0053f8dbec64ea09f7e59c619f844995",
+      "sha256": "98b3334fd759e1f58a01336910c2fcdc45e6b6b81dfbbb3e160a0e84822e67b4"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_instagram_audio.py",
+      "bytes": 11488,
+      "git_blob": "64eeea68c75de345fcdab5745f7bbd4acafbc63d",
+      "sha256": "1c1dfa1cfcb2deb15e88153291e9cb3e403334ba96b8cd1b0f0fafb76eb88318"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_instagram_story_owner.py",
+      "bytes": 2892,
+      "git_blob": "c4e6d712dc93ab99f6d6f86efb2ca9ae6205a119",
+      "sha256": "c098ce83f4ba0f6f2223fa8c6d12699005690864cbd67fc847fa89d01b4dccfd"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_launcher.py",
+      "bytes": 3464,
+      "git_blob": "7e41ad0e0f24dd23608fd804e613f7815907b237",
+      "sha256": "add2a997db4a027b8e8fc5fbb8dd24854b61ee8b648a2ee8b25ba8688c31ee9b"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_meta_collection.py",
+      "bytes": 15458,
+      "git_blob": "b9e4d115cf5e2310244ac417e12fc0f5644b7119",
+      "sha256": "f5482855ba98584e548bd175eb41608c809893b83658d1e27c24bea3b9d9c159"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_meta_followup.py",
+      "bytes": 12716,
+      "git_blob": "4d7587972160d8d650c5a0e65d9684f86f246360",
+      "sha256": "e479fcddea4710f4f209b0c26924409f903e2c847eb0e6ea5284a952e4b00668"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_meta_followup_links.py",
+      "bytes": 5387,
+      "git_blob": "d1820686b77c9b6156470f1925252daa65dd973f",
+      "sha256": "39f78959092ae8420e28575f16ac424655d08c103e43739cc777cd90428bd96c"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_normalize_meta_collection.py",
+      "bytes": 10948,
+      "git_blob": "14f3b6b81f788251487d66644ba1668340b6660d",
+      "sha256": "2865f9c1ed7cfae112ee365236d1e9fc335096adccc2fd9f8f754059a1cfa95b"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_post_song_event_map.py",
+      "bytes": 4268,
+      "git_blob": "99b01384a7967d82cc6e01d8d9576316f6fc5170",
+      "sha256": "c16174cdb70b1586bc5931222f597575d826777ab7f5d3788fc74de8f691b464"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_real_sources.py",
+      "bytes": 2693,
+      "git_blob": "84c17069da27fd38465211c08816e61836c9a06b",
+      "sha256": "d14fbbc5a4033663685a3fc2637754c5fd667f3ce25a1c5470802b677966558b"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_recovery_dashboard.py",
+      "bytes": 5327,
+      "git_blob": "dbefdb46be8621293395e1ffe34bbcad0b7a37c1",
+      "sha256": "703f5587df6e2b9f7773431afef6b98c11806d179bdfc18a201e0aacab42456f"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_spotify_archive.py",
+      "bytes": 3985,
+      "git_blob": "5427654fbd3eaf6d23ab603b8ff68a4e7e28e202",
+      "sha256": "755f8a38d0b669f2d2926807bed50dc7aa587786914fa7bb882d0c0148c1aded"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_spotify_recovery.py",
+      "bytes": 7694,
+      "git_blob": "7e86608ce261c651e4b76e6faaa1ff485988fc25",
+      "sha256": "05ca0b2f8c4e41f58a1efe74ff354e236ff8680f33a1e510f8f3fb416d069900"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_storage.py",
+      "bytes": 12272,
+      "git_blob": "d8f9a2b6e38a0f967d15250cfa9cd3f2a32f4b26",
+      "sha256": "468fa6974e298809691cdd8b5b56b328bf7e5a5524b2f928d9671fe382434746"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_youtube_app.py",
+      "bytes": 8194,
+      "git_blob": "ebfc904ba9a1440bf604e10844f5e0c4ed210c64",
+      "sha256": "b4b53ace37cb6709dc718ffc6735b81bbf6dfbf999ccbc9125109b1e85250096"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_youtube_backup.py",
+      "bytes": 7270,
+      "git_blob": "6ef27ebc11b89169e767b2f51eef674e9aaf3492",
+      "sha256": "abf2b32d1d73cc64743bb8fafc0c279366017ff31da3b7e6f85c4aa993d81961"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_youtube_daily_app.py",
+      "bytes": 10020,
+      "git_blob": "9390df6152a2a8a15f0f48e1b919ba8e107172c9",
+      "sha256": "73c0fc682b211a9a961b399187872a316af8cd6b141322f9c0b249fa95eda9d5"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_youtube_daily_supplement.py",
+      "bytes": 12867,
+      "git_blob": "5960533571d3f79777987b895abeff2bcdec793d",
+      "sha256": "9f53410dbf8734cda829e4469a20f3a7378282e9e7a9104b7225e1e22adc086b"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/application-source/tests/test_youtube_repository.py",
+      "bytes": 11558,
+      "git_blob": "3887066670cd529b73d6e751088829d826353db9",
+      "sha256": "a357fab367a8f8f120287e479ffd0cb872903ee94ad171ebda94852d3937fb71"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/apply_delta.py",
+      "bytes": 3916,
+      "git_blob": "8d33b18b763df0e2415f0d711a613bfde613d285",
+      "sha256": "ade88ee5a1f9e6d40a0b6b03ec18965885816c6978328dc39adec28dc35e6912"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/DELIVERY_VERIFICATION.json",
+      "bytes": 909,
+      "git_blob": "a3959b0f781ae13a89b1f10e0ccb4cf687bb79ca",
+      "sha256": "91e64acd262be37791f641c1106fc750f656be131c2e7605863532da5ba159e4"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/DELTA_MANIFEST.json",
+      "bytes": 2596,
+      "git_blob": "de1a6480de0c00acaaa2a68e0e6093bbab4e4327",
+      "sha256": "848cedd6387f5e15e7168b429a010ab02a3398e38d42ef2997b0149da2223e84"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/DELTA_STATUS.json",
+      "bytes": 528,
+      "git_blob": "b1f12b58a221e30b8fc20e2992e7c9a26edc9b8d",
+      "sha256": "3bb4bad8dd8ac3320fd6c4d4644870d141899a205864c12545fc24331bada45f"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/EXCLUSIONS.json",
+      "bytes": 1886,
+      "git_blob": "f044474de9f92a58fc4850c592ecc8c2ada78ef2",
+      "sha256": "5aa82473bbd061a150f51c7b952051ffd8b0067b7e115a7c9cf6bdd7268324cd"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/MANIFEST.json",
+      "bytes": 5272904,
+      "git_blob": "dc0c7341d7b88324668781f787d837f27282a162",
+      "sha256": "b47b5b8fcf595c0bc4e785f79545093db02501152b5f580798d741e0db2ce667"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/PACKAGE_SHA256.txt",
+      "bytes": 117,
+      "git_blob": "6e457c4c32c48071c3529783e5b39fe515c59b9f",
+      "sha256": "681c63d8e8ab95c6e8dc040fd4914bfd70dd1c575b91073aa8937f5dd72e27c5"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/PACKAGE_STATUS.json",
+      "bytes": 972,
+      "git_blob": "0517cbcb62a9ed980b2cb16b1a3b5326d36722b5",
+      "sha256": "826a3df137c141b761304346d390e7fc5526587d4049c4cacd5c15354df30661"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part001",
+      "bytes": 47185920,
+      "git_blob": "9c9a430fe2ed40303c9a7b0a4afb6bfa4ac3c1a6",
+      "sha256": "07f5eb5986dff6accce99ed0f16c01f68d3845d4a86fc689729c8c5f1d67106e"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part002",
+      "bytes": 47185920,
+      "git_blob": "a5a224060649e2f9f3e370c820cc32f29d60178f",
+      "sha256": "e5dd4f7505ec23fd601b6e53e2d80623c27a6c59bf7d44da39ba22c1e22b52c5"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part003",
+      "bytes": 47185920,
+      "git_blob": "61ff1d5e7ac43603bca514f7283f68867047b1b4",
+      "sha256": "6256322c31763ed1efeb52cc6ea75a93b31d748d104cce0add6dbff9998e6a58"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part004",
+      "bytes": 47185920,
+      "git_blob": "6950ed8ec4041c9beec90f7e4bf1987f3bf12813",
+      "sha256": "7094d89fbd5b5af66f1d049476370dd7b1332eb347eaeeab6200e188ef7f26ff"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part005",
+      "bytes": 47185920,
+      "git_blob": "fd8765fe3045a42bd26c4806dbf07baba70e1edf",
+      "sha256": "294ddf8a3fbd4be81f3dd38845544e73b5281b61938345e893cb85077948a935"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part006",
+      "bytes": 47185920,
+      "git_blob": "7b1bf484747c5d1666f0f866a9a5f60c4bd76af5",
+      "sha256": "cfa7538b97a05e42ac271b44e3dedfb23639489c77bc371b0021e3ef8fdd6781"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part007",
+      "bytes": 47185920,
+      "git_blob": "f72545b3d4d6cee24c9164881c445349c49eb7f3",
+      "sha256": "d0417a46268128579aff87c2db3243dc3f12c667625a39210f2eaa2627668922"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part008",
+      "bytes": 47185920,
+      "git_blob": "97416fc1099189fcf3b95e219c70634e735dfab5",
+      "sha256": "dd55fe9dd26c18ac77ff148f6c489a145b0630b05555b0f996d9a740f01cb634"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part009",
+      "bytes": 47185920,
+      "git_blob": "48d7f7516a0fa58a68299689e438808ac350a6ae",
+      "sha256": "a985f017c7efb99e0553b829a83e5d3bff165ad5321cb50142d0873c179e5c57"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part010",
+      "bytes": 47185920,
+      "git_blob": "267ea7077e9ddda747eadf9a939a2d122840ac11",
+      "sha256": "f27435e1a8bcc78b354c9d699e469d2401e321a0ec0ec8f1d0dc388feaf62f97"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part011",
+      "bytes": 47185920,
+      "git_blob": "e661d9a7dc56d7ca59ae48c363f067bdb646f45e",
+      "sha256": "b44d87b9fd642525a9ebd4301735821c1dcaf329cfccc1c098e96cc1c0e52056"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part012",
+      "bytes": 47185920,
+      "git_blob": "8905320e2057e99daf7703eb97dac4c90fb27fa5",
+      "sha256": "8678812c91b0591826d38713cc916697881bc167ed0c946069e575d6ddf5b292"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part013",
+      "bytes": 47185920,
+      "git_blob": "b7d544b6be9deb0f0b55a46e8bc39f9cad667e08",
+      "sha256": "cb9e3eebca8784354db016bde83ddd84b0e9adcb13f80494f69eea2d808d76cb"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part014",
+      "bytes": 28915762,
+      "git_blob": "f672356bc90844aa13185d403c3848187ed1ce13",
+      "sha256": "484776001d8085776ff6b04a8bd1f1c3a34d22a847d406cf39c292a59d542e9b"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/PARTS_MANIFEST.json",
+      "bytes": 3096,
+      "git_blob": "6538b16f902af828d517b39b65674c5ac222e564",
+      "sha256": "a8fee11d9de0995a00dc9e2b3c3b1fdc7eda352c7ab4dc7063496058fe0a51ba"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/README.md",
+      "bytes": 5666,
+      "git_blob": "9443df19e16c4e6dfcd542367c938c1f5fa9a15f",
+      "sha256": "ce6f6cfe3c082e9ddf4f541cc6e67fdc61f0bab9637cd0d5e387876a918dcbfc"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/README_DELTA.md",
+      "bytes": 1953,
+      "git_blob": "7d7d06d60324844846b93384360c840e6dc1ecb6",
+      "sha256": "5e33e5465f26c4a5bbb7a894678c0216aa4b95d8d29557cbdbd6b36932440a13"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/restore_snapshot.py",
+      "bytes": 5195,
+      "git_blob": "dacbbf62fb2b3fbdf0dbaee585543b8aa175476f",
+      "sha256": "be362cfee54de001e1df0885fa2046120793e269e6b4cb6e57be9f00c653e075"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/SOURCE_MANIFEST.csv",
+      "bytes": 3352848,
+      "git_blob": "a78b00e188400ed027a800f688c647be625da836",
+      "sha256": "0c056b56d5494547649c0b1b90bcacbcf5bf50194ecf1ca22e11f173decde7ca"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/The_Stats_Windows_PostCapture_Delta_2026-10-23_064142Z.zip",
+      "bytes": 28386,
+      "git_blob": "22466bf2df2c9d3f6d5a42486c8ab1a93425e686",
+      "sha256": "077f2bf9298e8149a3a57ab7e07770f2a356d54ea624260c155f3cd97cbc49b6"
+    },
+    {
+      "path": "windows-snapshots/2026-10-23_062048Z/VERIFICATION.json",
+      "bytes": 30472,
+      "git_blob": "6ccc069f2c4a47ce42730dd3093376f01fe083cd",
+      "sha256": "99763ba09e0fc5e43c1222f417f669ead34d4e67a75745d230d53de6150dc885"
+    }
+  ]
+}

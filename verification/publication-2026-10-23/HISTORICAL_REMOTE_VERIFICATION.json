@@ -1,0 +1,25 @@
+{
+  "verified_at_utc": "2026-10-23T06:31:48.340437+00:00",
+  "repository": "https://github.com/bug220r-lab/the-stats",
+  "visibility": "private",
+  "authenticated_login": "bug220r-lab",
+  "branch": "main",
+  "tag": "snapshot-2026-10-23",
+  "remote_commit": "7ab715160f5f68fcd87424fce4b2a1c281c952bf",
+  "remote_tree": "c808c36ce2be3a19644039776c0c3343afb238f0",
+  "tracked_files": 177,
+  "verification": [
+    "GitHub connector repository metadata private",
+    "GitHub connector commit readback",
+    "git ls-remote branch and tag match",
+    "fresh bare clone from private GitHub remote",
+    "fresh clone commit and tree match",
+    "git fsck --full succeeded"
+  ],
+  "historical_drive_folder": "https://drive.google.com/drive/folders/122KQIiOGFl_h0ZpthM-333__r1bVd2_N",
+  "historical_drive_owner": "bug220r@gmail.com",
+  "historical_drive_access": "Owner-only permission metadata verified",
+  "local_evidence_drive_url": "https://drive.google.com/file/d/1_lAme30mzIsAaFAo1589FoR10ColUY1i/view",
+  "local_evidence_drive_readback_bytes_match": true,
+  "original_snapshot_content_changed": false
+}
