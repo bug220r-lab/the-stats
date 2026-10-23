@@ -1,0 +1,23 @@
+{
+  "completed_utc": "2026-10-23T06:38:51.181687+00:00",
+  "package": "The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip",
+  "bytes": 642332722,
+  "sha256": "65b72ef865e5038de3718bae70e94d6b418257c9eb1f6662cbaa19ed105bae27",
+  "verified_files": 14652,
+  "unique_objects": 2301,
+  "logical_restore_bytes": 21262258333,
+  "new_paths_after_capture": [
+    "workspace/data/youtube_daily_supplement_20261023/backup_verification.json",
+    "workspace/data/youtube_daily_supplement_20261023/post_import_preservation.json",
+    "workspace/data/youtube_daily_supplement_20261023/runtime_verification.json",
+    "workspace/data/youtube_daily_supplement_20261023/test_results.json",
+    "workspace/handoff/YOUTUBE_DAILY_SUPPLEMENT_20261023.md"
+  ],
+  "changed_paths_after_capture": [
+    "workspace/README.md",
+    "workspace/stats_app/youtube_ui.py"
+  ],
+  "removed_paths_after_capture": [],
+  "final_enumeration_errors": [],
+  "application_tests_run": false
+}

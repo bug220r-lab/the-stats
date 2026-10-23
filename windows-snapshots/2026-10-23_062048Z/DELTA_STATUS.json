@@ -1,0 +1,12 @@
+{
+  "package": "The_Stats_Windows_PostCapture_Delta_2026-10-23_064142Z.zip",
+  "bytes": 28386,
+  "sha256": "077f2bf9298e8149a3a57ab7e07770f2a356d54ea624260c155f3cd97cbc49b6",
+  "captured_files": 7,
+  "capture_started_utc": "2026-10-23T06:41:42.240894+00:00",
+  "capture_finished_utc": "2026-10-23T06:41:42.301335+00:00",
+  "late_new_paths_outside_delta": [],
+  "late_changed_paths_outside_delta": [],
+  "enumeration_errors": [],
+  "base_unchanged": "65b72ef865e5038de3718bae70e94d6b418257c9eb1f6662cbaa19ed105bae27"
+}

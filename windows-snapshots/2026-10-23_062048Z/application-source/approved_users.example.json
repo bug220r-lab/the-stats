@@ -1,0 +1,5 @@
+[
+  {"name": "Lewis", "issuer": "https://<provider-issuer>", "subject": "<Lewis-provider-subject>", "role": "admin"},
+  {"name": "Brandon", "issuer": "https://<provider-issuer>", "subject": "<Brandon-provider-subject>", "role": "viewer"},
+  {"name": "Samman", "issuer": "https://<provider-issuer>", "subject": "<Samman-provider-subject>", "role": "viewer"}
+]

@@ -1,0 +1,77 @@
+{
+  "collection_date": "2026-10-23",
+  "band": "[REDACTED]",
+  "acquisition": "Google Drive connector metadata followed by authenticated raw-file download",
+  "official_guidelines_status": "not_found_in_focused_search",
+  "brand_assets_folder": {
+    "id": "1oanEAbBXVjmkbulxN6ykZmPf18ONrM7G",
+    "url": "https://drive.google.com/drive/folders/1oanEAbBXVjmkbulxN6ykZmPf18ONrM7G",
+    "observed_status": "accessible_empty"
+  },
+  "assets": [
+    {
+      "file": "couch-sticker-original.png",
+      "source_name": "COUCH STICKER.png",
+      "source_id": "1bG_KQYyHeBIrL1HcSpZlro6P8pBWQmLo",
+      "source_url": "https://drive.google.com/file/d/1bG_KQYyHeBIrL1HcSpZlro6P8pBWQmLo/view",
+      "source_parent_id": "1ftj4UaCYPodzOq7_HU-b2Qc5Qc5UDbmp",
+      "source_modified_at": "2025-12-11T05:18:17.251Z",
+      "mime_type": "image/png",
+      "bytes": 71908,
+      "sha256": "8f79cb00debaaf1d5eaf7a6eb4953b4da2263bb3b100a54819beee230fa62b66",
+      "width": 4800,
+      "height": 2118,
+      "used_in_dashboard": true,
+      "transformations": "none; original bytes, browser display sizing only",
+      "selection_reason": "Crisp existing white couch outline and bracketed band wordmark with transparency."
+    },
+    {
+      "file": "redacted-sticker-original.png",
+      "source_name": "redacted sticker.png",
+      "source_id": "1Qc2qkbjxt9mC6zTi-WqW3FuX5lSuEkdz",
+      "source_url": "https://drive.google.com/file/d/1Qc2qkbjxt9mC6zTi-WqW3FuX5lSuEkdz/view",
+      "source_parent_id": "1ftj4UaCYPodzOq7_HU-b2Qc5Qc5UDbmp",
+      "source_modified_at": "2025-12-11T02:12:28.000Z",
+      "mime_type": "image/png",
+      "bytes": 1486040,
+      "sha256": "43219d140026835be608ba4792c3cea24da53863996826829554ef57a2d9b90f",
+      "width": 2048,
+      "height": 1535,
+      "used_in_dashboard": false,
+      "transformations": "none",
+      "selection_reason": "Retained comparison asset; photographic texture and extra margins less suited to a compact dashboard header."
+    }
+  ],
+  "interface_palette": {
+    "source_backed_identity": "White outline and bracketed wordmark on transparent background",
+    "background": "#111111",
+    "secondary_background": "#1C1C1B",
+    "text": "#F5F4EE",
+    "analytical_accent": "#EDD264",
+    "qualification": "Interface palette chosen to complement the original artwork; not an official brand guide. Existing analytical accent retained."
+  },
+  "font_status": "No official font file found; existing Streamlit sans-serif interface font retained.",
+  "social_corroboration": [
+    {
+      "platform": "Instagram",
+      "source_url": "https://www.instagram.com/redactedbandoh/",
+      "handle": "redactedbandoh",
+      "display_name": "[REDACTED]",
+      "captured_at_utc": "2026-10-23T05:09:17.192Z",
+      "bio": "Go ahead, take a seat. Post Nu Metal from Akron, OH",
+      "profile_link_label": "linktr.ee/redactedoh",
+      "visual_observation": "Profile photo shows couch and bracketed wordmark; pinned merchandise post shows the white couch line art matching the selected Drive asset.",
+      "evidence": [
+        {
+          "path": "data/collection/meta-followup-20261023/social_branding/instagram-profile.png",
+          "sha256": "7692708f5a9242cc181a3a5ebd72dfae541879fa9e5d943b87e8784e3ab2c894"
+        },
+        {
+          "path": "data/collection/meta-followup-20261023/social_branding/instagram-profile.json",
+          "sha256": "8b9bbbf935bd47d5e88e056784d7c029abc55bfc59ef743f554da494e7128766"
+        }
+      ],
+      "used_as_dashboard_image": false
+    }
+  ]
+}

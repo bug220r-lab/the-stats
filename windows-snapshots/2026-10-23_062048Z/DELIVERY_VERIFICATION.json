@@ -1,0 +1,15 @@
+{
+  "verified_utc": "2026-10-23T06:42:55.408955+00:00",
+  "base_parts_join": {
+    "joined_file": "C:\\Users\\jlewi\\OneDrive\\Documents\\ChatGPT\\The Stats\u2122\ufe0f\\backups\\windows_snapshot_2026-10-23_20261023T062048Z\\join-proof.zip",
+    "bytes": 642332722,
+    "sha256": "65b72ef865e5038de3718bae70e94d6b418257c9eb1f6662cbaa19ed105bae27"
+  },
+  "base_package_unchanged_sha256": "65b72ef865e5038de3718bae70e94d6b418257c9eb1f6662cbaa19ed105bae27",
+  "delta_apply_verified_files": 7,
+  "delta_replay_already_applied_files": 7,
+  "delta_conflicting_content_rejected": true,
+  "proof_scope": "Controlled seven-file delta restore from its real base objects, complete split-part reconstruction and whole-ZIP SHA equality. Full 21.26GB tree restoration and application execution were not performed.",
+  "application_tests_run": false,
+  "temporary_join_proof_removed_after_verification": true
+}

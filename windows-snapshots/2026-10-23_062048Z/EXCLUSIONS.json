@@ -1,0 +1,54 @@
+[
+  {
+    "path": "workspace/.pytest_cache/",
+    "reason": "disposable environment or runtime/test cache"
+  },
+  {
+    "path": "workspace/.venv/",
+    "reason": "disposable environment or runtime/test cache"
+  },
+  {
+    "path": "workspace/test-results/",
+    "reason": "disposable environment or runtime/test cache"
+  },
+  {
+    "path": "workspace/backups/publish_2026-10-23/",
+    "reason": "generated output from this backup operation; recursion excluded"
+  },
+  {
+    "path": "workspace/backups/windows_snapshot_2026-10-23_20261023T062048Z/",
+    "reason": "generated output from this backup operation; recursion excluded"
+  },
+  {
+    "path": "workspace/data/test-temp/",
+    "reason": "disposable environment or runtime/test cache"
+  },
+  {
+    "path": "workspace/data/audit/chat-audit-20261023/runtime/pytest-temp/",
+    "reason": "disposable environment or runtime/test cache"
+  },
+  {
+    "path": "workspace/data/reconciliation/meta_20261023/package/code/__pycache__/",
+    "reason": "disposable environment or runtime/test cache"
+  },
+  {
+    "path": "workspace/data/recovery/mac_handoff_2026-10-22/tests/__pycache__/",
+    "reason": "disposable environment or runtime/test cache"
+  },
+  {
+    "path": "workspace/data/youtube_daily_supplement_20261023/staged_validation/",
+    "reason": "inaccessible validation-only intermediate: directory and known SQLite path denied even with elevated read; audit receipts and authoritative live supplement database/package are included; staged bytes were not independently backed up"
+  },
+  {
+    "path": "workspace/scripts/__pycache__/",
+    "reason": "disposable environment or runtime/test cache"
+  },
+  {
+    "path": "workspace/stats_app/__pycache__/",
+    "reason": "disposable environment or runtime/test cache"
+  },
+  {
+    "path": "workspace/tests/__pycache__/",
+    "reason": "disposable environment or runtime/test cache"
+  }
+]

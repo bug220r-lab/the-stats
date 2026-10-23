@@ -1,0 +1,61 @@
+{
+  "format": "the-stats-windows-post-capture-delta-v1",
+  "base_package": "The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip",
+  "base_sha256": "65b72ef865e5038de3718bae70e94d6b418257c9eb1f6662cbaa19ed105bae27",
+  "base_capture_finished_utc": "2026-10-23T06:37:01.058908+00:00",
+  "capture_started_utc": "2026-10-23T06:41:42.240894+00:00",
+  "capture_finished_utc": "2026-10-23T06:41:42.301335+00:00",
+  "files": [
+    {
+      "path": "workspace/data/youtube_daily_supplement_20261023/backup_verification.json",
+      "bytes": 558,
+      "sha256": "f9b27c0294d91a2253c038a0a643c99c0a0d10965417c06160cbe6864da671b8",
+      "base_sha256": null,
+      "source_mtime_ns": 1792737364904530000
+    },
+    {
+      "path": "workspace/data/youtube_daily_supplement_20261023/post_import_preservation.json",
+      "bytes": 25407,
+      "sha256": "ea830eaa5d38537a397b797ea39185443e8e336b5b10f3b6711628c946e58e92",
+      "base_sha256": null,
+      "source_mtime_ns": 1792737361956766000
+    },
+    {
+      "path": "workspace/data/youtube_daily_supplement_20261023/runtime_verification.json",
+      "bytes": 981,
+      "sha256": "c03513b474345c018822194994a9a2c5e5eff4fff9a9f07b4c561f798bf2b411",
+      "base_sha256": null,
+      "source_mtime_ns": 1792737482574297100
+    },
+    {
+      "path": "workspace/data/youtube_daily_supplement_20261023/test_results.json",
+      "bytes": 1051,
+      "sha256": "ad13854b530e7939bebeb8ddea37753445715c375343f1d815a10e540879c5e2",
+      "base_sha256": null,
+      "source_mtime_ns": 1792737548653773900
+    },
+    {
+      "path": "workspace/handoff/YOUTUBE_DAILY_SUPPLEMENT_20261023.md",
+      "bytes": 6831,
+      "sha256": "e6b5043ab67570992965efc4ed69baaad99fb2a79961fb54751ea01b8679ab39",
+      "base_sha256": null,
+      "source_mtime_ns": 1792737549361593600
+    },
+    {
+      "path": "workspace/README.md",
+      "bytes": 12337,
+      "sha256": "d0fb7a15878ea1b84784d728420482b2b7bc5525373289c2ed4ad913d59749dd",
+      "base_sha256": "3090540ed91d4c59964f2976c4bd16ac90f3d44e8d16567fa740ce0f5a173338",
+      "source_mtime_ns": 1792737499835805800
+    },
+    {
+      "path": "workspace/stats_app/youtube_ui.py",
+      "bytes": 21749,
+      "sha256": "340a158e8486fef6e8675f7bfe435e5fb59fc083d55da6bed82aaa044dd37f51",
+      "base_sha256": "9a2ca20fa3cc5e01cc3c5e80aceeb7a8220fdf48e08c67f98bdc4fa7e53e53bf",
+      "source_mtime_ns": 1792737510312987400
+    }
+  ],
+  "credential_scan_findings": [],
+  "source_stability": "All seven files were read into immutable in-memory bytes and checked for size/mtime stability. Later edits are outside this bounded delta."
+}

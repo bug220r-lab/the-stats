@@ -1,0 +1,77 @@
+{
+  "package_name": "The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip",
+  "bytes": 642332722,
+  "sha256": "65b72ef865e5038de3718bae70e94d6b418257c9eb1f6662cbaa19ed105bae27",
+  "parts": [
+    {
+      "path": "parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part001",
+      "bytes": 47185920,
+      "sha256": "07f5eb5986dff6accce99ed0f16c01f68d3845d4a86fc689729c8c5f1d67106e"
+    },
+    {
+      "path": "parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part002",
+      "bytes": 47185920,
+      "sha256": "e5dd4f7505ec23fd601b6e53e2d80623c27a6c59bf7d44da39ba22c1e22b52c5"
+    },
+    {
+      "path": "parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part003",
+      "bytes": 47185920,
+      "sha256": "6256322c31763ed1efeb52cc6ea75a93b31d748d104cce0add6dbff9998e6a58"
+    },
+    {
+      "path": "parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part004",
+      "bytes": 47185920,
+      "sha256": "7094d89fbd5b5af66f1d049476370dd7b1332eb347eaeeab6200e188ef7f26ff"
+    },
+    {
+      "path": "parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part005",
+      "bytes": 47185920,
+      "sha256": "294ddf8a3fbd4be81f3dd38845544e73b5281b61938345e893cb85077948a935"
+    },
+    {
+      "path": "parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part006",
+      "bytes": 47185920,
+      "sha256": "cfa7538b97a05e42ac271b44e3dedfb23639489c77bc371b0021e3ef8fdd6781"
+    },
+    {
+      "path": "parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part007",
+      "bytes": 47185920,
+      "sha256": "d0417a46268128579aff87c2db3243dc3f12c667625a39210f2eaa2627668922"
+    },
+    {
+      "path": "parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part008",
+      "bytes": 47185920,
+      "sha256": "dd55fe9dd26c18ac77ff148f6c489a145b0630b05555b0f996d9a740f01cb634"
+    },
+    {
+      "path": "parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part009",
+      "bytes": 47185920,
+      "sha256": "a985f017c7efb99e0553b829a83e5d3bff165ad5321cb50142d0873c179e5c57"
+    },
+    {
+      "path": "parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part010",
+      "bytes": 47185920,
+      "sha256": "f27435e1a8bcc78b354c9d699e469d2401e321a0ec0ec8f1d0dc388feaf62f97"
+    },
+    {
+      "path": "parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part011",
+      "bytes": 47185920,
+      "sha256": "b44d87b9fd642525a9ebd4301735821c1dcaf329cfccc1c098e96cc1c0e52056"
+    },
+    {
+      "path": "parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part012",
+      "bytes": 47185920,
+      "sha256": "8678812c91b0591826d38713cc916697881bc167ed0c946069e575d6ddf5b292"
+    },
+    {
+      "path": "parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part013",
+      "bytes": 47185920,
+      "sha256": "cb9e3eebca8784354db016bde83ddd84b0e9adcb13f80494f69eea2d808d76cb"
+    },
+    {
+      "path": "parts/The_Stats_Windows_Snapshot_2026-10-23_062048Z.zip.part014",
+      "bytes": 28915762,
+      "sha256": "484776001d8085776ff6b04a8bd1f1c3a34d22a847d406cf39c292a59d542e9b"
+    }
+  ]
+}

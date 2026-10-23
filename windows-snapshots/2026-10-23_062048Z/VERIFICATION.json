@@ -1,0 +1,722 @@
+{
+  "started_utc": "2026-10-23T06:29:21.378025+00:00",
+  "finished_utc": "2026-10-23T06:37:01.058908+00:00",
+  "source_count": 14652,
+  "logical_bytes": 21262258333,
+  "unique_count": 2301,
+  "unique_bytes": 3181360782,
+  "archive_count": 168,
+  "archive_member_count": 22463,
+  "database_checks": {
+    "35127cf63ab982b42c5cc649310f3429b7ef90fd8e44198d7596cf762547bcd0": {
+      "path": "workspace/backups/library-youtube-daily-2026-10-23/stats.sqlite3",
+      "integrity_check": [
+        "ok"
+      ],
+      "tables": 5
+    },
+    "a0f93cd16f62d4218458c383e4b0d13fe514dd110c6580438afc502c2bf35851": {
+      "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/cleaned-20261022/analysis.sqlite3",
+      "integrity_check": [
+        "ok"
+      ],
+      "tables": 4
+    },
+    "be311ec36ee1a5168d4244325cc7722f1f02f3ef13313293a57135bf09e08b7d": {
+      "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/stats.sqlite3",
+      "integrity_check": [
+        "ok"
+      ],
+      "tables": 10
+    },
+    "26c834263a538da47d4fc7ef0a762dab598c39cb179e4f3f92de8c0410676111": {
+      "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/instagram-audio-20261023/analysis.sqlite3",
+      "integrity_check": [
+        "ok"
+      ],
+      "tables": 4
+    },
+    "0b24de4327e1edeffb1b2e93919e2b6b9ccda24fe800c7551a2d46b66ddddead": {
+      "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/meta-collection-20261023/analysis.sqlite3",
+      "integrity_check": [
+        "ok"
+      ],
+      "tables": 4
+    },
+    "ad9c253ac9a2b3d6f1621bea9e5f0e6a43ce48314eea4a5e91e245ef4e5c6efa": {
+      "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/meta-followup-20261023/analysis.sqlite3",
+      "integrity_check": [
+        "ok"
+      ],
+      "tables": 4
+    },
+    "d78bcbce70fc8e8322555392c06031f3a40b2d4338cedcaf52aa271884defa65": {
+      "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/spotify-recovery-20261023/analysis.sqlite3",
+      "integrity_check": [
+        "ok"
+      ],
+      "tables": 4
+    },
+    "5aa85bb3efa84a8a759ecf544414a5c067b9f25b9cf4a886a45d3385b0e344ef": {
+      "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/instagram-story-owner-20261023/analysis.sqlite3",
+      "integrity_check": [
+        "ok"
+      ],
+      "tables": 4
+    },
+    "42ae8a8e8905048299e6d5d198de5b9fbf532ff64aaa9ed698baaf9f1e27b139": {
+      "path": "workspace/backups/library-youtube-daily-2026-10-23/collections/youtube-20261023/youtube.sqlite3",
+      "integrity_check": [
+        "ok"
+      ],
+      "tables": 5
+    },
+    "882c5a3eb3e320e5233c45334a2bcc99ccb48f2ec5222fc435b356856e0884a4": {
+      "path": "workspace/data/audit/chat-audit-20261023/storage/failed_audit_repro/isolated_data/analysis/known-failed-audit/analysis.sqlite3",
+      "integrity_check": [
+        "ok"
+      ],
+      "tables": 4
+    },
+    "6c4ad5ef2df56282754f7ebb956e734944cca3b58f7d4dc3db4b1906b06b9db7": {
+      "path": "workspace/data/reconciliation/windows-preflight-readonly.sqlite3",
+      "integrity_check": [
+        "ok"
+      ],
+      "tables": 5
+    },
+    "e63bce05c8179993b22faec47c7d3acde0280e235d5d84e416e1e066f89d73a3": {
+      "path": "workspace/data/recovery/mac_handoff_2026-10-22/data/stats.sqlite3",
+      "integrity_check": [
+        "ok"
+      ],
+      "tables": 10
+    },
+    "23e73b79e9f7789fe8ee6176ef7080b1bac8d2530322c6f3116adbb48956e8d8": {
+      "path": "active-library/collections/youtube-daily-20261023/youtube.sqlite3",
+      "integrity_check": [
+        "ok"
+      ],
+      "tables": 5
+    }
+  },
+  "errors": [],
+  "unstable": [],
+  "nested_git": [],
+  "capture_refreshes": [
+    {
+      "utc": "2026-10-23T06:37:01.058908+00:00",
+      "delta": [
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archive_registry.json",
+          "change": "added",
+          "bytes": 2366
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/BACKUP_MANIFEST.json",
+          "change": "added",
+          "bytes": 20326
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/stats.sqlite3",
+          "change": "added",
+          "bytes": 17920000
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/youtube_collections.json",
+          "change": "added",
+          "bytes": 1169
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/cleaned-20261022/activation_receipt.json",
+          "change": "added",
+          "bytes": 2403
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/cleaned-20261022/analysis.sqlite3",
+          "change": "added",
+          "bytes": 177078272
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/cleaned-20261022/analysis_package_import.json",
+          "change": "added",
+          "bytes": 2027
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/cleaned-20261022/independent_analysis_audit.json",
+          "change": "added",
+          "bytes": 15443
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/instagram-audio-20261023/activation_receipt.json",
+          "change": "added",
+          "bytes": 4159
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/instagram-audio-20261023/analysis.sqlite3",
+          "change": "added",
+          "bytes": 373334016
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/instagram-audio-20261023/analysis_package_import.json",
+          "change": "added",
+          "bytes": 3262
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/instagram-audio-20261023/independent_analysis_audit.json",
+          "change": "added",
+          "bytes": 2803
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/instagram-story-owner-20261023/activation_receipt.json",
+          "change": "added",
+          "bytes": 4523
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/instagram-story-owner-20261023/analysis.sqlite3",
+          "change": "added",
+          "bytes": 377200640
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/instagram-story-owner-20261023/analysis_package_import.json",
+          "change": "added",
+          "bytes": 3497
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/instagram-story-owner-20261023/independent_analysis_audit.json",
+          "change": "added",
+          "bytes": 3231
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/meta-collection-20261023/activation_receipt.json",
+          "change": "added",
+          "bytes": 3577
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/meta-collection-20261023/analysis.sqlite3",
+          "change": "added",
+          "bytes": 366501888
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/meta-collection-20261023/analysis_package_import.json",
+          "change": "added",
+          "bytes": 2929
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/meta-collection-20261023/independent_analysis_audit.json",
+          "change": "added",
+          "bytes": 3582
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/meta-followup-20261023/activation_receipt.json",
+          "change": "added",
+          "bytes": 3749
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/meta-followup-20261023/analysis.sqlite3",
+          "change": "added",
+          "bytes": 370823168
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/meta-followup-20261023/analysis_package_import.json",
+          "change": "added",
+          "bytes": 2981
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/meta-followup-20261023/independent_analysis_audit.json",
+          "change": "added",
+          "bytes": 3250
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/spotify-recovery-20261023/activation_receipt.json",
+          "change": "added",
+          "bytes": 4238
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/spotify-recovery-20261023/analysis.sqlite3",
+          "change": "added",
+          "bytes": 322256896
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/spotify-recovery-20261023/analysis_package_import.json",
+          "change": "added",
+          "bytes": 3690
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/spotify-recovery-20261023/independent_analysis_audit.json",
+          "change": "added",
+          "bytes": 168731
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/spotify-recovery-20261023/independent_input_audit.json",
+          "change": "added",
+          "bytes": 168731
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/spotify-recovery-20261023/independent_input_audit.md",
+          "change": "added",
+          "bytes": 2839
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/spotify-recovery-20261023/workbook_audit.json",
+          "change": "added",
+          "bytes": 167603
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/analysis/spotify-recovery-20261023/workbook_audit.md",
+          "change": "added",
+          "bytes": 3207
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/promotion_receipt.json",
+          "change": "added",
+          "bytes": 11149
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/spotify_coverage.json",
+          "change": "added",
+          "bytes": 34079
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/spotify_import_report.json",
+          "change": "added",
+          "bytes": 11500
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/stats.sqlite3",
+          "change": "added",
+          "bytes": 235155456
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/0613bf65ecc035bfdb673e27c041109f17140dc9352f6c2b3d2065c5518e3c22.json",
+          "change": "added",
+          "bytes": 5224
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/0eae4fb845e67dcb2d2e835bfaf7c0ca50eb709af655129b8c62419b9a05de35.csv",
+          "change": "added",
+          "bytes": 102929
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/1cc5895d605f62ec1a3b75100d34db126b82b19315799ac9b044f002b1fe536d.csv",
+          "change": "added",
+          "bytes": 3477
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/235116c463932d5c49c0ace70d1ec6ee746307ebf465b949823ea0c454cd3cf7.json",
+          "change": "added",
+          "bytes": 37776
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/26efc2aca0c658ad1df96b5d2b71e71ae060ebae8868e143bb2e70ef7c395970.csv",
+          "change": "added",
+          "bytes": 1526
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/2753769dc9e5fd4e3a4d682ea170968cbf6cf99abd8b8f6284dd755765522597.csv",
+          "change": "added",
+          "bytes": 4754
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/28b7116d79913367c59c5b2cc893cb03b50b56c37c4952b23611d82d772aed96.csv",
+          "change": "added",
+          "bytes": 3599845
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/2d4c6973f5541a633864ee920a79f6a3e4996f529dd5b96ba882ba67aaca4135.csv",
+          "change": "added",
+          "bytes": 1544
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/2f7606f5d99796e491aa93513872f1a45db8895671a4c814f7b8024ba8329c2c.csv",
+          "change": "added",
+          "bytes": 4796
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/36d25577c0acbeb2855579881ab3aa21a72dce6f5465e85b4f5c15ea2a88db4c.json",
+          "change": "added",
+          "bytes": 3885
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/45f68e3101e7a71b4941bf2adce6c51e50aa6515ac1e64f81764db5e495c0fe6.csv",
+          "change": "added",
+          "bytes": 7301
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/4a908b941187662f2c8dd380552c15b547872c431186b1b7e8c666c948cf4aa2.csv",
+          "change": "added",
+          "bytes": 4812
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/4f76300adf2fee9c3fd441749b0c669c455b16801f2a1a61f134f2679d02948b.csv",
+          "change": "added",
+          "bytes": 2389
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/50c209c7ad9193afccb881868f328fab05b1623f010707bb32551d69d11b05d4.csv",
+          "change": "added",
+          "bytes": 4778
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/524c55ec0b7317f7e5d06e045c4922014cb394c10a97b1a3d1e7b257037a9724.csv",
+          "change": "added",
+          "bytes": 28741
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/537d30a8826140e736994c09379ced60b66c96dbc835eb042a9536a95885d723.csv",
+          "change": "added",
+          "bytes": 20996
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/5b86a33c9e783dff311a1f644d8d6453ac5a79a22fc38e0607281e9e159aad5d.csv",
+          "change": "added",
+          "bytes": 4768
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/655342196f525234eaac63bd5ae78341b6cca546a9c3ac094eb8049e30f4e3dd.csv",
+          "change": "added",
+          "bytes": 35069004
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/6fe9086f23f34a6c14a9be65799dcee05d8bc5c9ae4e4b89a6f9b5efb7080f8b.csv",
+          "change": "added",
+          "bytes": 4774
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/7153899eeb11ef72d099926d7f4afb209c6cea25e1a08ed9e59544dec04bd776.csv",
+          "change": "added",
+          "bytes": 569
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/86de335ee317197c403fbae8799e67471c09a2b4bb83b7665ece297704d69d25.csv",
+          "change": "added",
+          "bytes": 51950
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/89926d8895721b4923fded1e4f3903823ee2d7eaf7857616fd41d6b9e98b7da8.csv",
+          "change": "added",
+          "bytes": 4776
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/89abe2812ac203a6b22aeb74acec34fcc3636539273af070993275c9d748b920.csv",
+          "change": "added",
+          "bytes": 5558
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/8a29f7cfc898a0ee943b6be555c1433062d2f2dca643a19b67d887703db962a1.csv",
+          "change": "added",
+          "bytes": 1295
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/8dcc1111312f03570734a51f4671996e2e8df3c0ee59973e1665cc95acc61911.csv",
+          "change": "added",
+          "bytes": 201226
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/9a76647aa70e38aee986787a7cecc46ca02242778d40743059b6ee41d149d360.csv",
+          "change": "added",
+          "bytes": 4868
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/a12d7366cbadddb6f1f601eb9ad7b9d79bedec84790e382209849f689f8437d9.csv",
+          "change": "added",
+          "bytes": 17704
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/a136b1ac645df9cc7634d0ae287680d29f0c23ffa5f7dee0aa4fff2117ee3e5a.csv",
+          "change": "added",
+          "bytes": 273252
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/a2f9b4d98ef69debf32295c744679cc17d1ba6d9c2623008fc9edd5ea94bab99.csv",
+          "change": "added",
+          "bytes": 2068
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/a6f480e1ed477919bc73c81725afab57dcbd0900295926c912b927d1d9357d07.csv",
+          "change": "added",
+          "bytes": 5000
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/aeab81f0a55809064b45a4bef3e307cf0b21336e9cf7b77f7e74e5fd4b1d7850.csv",
+          "change": "added",
+          "bytes": 530
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/bf18bf3f50801d9a2cd972bacf93d6f595dcb014e3db732e0e371fdc0e559da3.json",
+          "change": "added",
+          "bytes": 34079
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/c188787211c7cb4920aff55109955c18dfe3d2f970ad36b573ce7cc7883eadf5.csv",
+          "change": "added",
+          "bytes": 344244
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/c31cdfda7fdcbd213afab5858c3db9c028524fd18303193fe2fb3af0304a6d0b.csv",
+          "change": "added",
+          "bytes": 279759
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/c4c94d0dd1ca61868c6f81ef505d82151172317e81a0ebbb884deb14c01c6128.json",
+          "change": "added",
+          "bytes": 32537
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/c6001bb2e81c68f1b626c9826bac6dc3bce4c3f13d772feea26dc6ee859d70d5.csv",
+          "change": "added",
+          "bytes": 3014935
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/d09314c6cc6df200afd486e2dcf27b88e248fe958eb15bca20636f44f6bba1c1.csv",
+          "change": "added",
+          "bytes": 4210
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/d68aa144b1bbce6ad3779df4cbd6f250ef7feae385f71d0be538ab648c7afbc6.csv",
+          "change": "added",
+          "bytes": 626
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/de73820c530596d385ac67734a70a983deea89bf2aa42cb35f6c343654edddf6.csv",
+          "change": "added",
+          "bytes": 4820
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/e1e3c6c5d0cf3240882eaa2bfdf0e421d15a00d1b1ffed272be7e6596c098d9c.csv",
+          "change": "added",
+          "bytes": 132808
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/e3de39b574919a1cfb4f7d0c404c8e3467b81d4fb8737ac630a5f52b7b9bfd11.csv",
+          "change": "added",
+          "bytes": 44442
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/e4b928b8677b234336afd544a3705e577c46693678f68798f58109fdf2da27ed.csv",
+          "change": "added",
+          "bytes": 20839
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/ecb47a639962140c75a8da243b908af6db732df803130c4d68194b8ba39ba929.csv",
+          "change": "added",
+          "bytes": 5451
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/f1198bcd75d5528fc4c2bd252cfb83f15efb7e923aaef894de3cbd9494deb7cf.csv",
+          "change": "added",
+          "bytes": 1902
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/fbe30b548b3d01702b49d2e36972756da717cbcfaa30ed8b68ffd6794a31559b.csv",
+          "change": "added",
+          "bytes": 2125
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/data/sources/fc6fa6080dcffde28a9bf163de41323923e77d157c5d44f88c0b2760721644b7.csv",
+          "change": "added",
+          "bytes": 4776
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/evidence/The_Stats_Handoff_2026-10-22.zip",
+          "change": "added",
+          "bytes": 29248031
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/archives/handoff-20261022/reconciliation/cross_reference.json",
+          "change": "added",
+          "bytes": 256902
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/collections/youtube-20261023/The_Stats_YouTube_Collection_2026-10-23.zip",
+          "change": "added",
+          "bytes": 2717741
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/collections/youtube-20261023/youtube.sqlite3",
+          "change": "added",
+          "bytes": 231858176
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/collections/youtube-20261023/youtube_collection_import.json",
+          "change": "added",
+          "bytes": 4014
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/collections/youtube-daily-20261023/supplement.zip",
+          "change": "added",
+          "bytes": 349987
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/collections/youtube-daily-20261023/youtube.sqlite3",
+          "change": "added",
+          "bytes": 6307840
+        },
+        {
+          "path": "workspace/backups/library-youtube-daily-2026-10-23/collections/youtube-daily-20261023/youtube_daily_supplement_import.json",
+          "change": "added",
+          "bytes": 5216
+        },
+        {
+          "path": "workspace/data/audit/chat-audit-20261023/final_validation.json",
+          "change": "added",
+          "bytes": 2245
+        },
+        {
+          "path": "workspace/data/audit/chat-audit-20261023/final_validation.py",
+          "change": "added",
+          "bytes": 1559
+        },
+        {
+          "path": "workspace/data/collection/youtube-daily-20261023/collection_manifest.json",
+          "change": "added",
+          "bytes": 6655
+        },
+        {
+          "path": "workspace/data/collection/youtube-daily-20261023/subscribers_gained_download.json",
+          "change": "added",
+          "bytes": 465
+        },
+        {
+          "path": "workspace/data/collection/youtube-daily-20261023/subscribers_lost_download.json",
+          "change": "added",
+          "bytes": 461
+        },
+        {
+          "path": "workspace/data/collection/youtube-daily-20261023/originals/subscribers_gained/Date 2025-10-22_2026-10-22 [REDACTED] TV (4).zip",
+          "change": "added",
+          "bytes": 3014
+        },
+        {
+          "path": "workspace/data/collection/youtube-daily-20261023/originals/subscribers_lost/Date 2025-10-22_2026-10-22 [REDACTED] TV (5).zip",
+          "change": "added",
+          "bytes": 2971
+        },
+        {
+          "path": "workspace/data/youtube_daily_supplement_20261023/actual_ui_validation.json",
+          "change": "added",
+          "bytes": 169
+        },
+        {
+          "path": "workspace/data/youtube_daily_supplement_20261023/audit_notes.md",
+          "change": "added",
+          "bytes": 3535
+        },
+        {
+          "path": "workspace/data/youtube_daily_supplement_20261023/live_import.json",
+          "change": "added",
+          "bytes": 5216
+        },
+        {
+          "path": "workspace/data/youtube_daily_supplement_20261023/live_replay.json",
+          "change": "added",
+          "bytes": 140
+        },
+        {
+          "path": "workspace/data/youtube_daily_supplement_20261023/source_validation.json",
+          "change": "added",
+          "bytes": 6798
+        },
+        {
+          "path": "workspace/handoff/HANDOFF.md",
+          "change": "modified",
+          "bytes": 9477
+        },
+        {
+          "path": "active-library/collections/youtube-daily-20261023/supplement.zip",
+          "change": "added",
+          "bytes": 349987
+        },
+        {
+          "path": "active-library/collections/youtube-daily-20261023/youtube.sqlite3",
+          "change": "added",
+          "bytes": 6307840
+        },
+        {
+          "path": "active-library/collections/youtube-daily-20261023/youtube_daily_supplement_import.json",
+          "change": "added",
+          "bytes": 5216
+        }
+      ],
+      "removed_paths": []
+    }
+  ],
+  "live_registry_validation": [
+    {
+      "registry": "archive_registry.json",
+      "key": "handoff-20261022",
+      "database": "archives/handoff-20261022/data/stats.sqlite3",
+      "captured_sha256": "be311ec36ee1a5168d4244325cc7722f1f02f3ef13313293a57135bf09e08b7d",
+      "verified": true
+    },
+    {
+      "registry": "archive_registry.json",
+      "key": "cleaned-20261022",
+      "database": "analysis/cleaned-20261022/analysis.sqlite3",
+      "captured_sha256": "a0f93cd16f62d4218458c383e4b0d13fe514dd110c6580438afc502c2bf35851",
+      "verified": true
+    },
+    {
+      "registry": "archive_registry.json",
+      "key": "spotify-recovery-20261023",
+      "database": "analysis/spotify-recovery-20261023/analysis.sqlite3",
+      "captured_sha256": "d78bcbce70fc8e8322555392c06031f3a40b2d4338cedcaf52aa271884defa65",
+      "verified": true
+    },
+    {
+      "registry": "archive_registry.json",
+      "key": "meta-collection-20261023",
+      "database": "analysis/meta-collection-20261023/analysis.sqlite3",
+      "captured_sha256": "0b24de4327e1edeffb1b2e93919e2b6b9ccda24fe800c7551a2d46b66ddddead",
+      "verified": true
+    },
+    {
+      "registry": "archive_registry.json",
+      "key": "meta-followup-20261023",
+      "database": "analysis/meta-followup-20261023/analysis.sqlite3",
+      "captured_sha256": "ad9c253ac9a2b3d6f1621bea9e5f0e6a43ce48314eea4a5e91e245ef4e5c6efa",
+      "verified": true
+    },
+    {
+      "registry": "archive_registry.json",
+      "key": "instagram-audio-20261023",
+      "database": "analysis/instagram-audio-20261023/analysis.sqlite3",
+      "captured_sha256": "26c834263a538da47d4fc7ef0a762dab598c39cb179e4f3f92de8c0410676111",
+      "verified": true
+    },
+    {
+      "registry": "archive_registry.json",
+      "key": "instagram-story-owner-20261023",
+      "database": "analysis/instagram-story-owner-20261023/analysis.sqlite3",
+      "captured_sha256": "5aa85bb3efa84a8a759ecf544414a5c067b9f25b9cf4a886a45d3385b0e344ef",
+      "verified": true
+    },
+    {
+      "registry": "archive_registry.json",
+      "key": "instagram-story-owner-20261023",
+      "database": "analysis/instagram-story-owner-20261023/analysis.sqlite3",
+      "captured_sha256": "5aa85bb3efa84a8a759ecf544414a5c067b9f25b9cf4a886a45d3385b0e344ef",
+      "verified": true
+    },
+    {
+      "registry": "youtube_collections.json",
+      "key": "youtube-20261023",
+      "database": "collections/youtube-20261023/youtube.sqlite3",
+      "captured_sha256": "42ae8a8e8905048299e6d5d198de5b9fbf532ff64aaa9ed698baaf9f1e27b139",
+      "verified": true
+    },
+    {
+      "registry": "youtube_collections.json",
+      "key": "youtube-daily-20261023",
+      "database": "collections/youtube-daily-20261023/youtube.sqlite3",
+      "captured_sha256": "23e73b79e9f7789fe8ee6176ef7080b1bac8d2530322c6f3116adbb48956e8d8",
+      "verified": true
+    }
+  ],
+  "secret_scan": {
+    "scope": "Unique file bytes, standalone nested ZIP/Office archives, and ZIP blobs in SQLite BLOB columns; credential file names and common token/key formats. This is a practical scan, not proof that arbitrary hidden secrets are absent.",
+    "unresolved_findings": 0,
+    "reviewed_findings": []
+  },
+  "tests": "Application and historical application test suites were not run. Backup checks only."
+}
