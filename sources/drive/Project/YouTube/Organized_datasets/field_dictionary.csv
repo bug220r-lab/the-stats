@@ -1,0 +1,42 @@
+﻿field,definition
+channel_id,Stable YouTube channel ID; primary account key.
+channel_name,"Observed display name, descriptive only."
+channel_handle,"Observed handle, descriptive and mutable."
+channel_type,Verified account type. Standard channel; not an Official Artist Channel in observed UI.
+report_scope,Account ownership population; channel_owned for these exports. Further filters still apply.
+source_timezone,Platform daily calendar timezone; America/Los_Angeles. Dates are not shifted to UTC.
+report_id,Stable capture identifier joining report_manifest.json and collection_index.csv.
+grain,"channel_daily,channel_period,video_daily,video_period,dimension_daily,or dimension_period."
+snapshot_class,current_retrieval or newly_retrieved_historical. No file is an original October20 snapshot.
+period_kind,Named reporting window. Distinct windows remain separate even when dates overlap.
+reporting_start,"Inclusive reporting start from Studio UI, ISO date."
+reporting_end,Inclusive reporting end from Studio UI. Native ZIP end date is exclusive for these files.
+activity_date,Native Pacific calendar date for daily data. Blank for period/lifetime summary.
+report_content_format,"Content filter used for this report, or all. Distinct from verified format of a single video."
+content_format,Video/Short/livestream classification from explicit source filter; channel rows retain report format.
+canonical_content_format,Canonical grouping format. Video IDs use verified intrinsic format so repeated all-format and filtered exports do not double-count.
+filters_json,"JSON of observed report filters, always part of canonical key. Empty object means no additional filter."
+report_breakdown,"Dimension selected in source report. Chart checkboxes are series selection, not report filters."
+video_id,Stable YouTube video key. Blank for channel and non-video dimension rows.
+video_title,"Source video title, descriptive only; source encoding retained."
+dimension_json,"JSON object of native dimension names/values, such as Geography or Traffic source. Do not merge different dimensions."
+metric,Normalized metric key joining metric_dictionary.csv.
+value,Numeric value in unit column; blank when unavailable/suppressed/not applicable. Never fill blank with zero.
+value_status,"observed,zero,unavailable,suppressed,or not_applicable; see value_status_dictionary.csv."
+unit,"Explicit normalized unit. percent_0_100 denotes percentage-point proportions such as CTR or demographic shares. percent denotes percentage points without a 100% upper bound, used for average percentage viewed because replay can exceed 100%. Neither percentage unit is a fraction."
+aggregation,"Additive within compatible complete scope, or nonadditive. Never add overlapping reporting windows."
+source_field,Unchanged native CSV header.
+source_value_raw,Original CSV cell representation. Preserved even when UI evidence makes normalized numeric value unavailable.
+source_file,Relative path of unchanged extracted native CSV within this package.
+source_url,Stable YouTube Studio channel analytics entrypoint. Exact dynamic report URL was not retained; filters and report context are separate columns.
+source_export_url,"Saved original native ZIP URL, if publication has completed; source bytes remain unchanged."
+source_row_number,One-based CSV logical record number including header as row1; not physical text line for multiline cells.
+source_table_role,"table,chart_total_daily,or selected_chart_series. Default chart selection need not cover all videos."
+retrieved_at_utc,"Acquisition timestamp proxy from downloaded file LastWriteTimeUtc, not exact browser click time."
+retrieved_at_basis,Explicit evidence basis for acquisition timestamp.
+observed_download_completed_at_utc,"Observed downloaded file timestamp in UTC; same file-metadata proxy, not independent server retrieval time."
+quality_notes,Source limitations such as prepublication chart padding or UI/export mismatch; no inferred correction of source bytes.
+priority,Deterministic canonical preference; full metric source preferred to redundant initial export.
+source_observation_count,Count of source observations represented by canonical row.
+source_reports,Semicolon-separated report IDs contributing matching canonical observations.
+source_conflict,true when nonmissing numeric source observations disagree within one canonical key. Sources remain in observations.csv.

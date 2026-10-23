@@ -1,0 +1,7 @@
+﻿status,meaning
+observed,"Native numeric value other than zero, retained at source precision."
+zero,"Explicit native numeric zero, unless independent UI evidence indicates unavailable."
+unavailable,"Blank/dash, unparsed value, or documented UI/export contradiction. Numeric value remains blank."
+suppressed,Source explicitly identifies insufficient or suppressed data; header-only reports are recorded at report level without fabricated metric rows.
+not_applicable,Source explicitly says metric does not apply; never inferred merely from a missing row.
+not_yet_collected,"Collection queue only, for requested information not collected. No invented numeric observations."

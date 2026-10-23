@@ -1,0 +1,561 @@
+﻿report_id,check,status,detail
+annual_content,original_sha256,pass,32eb6186161a5d8034177e4767e28a85dd726f7c39e9b5c6e44e6c7681e236fc
+annual_content,csv_row_width:Table data.csv,pass,28 data rows
+annual_content,member_rows:Table data.csv,info,"28 rows; 1 Total rows; 27 detail rows; fields=Content, Video title, Video publish time, Duration, Engaged views, Average view duration, Average percentage viewed (%), Subscribers gained, Subscribers lost, Likes, Dislikes, Shares, Comments added, Views, Watch time (hours), Subscribers, Thumbnail impressions, Thumbnail click-through rate (%)"
+annual_content,table_row_cap,pass,27 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_content,table_sum:engaged_views,review,detail sum=6333; native Total=6334; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_content,table_sum:subscribers_gained,review,detail sum=24; native Total=61; difference=-37; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_content,table_sum:subscribers_lost,review,detail sum=0; native Total=8; difference=-8; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_content,table_sum:likes,pass,detail sum=214; native Total=214; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_content,table_sum:dislikes,pass,detail sum=3; native Total=3; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_content,table_sum:shares,pass,detail sum=32; native Total=32; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_content,table_sum:comments_added,pass,detail sum=13; native Total=13; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_content,table_sum:views,review,detail sum=10547; native Total=10548; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_content,table_sum:watch_time_hours,review,detail sum=59.8648; native Total=59.8703; difference=-0.0055; missing numeric detail=0; tolerance=0.0027. Retain native total and row coverage; do not force reconciliation.
+annual_content,table_sum:subscribers_net,review,detail sum=24; native Total=53; difference=-29; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_content,table_sum:thumbnail_impressions,review,detail sum=35427; native Total=35513; difference=-86; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_content,csv_row_width:Chart data.csv,pass,1825 data rows
+annual_content,member_rows:Chart data.csv,info,"1825 rows; 0 Total rows; 1825 detail rows; fields=Date, Content, Video title, Video publish time, Duration, Engaged views"
+annual_content,csv_row_width:Totals.csv,pass,365 data rows
+annual_content,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Engaged views"
+annual_date_initial,original_sha256,pass,a150b215e64fbd5dba0d5a5499acd2a5e6f1b2dffe003f471792df86229b2fea
+annual_date_initial,csv_row_width:Table data.csv,pass,204 data rows
+annual_date_initial,member_rows:Table data.csv,info,"204 rows; 1 Total rows; 203 detail rows; fields=Date, Views, Watch time (hours), Average view duration"
+annual_date_initial,table_row_cap,pass,203 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_date_initial,table_sum:views,pass,detail sum=10548; native Total=10548; difference=0; missing numeric detail=3; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_date_initial,table_sum:watch_time_hours,pass,detail sum=59.8709; native Total=59.8703; difference=0.0006; missing numeric detail=3; tolerance=0.0203. Retain native total and row coverage; do not force reconciliation.
+annual_date_initial,csv_row_width:Totals.csv,pass,365 data rows
+annual_date_initial,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Views"
+annual_date_full,original_sha256,pass,c543861438074c238c7d3fd42518f9582df39c82f46a9ba24afa92dbe4c4fad8
+annual_date_full,csv_row_width:Table data.csv,pass,244 data rows
+annual_date_full,member_rows:Table data.csv,info,"244 rows; 1 Total rows; 243 detail rows; fields=Date, Engaged views, Subscribers, Average percentage viewed (%), Thumbnail impressions, Thumbnail click-through rate (%), Subscribers gained, Subscribers lost, Likes, Dislikes, Shares, Comments added, Views, Watch time (hours), Average view duration"
+annual_date_full,table_row_cap,pass,243 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_date_full,table_sum:engaged_views,pass,detail sum=6334; native Total=6334; difference=0; missing numeric detail=43; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_date_full,table_sum:subscribers_net,pass,detail sum=53; native Total=53; difference=0; missing numeric detail=43; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_date_full,table_sum:thumbnail_impressions,pass,detail sum=35513; native Total=35513; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_date_full,table_sum:subscribers_gained,pass,detail sum=61; native Total=61; difference=0; missing numeric detail=43; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_date_full,table_sum:subscribers_lost,pass,detail sum=8; native Total=8; difference=0; missing numeric detail=43; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_date_full,table_sum:likes,pass,detail sum=214; native Total=214; difference=0; missing numeric detail=43; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_date_full,table_sum:dislikes,pass,detail sum=3; native Total=3; difference=0; missing numeric detail=40; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_date_full,table_sum:shares,pass,detail sum=32; native Total=32; difference=0; missing numeric detail=43; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_date_full,table_sum:comments_added,pass,detail sum=13; native Total=13; difference=0; missing numeric detail=43; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_date_full,table_sum:views,pass,detail sum=10548; native Total=10548; difference=0; missing numeric detail=43; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_date_full,table_sum:watch_time_hours,pass,detail sum=59.8709; native Total=59.8703; difference=0.0006; missing numeric detail=43; tolerance=0.0243. Retain native total and row coverage; do not force reconciliation.
+annual_date_full,csv_row_width:Totals.csv,pass,365 data rows
+annual_date_full,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Engaged views"
+lifetime_content,original_sha256,pass,29ebfccacc609a2f7996158855137a2fce1bb489d3b159f8806dc3e0c19ee33a
+lifetime_content,csv_row_width:Table data.csv,pass,28 data rows
+lifetime_content,member_rows:Table data.csv,info,"28 rows; 1 Total rows; 27 detail rows; fields=Content, Video title, Video publish time, Duration, Views, Watch time (hours), Subscribers, Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+lifetime_content,table_row_cap,pass,27 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+lifetime_content,table_sum:views,review,detail sum=10547; native Total=10548; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+lifetime_content,table_sum:watch_time_hours,review,detail sum=59.8648; native Total=59.8703; difference=-0.0055; missing numeric detail=0; tolerance=0.0027. Retain native total and row coverage; do not force reconciliation.
+lifetime_content,table_sum:subscribers_net,review,detail sum=24; native Total=53; difference=-29; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+lifetime_content,table_sum:thumbnail_impressions,review,detail sum=35427; native Total=35513; difference=-86; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+lifetime_content,csv_row_width:Chart data.csv,pass,0 data rows
+lifetime_content,member_rows:Chart data.csv,info,"0 rows; 0 Total rows; 0 detail rows; fields=Date, Content, Video title, Video publish time, Duration, Views"
+lifetime_content,csv_row_width:Totals.csv,pass,1001 data rows
+lifetime_content,member_rows:Totals.csv,info,"1001 rows; 0 Total rows; 1001 detail rows; fields=Date, Views"
+baseline365_content,original_sha256,pass,2d99d028d31abf5de45ac36b56ce5dac22ace91bc3f883863ad521b8c59bea69
+baseline365_content,csv_row_width:Table data.csv,pass,28 data rows
+baseline365_content,member_rows:Table data.csv,info,"28 rows; 1 Total rows; 27 detail rows; fields=Content, Video title, Video publish time, Duration, Views, Watch time (hours), Subscribers, Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+baseline365_content,table_row_cap,pass,27 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+baseline365_content,table_sum:views,review,detail sum=10544; native Total=10545; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+baseline365_content,table_sum:watch_time_hours,review,detail sum=59.8025; native Total=59.8079; difference=-0.0054; missing numeric detail=0; tolerance=0.0027. Retain native total and row coverage; do not force reconciliation.
+baseline365_content,table_sum:subscribers_net,review,detail sum=24; native Total=53; difference=-29; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+baseline365_content,table_sum:thumbnail_impressions,review,detail sum=35414; native Total=35500; difference=-86; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+baseline365_content,csv_row_width:Chart data.csv,pass,1825 data rows
+baseline365_content,member_rows:Chart data.csv,info,"1825 rows; 0 Total rows; 1825 detail rows; fields=Date, Content, Video title, Video publish time, Duration, Views"
+baseline365_content,csv_row_width:Totals.csv,pass,365 data rows
+baseline365_content,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Views"
+baseline365_date,original_sha256,pass,6202fadbaf58561b5024b69da6d16d1b32f3ab7dc3948e486731f82d677cd409
+baseline365_date,csv_row_width:Table data.csv,pass,203 data rows
+baseline365_date,member_rows:Table data.csv,info,"203 rows; 1 Total rows; 202 detail rows; fields=Date, Views, Watch time (hours), Average view duration"
+baseline365_date,table_row_cap,pass,202 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+baseline365_date,table_sum:views,pass,detail sum=10545; native Total=10545; difference=0; missing numeric detail=3; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+baseline365_date,table_sum:watch_time_hours,pass,detail sum=59.8085; native Total=59.8079; difference=0.0006; missing numeric detail=3; tolerance=0.0202. Retain native total and row coverage; do not force reconciliation.
+baseline365_date,csv_row_width:Totals.csv,pass,365 data rows
+baseline365_date,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Views"
+annual_content_type,original_sha256,pass,8c6145a829b68fa5415cbf539b4340a741fe1bc1c76f58422616cd96d27883a8
+annual_content_type,csv_row_width:Table data.csv,pass,3 data rows
+annual_content_type,member_rows:Table data.csv,info,"3 rows; 1 Total rows; 2 detail rows; fields=Content type, Views, Watch time (hours), Average view duration"
+annual_content_type,table_row_cap,pass,2 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_content_type,table_sum:views,pass,detail sum=10548; native Total=10548; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_content_type,table_sum:watch_time_hours,pass,detail sum=59.8703; native Total=59.8703; difference=0.0000; missing numeric detail=0; tolerance=0.0002. Retain native total and row coverage; do not force reconciliation.
+annual_content_type,csv_row_width:Chart data.csv,pass,730 data rows
+annual_content_type,member_rows:Chart data.csv,info,"730 rows; 0 Total rows; 730 detail rows; fields=Date, Content type, Views"
+annual_content_type,csv_row_width:Totals.csv,pass,365 data rows
+annual_content_type,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Views"
+annual_traffic_sources,original_sha256,pass,9a0c2f979d4baaf3cff41ef1b51631a0f802e44fe4bf30b03238144cbd55515d
+annual_traffic_sources,csv_row_width:Table data.csv,pass,13 data rows
+annual_traffic_sources,member_rows:Table data.csv,info,"13 rows; 1 Total rows; 12 detail rows; fields=Traffic source, Views, Watch time (hours), Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+annual_traffic_sources,table_row_cap,pass,12 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_traffic_sources,table_sum:views,pass,detail sum=10548; native Total=10548; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_traffic_sources,table_sum:watch_time_hours,pass,detail sum=59.8701; native Total=59.8703; difference=-0.0002; missing numeric detail=0; tolerance=0.0012. Retain native total and row coverage; do not force reconciliation.
+annual_traffic_sources,table_sum:thumbnail_impressions,pass,detail sum=35513; native Total=35513; difference=0; missing numeric detail=7; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_traffic_sources,csv_row_width:Chart data.csv,pass,4380 data rows
+annual_traffic_sources,member_rows:Chart data.csv,info,"4380 rows; 0 Total rows; 4380 detail rows; fields=Date, Traffic source, Views"
+annual_traffic_sources,csv_row_width:Totals.csv,pass,365 data rows
+annual_traffic_sources,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Views"
+annual_search_terms,original_sha256,pass,7edd35c2a987b1d3ea231349b43df60764195527e4bafc9172154f3fd5768af4
+annual_search_terms,csv_row_width:Table data.csv,pass,35 data rows
+annual_search_terms,member_rows:Table data.csv,info,"35 rows; 1 Total rows; 34 detail rows; fields=Traffic source, Source type, Source title, Views, Watch time (hours), Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+annual_search_terms,table_row_cap,pass,34 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_search_terms,table_sum:views,review,detail sum=47; native Total=239; difference=-192; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_search_terms,table_sum:watch_time_hours,review,detail sum=0.0913; native Total=4.4932; difference=-4.4019; missing numeric detail=0; tolerance=0.0034. Retain native total and row coverage; do not force reconciliation.
+annual_search_terms,table_sum:thumbnail_impressions,review,detail sum=0; native Total=1334; difference=-1334; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_search_terms,csv_row_width:Chart data.csv,pass,1825 data rows
+annual_search_terms,member_rows:Chart data.csv,info,"1825 rows; 0 Total rows; 1825 detail rows; fields=Date, Traffic source, Source type, Source title, Views"
+annual_search_terms,csv_row_width:Totals.csv,pass,365 data rows
+annual_search_terms,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Views"
+annual_external_sources,original_sha256,pass,61c2f199a380ddd53d04e25a9d2faee422119b0fac75edda661e04169326808a
+annual_external_sources,csv_row_width:Table data.csv,pass,10 data rows
+annual_external_sources,member_rows:Table data.csv,info,"10 rows; 1 Total rows; 9 detail rows; fields=Traffic source, Source type, Source title, Views, Watch time (hours), Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+annual_external_sources,table_row_cap,pass,9 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_external_sources,table_sum:views,review,detail sum=33; native Total=42; difference=-9; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_external_sources,table_sum:watch_time_hours,review,detail sum=0.5531; native Total=1.088; difference=-0.5349; missing numeric detail=0; tolerance=0.0009. Retain native total and row coverage; do not force reconciliation.
+annual_external_sources,table_sum:thumbnail_impressions,pass,detail sum=0; native Total=0; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_external_sources,csv_row_width:Chart data.csv,pass,1825 data rows
+annual_external_sources,member_rows:Chart data.csv,info,"1825 rows; 0 Total rows; 1825 detail rows; fields=Date, Traffic source, Source type, Source title, Views"
+annual_external_sources,csv_row_width:Totals.csv,pass,365 data rows
+annual_external_sources,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Views"
+annual_youtube_product,original_sha256,pass,15b48eecb218c886038b30a5bba6ea6c1dcab5c2b5613739a1e90a0492221fc9
+annual_youtube_product,csv_row_width:Table data.csv,pass,3 data rows
+annual_youtube_product,member_rows:Table data.csv,info,"3 rows; 1 Total rows; 2 detail rows; fields=YouTube product, Views, Watch time (hours), Average view duration"
+annual_youtube_product,table_row_cap,pass,2 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_youtube_product,table_sum:views,pass,detail sum=10548; native Total=10548; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_youtube_product,table_sum:watch_time_hours,pass,detail sum=59.8703; native Total=59.8703; difference=0.0000; missing numeric detail=0; tolerance=0.0002. Retain native total and row coverage; do not force reconciliation.
+annual_youtube_product,csv_row_width:Chart data.csv,pass,730 data rows
+annual_youtube_product,member_rows:Chart data.csv,info,"730 rows; 0 Total rows; 730 detail rows; fields=Date, YouTube product, Views"
+annual_youtube_product,csv_row_width:Totals.csv,pass,365 data rows
+annual_youtube_product,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Views"
+last90_content,original_sha256,pass,811adb40e4116c2e2c497a93e1d22ac877f7e3859ca8b7d82af9bd7037e14df0
+last90_content,csv_row_width:Table data.csv,pass,28 data rows
+last90_content,member_rows:Table data.csv,info,"28 rows; 1 Total rows; 27 detail rows; fields=Content, Video title, Video publish time, Duration, Engaged views, Average percentage viewed (%), Unique viewers, New viewers, Returning viewers, Average views per viewer, Views, Watch time (hours), Subscribers, Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+last90_content,table_row_cap,pass,27 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+last90_content,table_sum:engaged_views,pass,detail sum=263; native Total=263; difference=0; missing numeric detail=1; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+last90_content,table_sum:views,pass,detail sum=319; native Total=319; difference=0; missing numeric detail=1; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+last90_content,table_sum:watch_time_hours,pass,detail sum=6.3692; native Total=6.3693; difference=-0.0001; missing numeric detail=1; tolerance=0.0027. Retain native total and row coverage; do not force reconciliation.
+last90_content,table_sum:subscribers_net,review,detail sum=2; native Total=6; difference=-4; missing numeric detail=1; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+last90_content,table_sum:thumbnail_impressions,pass,detail sum=3100; native Total=3100; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+last90_content,csv_row_width:Chart data.csv,pass,450 data rows
+last90_content,member_rows:Chart data.csv,info,"450 rows; 0 Total rows; 450 detail rows; fields=Date, Content, Video title, Video publish time, Duration, Engaged views"
+last90_content,csv_row_width:Totals.csv,pass,90 data rows
+last90_content,member_rows:Totals.csv,info,"90 rows; 0 Total rows; 90 detail rows; fields=Date, Engaged views"
+last90_geography,original_sha256,pass,252a5a7ea17cf53c3b9a927d0178b0adca46e33fa4752e7b06b6fab90cc20e30
+last90_geography,csv_row_width:Table data.csv,pass,3 data rows
+last90_geography,member_rows:Table data.csv,info,"3 rows; 1 Total rows; 2 detail rows; fields=Geography, Views, Watch time (hours), Average view duration"
+last90_geography,table_row_cap,pass,2 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+last90_geography,table_sum:views,review,detail sum=32; native Total=319; difference=-287; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+last90_geography,table_sum:watch_time_hours,review,detail sum=0.8340; native Total=6.3693; difference=-5.5353; missing numeric detail=0; tolerance=0.0002. Retain native total and row coverage; do not force reconciliation.
+last90_geography,csv_row_width:Chart data.csv,pass,180 data rows
+last90_geography,member_rows:Chart data.csv,info,"180 rows; 0 Total rows; 180 detail rows; fields=Date, Geography, Views"
+last90_geography,csv_row_width:Totals.csv,pass,90 data rows
+last90_geography,member_rows:Totals.csv,info,"90 rows; 0 Total rows; 90 detail rows; fields=Date, Views"
+last90_viewer_age,original_sha256,pass,b58b95e0858b317790f44e90b2f8e62e38aac5df4ce05eb4e1491095b8018e24
+last90_viewer_age,csv_row_width:Table data.csv,pass,0 data rows
+last90_viewer_age,member_rows:Table data.csv,info,"0 rows; 0 Total rows; 0 detail rows; fields=Viewer age, Views (%), Average view duration, Average percentage viewed (%), Watch time (hours) (%)"
+last90_viewer_age,table_row_cap,pass,0 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+last90_viewer_gender,original_sha256,pass,da74995904987c6387b666d1eea32ed3b0397a0212b26ad931a34c82d9eb9bd4
+last90_viewer_gender,csv_row_width:Table data.csv,pass,0 data rows
+last90_viewer_gender,member_rows:Table data.csv,info,"0 rows; 0 Total rows; 0 detail rows; fields=Viewer gender, Views (%), Average view duration, Average percentage viewed (%), Watch time (hours) (%)"
+last90_viewer_gender,table_row_cap,pass,0 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+last90_subscription_status,original_sha256,pass,db0f714cd7cca9dc5c8bd1c1431e93e23f2b37168cc4ad92e6ea15fdc17c640b
+last90_subscription_status,csv_row_width:Table data.csv,pass,3 data rows
+last90_subscription_status,member_rows:Table data.csv,info,"3 rows; 1 Total rows; 2 detail rows; fields=Subscription status, Views, Watch time (hours), Average view duration"
+last90_subscription_status,table_row_cap,pass,2 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+last90_subscription_status,table_sum:views,pass,detail sum=319; native Total=319; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+last90_subscription_status,table_sum:watch_time_hours,pass,detail sum=6.3693; native Total=6.3693; difference=0.0000; missing numeric detail=0; tolerance=0.0002. Retain native total and row coverage; do not force reconciliation.
+last90_subscription_status,csv_row_width:Chart data.csv,pass,180 data rows
+last90_subscription_status,member_rows:Chart data.csv,info,"180 rows; 0 Total rows; 180 detail rows; fields=Date, Subscription status, Views"
+last90_subscription_status,csv_row_width:Totals.csv,pass,90 data rows
+last90_subscription_status,member_rows:Totals.csv,info,"90 rows; 0 Total rows; 90 detail rows; fields=Date, Views"
+last90_viewer_type,original_sha256,pass,2e529d91c0324202d0f577fd508b5783585642362a2d97204c4436dd2c36b932
+last90_viewer_type,csv_row_width:Table data.csv,pass,3 data rows
+last90_viewer_type,member_rows:Table data.csv,info,"3 rows; 1 Total rows; 2 detail rows; fields=New and Returning Viewers, Thumbnail impressions, Thumbnail click-through rate (%), Views, Watch time (hours), Average view duration"
+last90_viewer_type,table_row_cap,pass,2 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+last90_viewer_type,table_sum:thumbnail_impressions,pass,detail sum=3100; native Total=3100; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+last90_viewer_type,table_sum:views,pass,detail sum=319; native Total=319; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+last90_viewer_type,table_sum:watch_time_hours,pass,detail sum=6.3693; native Total=6.3693; difference=0.0000; missing numeric detail=0; tolerance=0.0002. Retain native total and row coverage; do not force reconciliation.
+last90_viewer_type,csv_row_width:Chart data.csv,pass,180 data rows
+last90_viewer_type,member_rows:Chart data.csv,info,"180 rows; 0 Total rows; 180 detail rows; fields=Date, New and Returning Viewers, Views"
+last90_viewer_type,csv_row_width:Totals.csv,pass,90 data rows
+last90_viewer_type,member_rows:Totals.csv,info,"90 rows; 0 Total rows; 90 detail rows; fields=Date, Views"
+last28_content,original_sha256,pass,c7c3bdada4e7716df3cf4b629825d685e7b36b02421e224995a51724a79117b5
+last28_content,csv_row_width:Table data.csv,pass,28 data rows
+last28_content,member_rows:Table data.csv,info,"28 rows; 1 Total rows; 27 detail rows; fields=Content, Video title, Video publish time, Duration, Engaged views, Average percentage viewed (%), Unique viewers, New viewers, Returning viewers, Average views per viewer, Views, Watch time (hours), Subscribers, Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+last28_content,table_row_cap,pass,27 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+last28_content,table_sum:engaged_views,pass,detail sum=70; native Total=70; difference=0; missing numeric detail=9; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+last28_content,table_sum:views,pass,detail sum=82; native Total=82; difference=0; missing numeric detail=9; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+last28_content,table_sum:watch_time_hours,pass,detail sum=1.7680; native Total=1.768; difference=0.0000; missing numeric detail=9; tolerance=0.0027. Retain native total and row coverage; do not force reconciliation.
+last28_content,table_sum:subscribers_net,pass,detail sum=0; native Total=0; difference=0; missing numeric detail=9; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+last28_content,table_sum:thumbnail_impressions,pass,detail sum=1327; native Total=1327; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+last28_content,csv_row_width:Chart data.csv,pass,140 data rows
+last28_content,member_rows:Chart data.csv,info,"140 rows; 0 Total rows; 140 detail rows; fields=Date, Content, Video title, Video publish time, Duration, Engaged views"
+last28_content,csv_row_width:Totals.csv,pass,28 data rows
+last28_content,member_rows:Totals.csv,info,"28 rows; 0 Total rows; 28 detail rows; fields=Date, Engaged views"
+last28_geography,original_sha256,pass,e17fba16aaa7f50e6eeb41c8bb51e7473ef22351c84e8dcab206e746d27d1986
+last28_geography,csv_row_width:Table data.csv,pass,1 data rows
+last28_geography,member_rows:Table data.csv,info,"1 rows; 1 Total rows; 0 detail rows; fields=Geography, Views, Watch time (hours), Average view duration"
+last28_geography,table_row_cap,pass,0 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+last28_geography,table_sum:views,review,detail sum=0; native Total=82; difference=-82; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+last28_geography,table_sum:watch_time_hours,review,detail sum=0; native Total=1.768; difference=-1.768; missing numeric detail=0; tolerance=0.0000. Retain native total and row coverage; do not force reconciliation.
+last28_geography,csv_row_width:Chart data.csv,pass,0 data rows
+last28_geography,member_rows:Chart data.csv,info,"0 rows; 0 Total rows; 0 detail rows; fields=Date, Geography, Views"
+last28_geography,csv_row_width:Totals.csv,pass,28 data rows
+last28_geography,member_rows:Totals.csv,info,"28 rows; 0 Total rows; 28 detail rows; fields=Date, Views"
+last28_viewer_age,original_sha256,pass,895f8040a9939dc8e7c15691600bf8e46936b26d961fbf87be703c61a226b3f0
+last28_viewer_age,csv_row_width:Table data.csv,pass,0 data rows
+last28_viewer_age,member_rows:Table data.csv,info,"0 rows; 0 Total rows; 0 detail rows; fields=Viewer age, Views (%), Average view duration, Average percentage viewed (%), Watch time (hours) (%)"
+last28_viewer_age,table_row_cap,pass,0 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+last28_viewer_gender,original_sha256,pass,a8722d795a1fde6d7a3769acb02dba529e2821ac09c77d53367b55b90d136474
+last28_viewer_gender,csv_row_width:Table data.csv,pass,0 data rows
+last28_viewer_gender,member_rows:Table data.csv,info,"0 rows; 0 Total rows; 0 detail rows; fields=Viewer gender, Views (%), Average view duration, Average percentage viewed (%), Watch time (hours) (%)"
+last28_viewer_gender,table_row_cap,pass,0 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+last28_subscription_status,original_sha256,pass,298f7eb910927850a91e05c91e529687b5a3dba1f9b7c7eba67fd081a864ff91
+last28_subscription_status,csv_row_width:Table data.csv,pass,3 data rows
+last28_subscription_status,member_rows:Table data.csv,info,"3 rows; 1 Total rows; 2 detail rows; fields=Subscription status, Views, Watch time (hours), Average view duration"
+last28_subscription_status,table_row_cap,pass,2 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+last28_subscription_status,table_sum:views,pass,detail sum=82; native Total=82; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+last28_subscription_status,table_sum:watch_time_hours,pass,detail sum=1.7680; native Total=1.768; difference=0.0000; missing numeric detail=0; tolerance=0.0002. Retain native total and row coverage; do not force reconciliation.
+last28_subscription_status,csv_row_width:Chart data.csv,pass,56 data rows
+last28_subscription_status,member_rows:Chart data.csv,info,"56 rows; 0 Total rows; 56 detail rows; fields=Date, Subscription status, Views"
+last28_subscription_status,csv_row_width:Totals.csv,pass,28 data rows
+last28_subscription_status,member_rows:Totals.csv,info,"28 rows; 0 Total rows; 28 detail rows; fields=Date, Views"
+last28_viewer_type,original_sha256,pass,4cef1375638443061e52af27c2f0bd94de779615747cc0327a6b0ce2aa5d08e0
+last28_viewer_type,csv_row_width:Table data.csv,pass,3 data rows
+last28_viewer_type,member_rows:Table data.csv,info,"3 rows; 1 Total rows; 2 detail rows; fields=New and Returning Viewers, Thumbnail impressions, Thumbnail click-through rate (%), Views, Watch time (hours), Average view duration"
+last28_viewer_type,table_row_cap,pass,2 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+last28_viewer_type,table_sum:thumbnail_impressions,pass,detail sum=1327; native Total=1327; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+last28_viewer_type,table_sum:views,pass,detail sum=82; native Total=82; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+last28_viewer_type,table_sum:watch_time_hours,pass,detail sum=1.7680; native Total=1.768; difference=0.0000; missing numeric detail=0; tolerance=0.0002. Retain native total and row coverage; do not force reconciliation.
+last28_viewer_type,csv_row_width:Chart data.csv,pass,56 data rows
+last28_viewer_type,member_rows:Chart data.csv,info,"56 rows; 0 Total rows; 56 detail rows; fields=Date, New and Returning Viewers, Views"
+last28_viewer_type,csv_row_width:Totals.csv,pass,28 data rows
+last28_viewer_type,member_rows:Totals.csv,info,"28 rows; 0 Total rows; 28 detail rows; fields=Date, Views"
+annual_videos,original_sha256,pass,afb674107e533d02de8e6d4264ac6517f53f028e0f6c62cfb3019cfed76f69ca
+annual_videos,csv_row_width:Table data.csv,pass,20 data rows
+annual_videos,member_rows:Table data.csv,info,"20 rows; 1 Total rows; 19 detail rows; fields=Content, Video title, Video publish time, Duration, Views, Watch time (hours), Subscribers, Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+annual_videos,table_row_cap,pass,19 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_videos,table_sum:views,pass,detail sum=1243; native Total=1243; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_videos,table_sum:watch_time_hours,pass,detail sum=43.6559; native Total=43.656; difference=-0.0001; missing numeric detail=0; tolerance=0.0019. Retain native total and row coverage; do not force reconciliation.
+annual_videos,table_sum:subscribers_net,pass,detail sum=17; native Total=17; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_videos,table_sum:thumbnail_impressions,review,detail sum=34242; native Total=34323; difference=-81; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_videos,csv_row_width:Chart data.csv,pass,1825 data rows
+annual_videos,member_rows:Chart data.csv,info,"1825 rows; 0 Total rows; 1825 detail rows; fields=Date, Content, Video title, Video publish time, Duration, Views"
+annual_videos,csv_row_width:Totals.csv,pass,365 data rows
+annual_videos,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Views"
+annual_shorts,original_sha256,pass,64b56dfe90e3bb12b337a6541352f221de63081e1b892704709f31613e7c0b04
+annual_shorts,csv_row_width:Table data.csv,pass,9 data rows
+annual_shorts,member_rows:Table data.csv,info,"9 rows; 1 Total rows; 8 detail rows; fields=Content, Video title, Video publish time, Duration, Views, Watch time (hours), Subscribers, Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+annual_shorts,table_row_cap,pass,8 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_shorts,table_sum:views,review,detail sum=9304; native Total=9305; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_shorts,table_sum:watch_time_hours,review,detail sum=16.2089; native Total=16.2143; difference=-0.0054; missing numeric detail=0; tolerance=0.0008. Retain native total and row coverage; do not force reconciliation.
+annual_shorts,table_sum:subscribers_net,pass,detail sum=7; native Total=7; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_shorts,table_sum:thumbnail_impressions,review,detail sum=1185; native Total=1190; difference=-5; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_shorts,csv_row_width:Chart data.csv,pass,1825 data rows
+annual_shorts,member_rows:Chart data.csv,info,"1825 rows; 0 Total rows; 1825 detail rows; fields=Date, Content, Video title, Video publish time, Duration, Views"
+annual_shorts,csv_row_width:Totals.csv,pass,365 data rows
+annual_shorts,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Views"
+lifetime_livestream,original_sha256,pass,6e36039b8e00735a789c3770546eed364fe38879d8af91916ac820832d4375a0
+lifetime_livestream,csv_row_width:Table data.csv,pass,1 data rows
+lifetime_livestream,member_rows:Table data.csv,info,"1 rows; 1 Total rows; 0 detail rows; fields=Content, Video title, Video publish time, Duration, Views, Watch time (hours), Subscribers, Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+lifetime_livestream,table_row_cap,pass,0 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+lifetime_livestream,table_sum:views,pass,detail sum=0; native Total=0; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+lifetime_livestream,table_sum:watch_time_hours,pass,detail sum=0; native Total=0; difference=0; missing numeric detail=0; tolerance=0.0000. Retain native total and row coverage; do not force reconciliation.
+lifetime_livestream,table_sum:subscribers_net,pass,detail sum=0; native Total=0; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+lifetime_livestream,table_sum:thumbnail_impressions,pass,detail sum=0; native Total=0; difference=0; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+lifetime_livestream,csv_row_width:Chart data.csv,pass,0 data rows
+lifetime_livestream,member_rows:Chart data.csv,info,"0 rows; 0 Total rows; 0 detail rows; fields=Date, Content, Video title, Video publish time, Duration, Views"
+lifetime_livestream,csv_row_width:Totals.csv,pass,1001 data rows
+lifetime_livestream,member_rows:Totals.csv,info,"1001 rows; 0 Total rows; 1001 detail rows; fields=Date, Views"
+annual_video_views_batch1,original_sha256,pass,47bc6b6f8c72d12a5e61473e5c6d621aac09eddc91aeaf9df2d0c83c517a823c
+annual_video_views_batch1,csv_row_width:Table data.csv,pass,28 data rows
+annual_video_views_batch1,member_rows:Table data.csv,info,"28 rows; 1 Total rows; 27 detail rows; fields=Content, Video title, Video publish time, Duration, Views, Watch time (hours), Subscribers, Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+annual_video_views_batch1,table_row_cap,pass,27 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_video_views_batch1,table_sum:views,review,detail sum=10547; native Total=10548; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch1,table_sum:watch_time_hours,review,detail sum=59.8648; native Total=59.8703; difference=-0.0055; missing numeric detail=0; tolerance=0.0027. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch1,table_sum:subscribers_net,review,detail sum=24; native Total=53; difference=-29; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch1,table_sum:thumbnail_impressions,review,detail sum=35427; native Total=35513; difference=-86; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch1,csv_row_width:Chart data.csv,pass,1825 data rows
+annual_video_views_batch1,member_rows:Chart data.csv,info,"1825 rows; 0 Total rows; 1825 detail rows; fields=Date, Content, Video title, Video publish time, Duration, Views"
+annual_video_views_batch1,csv_row_width:Totals.csv,pass,365 data rows
+annual_video_views_batch1,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Views"
+annual_video_views_batch2,original_sha256,pass,29888c09d0ea0f542134523152b461f2564ff61200618a6a58014dad045a0826
+annual_video_views_batch2,csv_row_width:Table data.csv,pass,28 data rows
+annual_video_views_batch2,member_rows:Table data.csv,info,"28 rows; 1 Total rows; 27 detail rows; fields=Content, Video title, Video publish time, Duration, Views, Watch time (hours), Subscribers, Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+annual_video_views_batch2,table_row_cap,pass,27 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_video_views_batch2,table_sum:views,review,detail sum=10547; native Total=10548; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch2,table_sum:watch_time_hours,review,detail sum=59.8648; native Total=59.8703; difference=-0.0055; missing numeric detail=0; tolerance=0.0027. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch2,table_sum:subscribers_net,review,detail sum=24; native Total=53; difference=-29; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch2,table_sum:thumbnail_impressions,review,detail sum=35427; native Total=35513; difference=-86; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch2,csv_row_width:Chart data.csv,pass,1825 data rows
+annual_video_views_batch2,member_rows:Chart data.csv,info,"1825 rows; 0 Total rows; 1825 detail rows; fields=Date, Content, Video title, Video publish time, Duration, Views"
+annual_video_views_batch2,csv_row_width:Totals.csv,pass,365 data rows
+annual_video_views_batch2,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Views"
+annual_video_views_batch3,original_sha256,pass,4444923329896bb52c96f2bd067945bb8174a41666d8156844de5fbbe035b00e
+annual_video_views_batch3,csv_row_width:Table data.csv,pass,28 data rows
+annual_video_views_batch3,member_rows:Table data.csv,info,"28 rows; 1 Total rows; 27 detail rows; fields=Content, Video title, Video publish time, Duration, Views, Watch time (hours), Subscribers, Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+annual_video_views_batch3,table_row_cap,pass,27 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_video_views_batch3,table_sum:views,review,detail sum=10547; native Total=10548; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch3,table_sum:watch_time_hours,review,detail sum=59.8648; native Total=59.8703; difference=-0.0055; missing numeric detail=0; tolerance=0.0027. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch3,table_sum:subscribers_net,review,detail sum=24; native Total=53; difference=-29; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch3,table_sum:thumbnail_impressions,review,detail sum=35427; native Total=35513; difference=-86; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch3,csv_row_width:Chart data.csv,pass,1825 data rows
+annual_video_views_batch3,member_rows:Chart data.csv,info,"1825 rows; 0 Total rows; 1825 detail rows; fields=Date, Content, Video title, Video publish time, Duration, Views"
+annual_video_views_batch3,csv_row_width:Totals.csv,pass,365 data rows
+annual_video_views_batch3,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Views"
+annual_video_views_batch4,original_sha256,pass,e6174e732c9a5edfbeb651c3b4ec683ed881e2a33f5d146d59b7c7e07bcfee8e
+annual_video_views_batch4,csv_row_width:Table data.csv,pass,28 data rows
+annual_video_views_batch4,member_rows:Table data.csv,info,"28 rows; 1 Total rows; 27 detail rows; fields=Content, Video title, Video publish time, Duration, Views, Watch time (hours), Subscribers, Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+annual_video_views_batch4,table_row_cap,pass,27 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_video_views_batch4,table_sum:views,review,detail sum=10547; native Total=10548; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch4,table_sum:watch_time_hours,review,detail sum=59.8648; native Total=59.8703; difference=-0.0055; missing numeric detail=0; tolerance=0.0027. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch4,table_sum:subscribers_net,review,detail sum=24; native Total=53; difference=-29; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch4,table_sum:thumbnail_impressions,review,detail sum=35427; native Total=35513; difference=-86; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch4,csv_row_width:Chart data.csv,pass,1825 data rows
+annual_video_views_batch4,member_rows:Chart data.csv,info,"1825 rows; 0 Total rows; 1825 detail rows; fields=Date, Content, Video title, Video publish time, Duration, Views"
+annual_video_views_batch4,csv_row_width:Totals.csv,pass,365 data rows
+annual_video_views_batch4,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Views"
+annual_video_views_batch5,original_sha256,pass,eea943be30767f3d3ee4b5e65843f2d72dd96131d1b1b7fc0dca77c367c9e9c1
+annual_video_views_batch5,csv_row_width:Table data.csv,pass,28 data rows
+annual_video_views_batch5,member_rows:Table data.csv,info,"28 rows; 1 Total rows; 27 detail rows; fields=Content, Video title, Video publish time, Duration, Views, Watch time (hours), Subscribers, Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+annual_video_views_batch5,table_row_cap,pass,27 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_video_views_batch5,table_sum:views,review,detail sum=10547; native Total=10548; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch5,table_sum:watch_time_hours,review,detail sum=59.8648; native Total=59.8703; difference=-0.0055; missing numeric detail=0; tolerance=0.0027. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch5,table_sum:subscribers_net,review,detail sum=24; native Total=53; difference=-29; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch5,table_sum:thumbnail_impressions,review,detail sum=35427; native Total=35513; difference=-86; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch5,csv_row_width:Chart data.csv,pass,1825 data rows
+annual_video_views_batch5,member_rows:Chart data.csv,info,"1825 rows; 0 Total rows; 1825 detail rows; fields=Date, Content, Video title, Video publish time, Duration, Views"
+annual_video_views_batch5,csv_row_width:Totals.csv,pass,365 data rows
+annual_video_views_batch5,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Views"
+annual_video_views_batch6,original_sha256,pass,8f2ddd6552632e07e59a56c87f917ffc76779f97baf9fef8cebdc85f824abfb1
+annual_video_views_batch6,csv_row_width:Table data.csv,pass,28 data rows
+annual_video_views_batch6,member_rows:Table data.csv,info,"28 rows; 1 Total rows; 27 detail rows; fields=Content, Video title, Video publish time, Duration, Views, Watch time (hours), Subscribers, Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+annual_video_views_batch6,table_row_cap,pass,27 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_video_views_batch6,table_sum:views,review,detail sum=10547; native Total=10548; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch6,table_sum:watch_time_hours,review,detail sum=59.8648; native Total=59.8703; difference=-0.0055; missing numeric detail=0; tolerance=0.0027. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch6,table_sum:subscribers_net,review,detail sum=24; native Total=53; difference=-29; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch6,table_sum:thumbnail_impressions,review,detail sum=35427; native Total=35513; difference=-86; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_views_batch6,csv_row_width:Chart data.csv,pass,730 data rows
+annual_video_views_batch6,member_rows:Chart data.csv,info,"730 rows; 0 Total rows; 730 detail rows; fields=Date, Content, Video title, Video publish time, Duration, Views"
+annual_video_views_batch6,csv_row_width:Totals.csv,pass,365 data rows
+annual_video_views_batch6,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Views"
+annual_video_engaged_batch1,original_sha256,pass,d6d763ffe781368a30b7215bda4126dbfb7aa313cf76e79d4b8ed5cd94f5e319
+annual_video_engaged_batch1,csv_row_width:Table data.csv,pass,28 data rows
+annual_video_engaged_batch1,member_rows:Table data.csv,info,"28 rows; 1 Total rows; 27 detail rows; fields=Content, Video title, Video publish time, Duration, Engaged views, Views, Watch time (hours), Subscribers, Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+annual_video_engaged_batch1,table_row_cap,pass,27 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_video_engaged_batch1,table_sum:engaged_views,review,detail sum=6333; native Total=6334; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch1,table_sum:views,review,detail sum=10547; native Total=10548; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch1,table_sum:watch_time_hours,review,detail sum=59.8648; native Total=59.8703; difference=-0.0055; missing numeric detail=0; tolerance=0.0027. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch1,table_sum:subscribers_net,review,detail sum=24; native Total=53; difference=-29; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch1,table_sum:thumbnail_impressions,review,detail sum=35427; native Total=35513; difference=-86; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch1,csv_row_width:Chart data.csv,pass,2555 data rows
+annual_video_engaged_batch1,member_rows:Chart data.csv,info,"2555 rows; 0 Total rows; 2555 detail rows; fields=Date, Content, Video title, Video publish time, Duration, Engaged views"
+annual_video_engaged_batch1,csv_row_width:Totals.csv,pass,365 data rows
+annual_video_engaged_batch1,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Engaged views"
+annual_video_engaged_batch2,original_sha256,pass,b560b52b825c497a17204ce4f2204278edba723671b39d597d467cf067f0cb00
+annual_video_engaged_batch2,csv_row_width:Table data.csv,pass,28 data rows
+annual_video_engaged_batch2,member_rows:Table data.csv,info,"28 rows; 1 Total rows; 27 detail rows; fields=Content, Video title, Video publish time, Duration, Engaged views, Views, Watch time (hours), Subscribers, Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+annual_video_engaged_batch2,table_row_cap,pass,27 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_video_engaged_batch2,table_sum:engaged_views,review,detail sum=6333; native Total=6334; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch2,table_sum:views,review,detail sum=10547; native Total=10548; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch2,table_sum:watch_time_hours,review,detail sum=59.8648; native Total=59.8703; difference=-0.0055; missing numeric detail=0; tolerance=0.0027. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch2,table_sum:subscribers_net,review,detail sum=24; native Total=53; difference=-29; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch2,table_sum:thumbnail_impressions,review,detail sum=35427; native Total=35513; difference=-86; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch2,csv_row_width:Chart data.csv,pass,2555 data rows
+annual_video_engaged_batch2,member_rows:Chart data.csv,info,"2555 rows; 0 Total rows; 2555 detail rows; fields=Date, Content, Video title, Video publish time, Duration, Engaged views"
+annual_video_engaged_batch2,csv_row_width:Totals.csv,pass,365 data rows
+annual_video_engaged_batch2,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Engaged views"
+annual_video_engaged_batch3,original_sha256,pass,2af97dd91ccbc9bd0bcd491ffd33fa91c2a373dd59df7d6ebfea0df7f749bf3b
+annual_video_engaged_batch3,csv_row_width:Table data.csv,pass,28 data rows
+annual_video_engaged_batch3,member_rows:Table data.csv,info,"28 rows; 1 Total rows; 27 detail rows; fields=Content, Video title, Video publish time, Duration, Engaged views, Views, Watch time (hours), Subscribers, Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+annual_video_engaged_batch3,table_row_cap,pass,27 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_video_engaged_batch3,table_sum:engaged_views,review,detail sum=6333; native Total=6334; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch3,table_sum:views,review,detail sum=10547; native Total=10548; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch3,table_sum:watch_time_hours,review,detail sum=59.8648; native Total=59.8703; difference=-0.0055; missing numeric detail=0; tolerance=0.0027. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch3,table_sum:subscribers_net,review,detail sum=24; native Total=53; difference=-29; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch3,table_sum:thumbnail_impressions,review,detail sum=35427; native Total=35513; difference=-86; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch3,csv_row_width:Chart data.csv,pass,2555 data rows
+annual_video_engaged_batch3,member_rows:Chart data.csv,info,"2555 rows; 0 Total rows; 2555 detail rows; fields=Date, Content, Video title, Video publish time, Duration, Engaged views"
+annual_video_engaged_batch3,csv_row_width:Totals.csv,pass,365 data rows
+annual_video_engaged_batch3,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Engaged views"
+annual_video_engaged_batch4,original_sha256,pass,bad836e122f3970a2c45cffbc4ea19b58a9a701aabc468b7a764c294fe5c0fd8
+annual_video_engaged_batch4,csv_row_width:Table data.csv,pass,28 data rows
+annual_video_engaged_batch4,member_rows:Table data.csv,info,"28 rows; 1 Total rows; 27 detail rows; fields=Content, Video title, Video publish time, Duration, Engaged views, Views, Watch time (hours), Subscribers, Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+annual_video_engaged_batch4,table_row_cap,pass,27 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_video_engaged_batch4,table_sum:engaged_views,review,detail sum=6333; native Total=6334; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch4,table_sum:views,review,detail sum=10547; native Total=10548; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch4,table_sum:watch_time_hours,review,detail sum=59.8648; native Total=59.8703; difference=-0.0055; missing numeric detail=0; tolerance=0.0027. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch4,table_sum:subscribers_net,review,detail sum=24; native Total=53; difference=-29; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch4,table_sum:thumbnail_impressions,review,detail sum=35427; native Total=35513; difference=-86; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch4,csv_row_width:Chart data.csv,pass,2555 data rows
+annual_video_engaged_batch4,member_rows:Chart data.csv,info,"2555 rows; 0 Total rows; 2555 detail rows; fields=Date, Content, Video title, Video publish time, Duration, Engaged views"
+annual_video_engaged_batch4,csv_row_width:Totals.csv,pass,365 data rows
+annual_video_engaged_batch4,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Engaged views"
+annual_video_engaged_batch5,original_sha256,pass,30e977f0d5fc7d384543be62f5059d8f4270c891c37466128190bf8e3eb318b5
+annual_video_engaged_batch5,csv_row_width:Table data.csv,pass,28 data rows
+annual_video_engaged_batch5,member_rows:Table data.csv,info,"28 rows; 1 Total rows; 27 detail rows; fields=Content, Video title, Video publish time, Duration, Engaged views, Views, Watch time (hours), Subscribers, Average view duration, Thumbnail impressions, Thumbnail click-through rate (%)"
+annual_video_engaged_batch5,table_row_cap,pass,27 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_video_engaged_batch5,table_sum:engaged_views,review,detail sum=6333; native Total=6334; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch5,table_sum:views,review,detail sum=10547; native Total=10548; difference=-1; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch5,table_sum:watch_time_hours,review,detail sum=59.8648; native Total=59.8703; difference=-0.0055; missing numeric detail=0; tolerance=0.0027. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch5,table_sum:subscribers_net,review,detail sum=24; native Total=53; difference=-29; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch5,table_sum:thumbnail_impressions,review,detail sum=35427; native Total=35513; difference=-86; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_video_engaged_batch5,csv_row_width:Chart data.csv,pass,2555 data rows
+annual_video_engaged_batch5,member_rows:Chart data.csv,info,"2555 rows; 0 Total rows; 2555 detail rows; fields=Date, Content, Video title, Video publish time, Duration, Engaged views"
+annual_video_engaged_batch5,csv_row_width:Totals.csv,pass,365 data rows
+annual_video_engaged_batch5,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Engaged views"
+annual_geography,original_sha256,pass,cc3d48da3999c291e79b2d367418f4855a79401c3bca02990b85a38308f1c1ad
+annual_geography,csv_row_width:Table data.csv,pass,10 data rows
+annual_geography,member_rows:Table data.csv,info,"10 rows; 1 Total rows; 9 detail rows; fields=Geography, Views, Watch time (hours), Average view duration"
+annual_geography,table_row_cap,pass,9 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_geography,table_sum:views,review,detail sum=8154; native Total=10548; difference=-2394; missing numeric detail=0; tolerance=0. Retain native total and row coverage; do not force reconciliation.
+annual_geography,table_sum:watch_time_hours,review,detail sum=26.6459; native Total=59.8703; difference=-33.2244; missing numeric detail=0; tolerance=0.0009. Retain native total and row coverage; do not force reconciliation.
+annual_geography,csv_row_width:Chart data.csv,pass,3285 data rows
+annual_geography,member_rows:Chart data.csv,info,"3285 rows; 0 Total rows; 3285 detail rows; fields=Date, Geography, Views"
+annual_geography,csv_row_width:Totals.csv,pass,365 data rows
+annual_geography,member_rows:Totals.csv,info,"365 rows; 0 Total rows; 365 detail rows; fields=Date, Views"
+annual_viewer_age,original_sha256,pass,47523ddb3b3753bdc55dfc8d2c983fe7015421a887ab3c65da8fd4bc6b22631b
+annual_viewer_age,csv_row_width:Table data.csv,pass,6 data rows
+annual_viewer_age,member_rows:Table data.csv,info,"6 rows; 0 Total rows; 6 detail rows; fields=Viewer age, Views (%), Average view duration, Average percentage viewed (%), Watch time (hours) (%)"
+annual_viewer_age,table_row_cap,pass,6 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_viewer_gender,original_sha256,pass,e70a2c9b2abf1408c75df94a3c7b6cc781b822dd516252659cbaf5505e1b1712
+annual_viewer_gender,csv_row_width:Table data.csv,pass,2 data rows
+annual_viewer_gender,member_rows:Table data.csv,info,"2 rows; 0 Total rows; 2 detail rows; fields=Viewer gender, Views (%), Average view duration, Average percentage viewed (%), Watch time (hours) (%)"
+annual_viewer_gender,table_row_cap,pass,2 detail rows; native table cap 500. Below cap does not establish unrestricted population coverage.
+annual_external_sources,daily_sum:views,pass,grain=channel_daily; video=; dimension=; observed sum=42; report total=42; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_external_sources,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Source title"": ""Facebook"", ""Source type"": """", ""Traffic source"": ""EXT_URL.facebook.com""}; observed sum=4; report total=4; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_external_sources,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Source title"": ""Google Search"", ""Source type"": """", ""Traffic source"": ""EXT_URL.Google Search""}; observed sum=4; report total=4; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_external_sources,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Source title"": ""Instagram"", ""Source type"": """", ""Traffic source"": ""EXT_URL.Instagram""}; observed sum=1; report total=1; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_external_sources,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Source title"": ""instagram.com"", ""Source type"": """", ""Traffic source"": ""EXT_URL.instagram.com""}; observed sum=9; report total=9; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_external_sources,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Source title"": ""spacehey.com"", ""Source type"": """", ""Traffic source"": ""EXT_URL.spacehey.com""}; observed sum=11; report total=11; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_search_terms,daily_sum:views,pass,grain=channel_daily; video=; dimension=; observed sum=239; report total=239; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_search_terms,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Source title"": ""fafnir beyblade"", ""Source type"": """", ""Traffic source"": ""YT_SEARCH.fafnir beyblade""}; observed sum=4; report total=4; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_search_terms,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Source title"": ""redacted band"", ""Source type"": """", ""Traffic source"": ""YT_SEARCH.redacted band""}; observed sum=2; report total=2; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_search_terms,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Source title"": ""redacted"", ""Source type"": """", ""Traffic source"": ""YT_SEARCH.redacted""}; observed sum=3; report total=3; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_search_terms,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Source title"": ""school of rock jack black"", ""Source type"": """", ""Traffic source"": ""YT_SEARCH.school of rock jack black""}; observed sum=2; report total=2; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_search_terms,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Source title"": ""wwe"", ""Source type"": """", ""Traffic source"": ""YT_SEARCH.wwe""}; observed sum=3; report total=3; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_date_full,daily_sum:engaged_views,pass,grain=channel_daily; video=; dimension=; observed sum=6334; report total=6334; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_date_full,daily_sum:views,pass,grain=channel_daily; video=; dimension=; observed sum=10548; report total=10548; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_date_full,daily_sum:comments_added,pass,grain=channel_daily; video=; dimension=; observed sum=13; report total=13; difference=0; missing dates=122; tolerance=0; missing dates not imputed
+annual_date_full,daily_sum:dislikes,pass,grain=channel_daily; video=; dimension=; observed sum=3; report total=3; difference=0; missing dates=122; tolerance=0; missing dates not imputed
+annual_date_full,daily_sum:likes,pass,grain=channel_daily; video=; dimension=; observed sum=214; report total=214; difference=0; missing dates=122; tolerance=0; missing dates not imputed
+annual_date_full,daily_sum:shares,pass,grain=channel_daily; video=; dimension=; observed sum=32; report total=32; difference=0; missing dates=122; tolerance=0; missing dates not imputed
+annual_date_full,daily_sum:subscribers_gained,pass,grain=channel_daily; video=; dimension=; observed sum=61; report total=61; difference=0; missing dates=122; tolerance=0; missing dates not imputed
+annual_date_full,daily_sum:subscribers_lost,pass,grain=channel_daily; video=; dimension=; observed sum=8; report total=8; difference=0; missing dates=122; tolerance=0; missing dates not imputed
+annual_date_full,daily_sum:subscribers_net,pass,grain=channel_daily; video=; dimension=; observed sum=53; report total=53; difference=0; missing dates=122; tolerance=0; missing dates not imputed
+annual_date_full,daily_sum:thumbnail_impressions,pass,grain=channel_daily; video=; dimension=; observed sum=35513; report total=35513; difference=0; missing dates=122; tolerance=0; missing dates not imputed
+annual_date_full,daily_sum:watch_time_hours,pass,grain=channel_daily; video=; dimension=; observed sum=59.8709; report total=59.8703; difference=0.0006; missing dates=122; tolerance=0.0243; missing dates not imputed
+annual_content_type,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Content type"": ""Shorts""}; observed sum=9305; report total=9305; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_content_type,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Content type"": ""Videos""}; observed sum=1243; report total=1243; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_geography,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Geography"": ""AU""}; observed sum=240; report total=240; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_geography,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Geography"": ""CA""}; observed sum=191; report total=191; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_geography,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Geography"": ""DE""}; observed sum=129; report total=129; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_geography,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Geography"": ""GB""}; observed sum=188; report total=188; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_geography,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Geography"": ""ID""}; observed sum=36; report total=36; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_geography,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Geography"": ""IN""}; observed sum=26; report total=26; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_geography,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Geography"": ""RU""}; observed sum=57; report total=57; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_geography,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Geography"": ""SE""}; observed sum=36; report total=36; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_geography,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Geography"": ""US""}; observed sum=7251; report total=7251; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_traffic_sources,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Traffic source"": ""Browse features""}; observed sum=218; report total=218; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_traffic_sources,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Traffic source"": ""Channel pages""}; observed sum=417; report total=417; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_traffic_sources,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Traffic source"": ""Direct or unknown""}; observed sum=70; report total=70; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_traffic_sources,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Traffic source"": ""External""}; observed sum=42; report total=42; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_traffic_sources,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Traffic source"": ""Hashtag pages""}; observed sum=8; report total=8; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_traffic_sources,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Traffic source"": ""Notifications""}; observed sum=36; report total=36; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_traffic_sources,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Traffic source"": ""Other YouTube features""}; observed sum=261; report total=261; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_traffic_sources,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Traffic source"": ""Playlists""}; observed sum=238; report total=238; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_traffic_sources,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Traffic source"": ""Shorts feed""}; observed sum=8750; report total=8750; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_traffic_sources,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Traffic source"": ""Sound pages""}; observed sum=3; report total=3; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_traffic_sources,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Traffic source"": ""Suggested videos""}; observed sum=266; report total=266; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_traffic_sources,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Traffic source"": ""YouTube search""}; observed sum=239; report total=239; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_youtube_product,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""YouTube product"": ""YouTube Music""}; observed sum=93; report total=93; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_youtube_product,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""YouTube product"": ""YouTube""}; observed sum=10455; report total=10455; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+annual_shorts,daily_sum:views,pass,grain=channel_daily; video=; dimension=; observed sum=9305; report total=9305; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=FeGqXlx4tHk; dimension=; observed sum=608; report total=608; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=FeGqXlx4tHk; dimension=; observed sum=986; report total=986; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=Gk8J1KgrhVo; dimension=; observed sum=50; report total=50; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=Gk8J1KgrhVo; dimension=; observed sum=153; report total=153; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=No0vwfv9EBQ; dimension=; observed sum=571; report total=571; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=No0vwfv9EBQ; dimension=; observed sum=1176; report total=1176; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=WWCF470Tk8Y; dimension=; observed sum=102; report total=102; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=WWCF470Tk8Y; dimension=; observed sum=213; report total=213; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=YfSpDkjlKzc; dimension=; observed sum=561; report total=561; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=YfSpDkjlKzc; dimension=; observed sum=1010; report total=1010; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=mLqyervReNE; dimension=; observed sum=527; report total=527; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=mLqyervReNE; dimension=; observed sum=992; report total=992; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=oSYx8uSfRN4; dimension=; observed sum=1791; report total=1791; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=oSYx8uSfRN4; dimension=; observed sum=3032; report total=3032; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=tcRYYSDQC4A; dimension=; observed sum=914; report total=914; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=tcRYYSDQC4A; dimension=; observed sum=1742; report total=1742; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_videos,daily_sum:views,pass,grain=channel_daily; video=; dimension=; observed sum=1243; report total=1243; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=7tW8CxyzeHY; dimension=; observed sum=33; report total=33; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=7tW8CxyzeHY; dimension=; observed sum=36; report total=36; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=AYb-FnxQ7xo; dimension=; observed sum=27; report total=27; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=AYb-FnxQ7xo; dimension=; observed sum=27; report total=27; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=C6UXnRUTVvY; dimension=; observed sum=48; report total=48; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=C6UXnRUTVvY; dimension=; observed sum=48; report total=48; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=EN6tkiqrL1o; dimension=; observed sum=40; report total=40; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=EN6tkiqrL1o; dimension=; observed sum=40; report total=40; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=Fa4_SW2eB6o; dimension=; observed sum=255; report total=255; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=Fa4_SW2eB6o; dimension=; observed sum=263; report total=263; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=IQJqJxj6KRM; dimension=; observed sum=30; report total=30; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=IQJqJxj6KRM; dimension=; observed sum=31; report total=31; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=KciP8jscymA; dimension=; observed sum=99; report total=99; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=KciP8jscymA; dimension=; observed sum=101; report total=101; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=QdmsmOHtt8s; dimension=; observed sum=147; report total=147; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=QdmsmOHtt8s; dimension=; observed sum=147; report total=147; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=UCTdXvNroMY; dimension=; observed sum=34; report total=34; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=UCTdXvNroMY; dimension=; observed sum=36; report total=36; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=YnRQhj1hcTM; dimension=; observed sum=27; report total=27; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=YnRQhj1hcTM; dimension=; observed sum=27; report total=27; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=ZXoXCeDg154; dimension=; observed sum=15; report total=15; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=ZXoXCeDg154; dimension=; observed sum=17; report total=17; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=bb_7H8ECfv0; dimension=; observed sum=63; report total=63; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=bb_7H8ECfv0; dimension=; observed sum=65; report total=65; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=cFcKyVcQCng; dimension=; observed sum=30; report total=30; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=cFcKyVcQCng; dimension=; observed sum=34; report total=34; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=fvhinu1Ovwc; dimension=; observed sum=23; report total=23; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=fvhinu1Ovwc; dimension=; observed sum=26; report total=26; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=jf-i9HbqVc0; dimension=; observed sum=27; report total=27; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=jf-i9HbqVc0; dimension=; observed sum=29; report total=29; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=ki7nlIXrcJM; dimension=; observed sum=54; report total=54; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=ki7nlIXrcJM; dimension=; observed sum=54; report total=54; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=l6oU6CbKrsE; dimension=; observed sum=194; report total=194; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=l6oU6CbKrsE; dimension=; observed sum=195; report total=195; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=mK_jceuq6B8; dimension=; observed sum=53; report total=53; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=mK_jceuq6B8; dimension=; observed sum=56; report total=56; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:engaged_views,pass,grain=video_daily; video=mRHxcD7-IrE; dimension=; observed sum=10; report total=10; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+annual_video_engaged_batch5,daily_sum:views,pass,grain=video_daily; video=mRHxcD7-IrE; dimension=; observed sum=11; report total=11; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+last28_content,daily_sum:engaged_views,pass,grain=channel_daily; video=; dimension=; observed sum=70; report total=70; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+last28_viewer_type,daily_sum:views,pass,grain=channel_daily; video=; dimension=; observed sum=82; report total=82; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+last28_viewer_type,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""New and Returning Viewers"": ""New viewers""}; observed sum=22; report total=22; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+last28_viewer_type,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""New and Returning Viewers"": ""Returning viewers""}; observed sum=60; report total=60; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+last28_subscription_status,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Subscription status"": ""Not subscribed""}; observed sum=64; report total=64; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+last28_subscription_status,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Subscription status"": ""Subscribed""}; observed sum=18; report total=18; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+last28_content,daily_sum:engaged_views,pass,grain=video_daily; video=Fa4_SW2eB6o; dimension=; observed sum=6; report total=6; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+last28_content,daily_sum:engaged_views,pass,grain=video_daily; video=KciP8jscymA; dimension=; observed sum=7; report total=7; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+last28_content,daily_sum:engaged_views,pass,grain=video_daily; video=QdmsmOHtt8s; dimension=; observed sum=7; report total=7; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+last28_content,daily_sum:engaged_views,pass,grain=video_daily; video=bb_7H8ECfv0; dimension=; observed sum=11; report total=11; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+last28_content,daily_sum:engaged_views,pass,grain=video_daily; video=mK_jceuq6B8; dimension=; observed sum=9; report total=9; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+last90_content,daily_sum:engaged_views,pass,grain=channel_daily; video=; dimension=; observed sum=263; report total=263; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+last90_content,daily_sum:views,pass,grain=channel_daily; video=; dimension=; observed sum=319; report total=319; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+last90_geography,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Geography"": ""AU""}; observed sum=22; report total=22; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+last90_geography,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Geography"": ""US""}; observed sum=10; report total=10; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+last90_viewer_type,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""New and Returning Viewers"": ""New viewers""}; observed sum=91; report total=91; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+last90_viewer_type,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""New and Returning Viewers"": ""Returning viewers""}; observed sum=228; report total=228; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+last90_subscription_status,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Subscription status"": ""Not subscribed""}; observed sum=239; report total=239; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+last90_subscription_status,daily_sum:views,pass,"grain=dimension_daily; video=; dimension={""Subscription status"": ""Subscribed""}; observed sum=80; report total=80; difference=0; missing dates=0; tolerance=0; missing dates not imputed"
+last90_content,daily_sum:engaged_views,pass,grain=video_daily; video=Fa4_SW2eB6o; dimension=; observed sum=35; report total=35; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+last90_content,daily_sum:engaged_views,pass,grain=video_daily; video=KciP8jscymA; dimension=; observed sum=26; report total=26; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+last90_content,daily_sum:engaged_views,pass,grain=video_daily; video=QdmsmOHtt8s; dimension=; observed sum=33; report total=33; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+last90_content,daily_sum:engaged_views,pass,grain=video_daily; video=bb_7H8ECfv0; dimension=; observed sum=26; report total=26; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+last90_content,daily_sum:engaged_views,pass,grain=video_daily; video=mK_jceuq6B8; dimension=; observed sum=23; report total=23; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+lifetime_content,daily_sum:views,pass,grain=channel_daily; video=; dimension=; observed sum=10548; report total=10548; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+baseline365_date,daily_sum:views,pass,grain=channel_daily; video=; dimension=; observed sum=10545; report total=10545; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+baseline365_date,daily_sum:watch_time_hours,pass,grain=channel_daily; video=; dimension=; observed sum=59.8085; report total=59.8079; difference=0.0006; missing dates=163; tolerance=0.0202; missing dates not imputed
+baseline365_content,daily_sum:views,pass,grain=video_daily; video=No0vwfv9EBQ; dimension=; observed sum=1176; report total=1176; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+baseline365_content,daily_sum:views,pass,grain=video_daily; video=YfSpDkjlKzc; dimension=; observed sum=1010; report total=1010; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+baseline365_content,daily_sum:views,pass,grain=video_daily; video=mLqyervReNE; dimension=; observed sum=992; report total=992; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+baseline365_content,daily_sum:views,pass,grain=video_daily; video=oSYx8uSfRN4; dimension=; observed sum=3032; report total=3032; difference=0; missing dates=0; tolerance=0; missing dates not imputed
+baseline365_content,daily_sum:views,pass,grain=video_daily; video=tcRYYSDQC4A; dimension=; observed sum=1742; report total=1742; difference=0; missing dates=0; tolerance=0; missing dates not imputed

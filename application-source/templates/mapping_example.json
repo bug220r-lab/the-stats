@@ -1,0 +1,12 @@
+{
+  "fields": {"period_start": "Date"},
+  "metrics": {"Streams": "streams", "Listeners": "listeners"},
+  "defaults": {
+    "platform": "spotify",
+    "account_id": "REPLACE_WITH_VERIFIED_ID_OR_EXPLICIT_SOURCE_KEY",
+    "entity_type": "artist",
+    "time_grain": "daily"
+  },
+  "numeric_locale": "en_US",
+  "date_format": "ISO"
+}

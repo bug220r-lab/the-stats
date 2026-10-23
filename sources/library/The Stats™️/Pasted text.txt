@@ -1,0 +1,280 @@
+# The Stats™️ — Data Cleaning, Preparation, and Statistical Analysis
+
+You are my data analyst for **The Stats™️**, my band’s music and marketing analytics project. My name is Jude Lewis; call me Lewis.
+
+Your task is to **audit and clean the data we have collected, prepare reproducible datasets, and then use appropriate statistics to investigate trends and relationships**.
+
+I want to understand how our music, audience, and marketing activity are performing—and what the evidence suggests we should do next. Complete the actual work, not just an analysis plan.
+
+## 1. Locate and verify the project data
+
+Start with these known project sources:
+
+- **Collection workbook and queue:**  
+  https://docs.google.com/spreadsheets/d/1gfPLM_kj8mT1bNn0e3sv2udEU3644PR5z_20QMfl3Yc/edit#gid=82074406
+
+- **Existing project data folder:**  
+  https://drive.google.com/drive/folders/1sE3oczZadl04Ro2HDf0GQ51oxuNxiLdR
+
+Also inspect relevant files attached to this project and follow references to additional project exports when accessible.
+
+Important context:
+
+- The project includes Spotify for Artists data and may include Facebook, Instagram, and TikTok analytics.
+- **Verify which platforms actually have collected data.** Do not assume that an earlier collection request was completed.
+- Verify the band’s actual name, artist identity, account handles, and account IDs. “The Stats™️” is the project name; do not assume it is the band’s name.
+- Earlier work referenced pending collection items. Inspect the current queue rather than assuming an old status or count remains accurate.
+- **Preserve the original October 20, 2026 reporting baseline.** Keep later snapshots and historical revisions identifiable.
+- Begin with the existing collected data. Retrieve missing information only when it is necessary and accessible; continue independent work if a source is blocked.
+
+Create a source inventory documenting:
+
+- Platform, verified account, file or sheet, and source link.
+- Metrics and dimensions available.
+- Activity dates, reporting-window start and end, and retrieval date.
+- Reporting timezone.
+- What one row represents: an account-day, track-day, post, country-period, snapshot, or another unit.
+- Whether measures are interval counts, cumulative totals, unique counts, rolling-window measures, or rates.
+- Row count, coverage gaps, and source limitations.
+
+Treat the collection queue as a record to verify, not proof that a usable dataset exists.
+
+## 2. Audit and clean the data
+
+Preserve all original exports. Perform cleaning in new, clearly labeled outputs.
+
+Use reproducible Python code for substantive transformations and calculations. Suitable tools include pandas, NumPy, SciPy, statsmodels, and a charting library; choose methods according to the data rather than using every available technique.
+
+Check for:
+
+- Duplicate files, duplicate records, and overlapping exports.
+- Inconsistent account, track, release, post, and campaign identifiers.
+- Date parsing errors, mixed timezones, and incomplete reporting periods.
+- Missing dates, missing values, suppressed values, and unavailable metrics.
+- Numbers stored as text, inconsistent percentages, and rounded values such as “1.2K.”
+- Unexpected negative values, counter resets, historical revisions, and changes in metric definitions.
+- Outliers, sudden spikes, and disagreements between detailed tables and reported totals.
+- Inconsistent geography, content-type, campaign, and paid-versus-organic labels.
+
+Apply these cleaning rules:
+
+1. **Distinguish zero from missing, unavailable, suppressed, and not applicable.** Do not automatically fill missing observations with zero.
+2. Preserve the reported precision. Do not turn a rounded display value into an exact measurement.
+3. Retain genuine performance spikes. Correct or exclude observations only with a documented reason.
+4. Prefer verified platform exports over manual transcription when they measure the same thing. Reconcile disagreements rather than silently choosing a convenient value.
+5. Use stable IDs where available. Record uncertain entity matches instead of merging them by guesswork.
+6. Define deduplication keys using the source, account or entity, metric, reporting period, dimensions, and snapshot/version rules.
+7. Log every material correction, exclusion, imputation, and aggregation. State how many records were affected and why.
+8. Preserve quarantined records so exclusions can be reviewed.
+
+Create a data dictionary with definitions, units, valid aggregation rules, formulas, denominators, and important caveats.
+
+### Protect the October 20 baseline
+
+Keep separate fields for:
+
+- When the activity happened.
+- Which reporting period the metric covers.
+- When the data was retrieved.
+- Whether the record belongs to the original baseline, a newer snapshot, or a documented revision.
+
+Do not overwrite the October 20 baseline with later figures. If a newer export revises historical activity, retain both versions and explain which version each analysis uses.
+
+The baseline date is not a substitute for the actual reporting windows in the original files.
+
+## 3. Build comparable analysis datasets
+
+Maintain separate tables for different units of observation, then create documented analysis views where valid joins are possible.
+
+Depending on availability, these may include:
+
+- Artist or account activity by day.
+- Track activity by day.
+- Posts and their performance snapshots.
+- Audience and geography by reporting period.
+- Release, promotion, playlist, advertising, and show events.
+- Rolling and cumulative snapshots.
+
+Do not force every source into one flat table.
+
+### Metric and time-alignment rules
+
+- Sum only measures that are additive across the dimension being aggregated.
+- **Do not sum daily unique listeners or reach and label the result weekly unique people.**
+- Do not sum overlapping audience segments unless the source establishes that they are mutually exclusive.
+- Keep lifetime totals, interval activity, rolling-window metrics, and point-in-time follower counts distinct.
+- Do not reconstruct daily activity from rolling unique-listener counts.
+- Difference cumulative counters only when their scope and definition match; flag resets and corrections. Label follower-count differences as net changes, not gross new followers.
+- Do not repeat an artist’s daily total across every track or an account’s total across every post and then treat those repeated values as independent observations.
+- Check join cardinality, unmatched records, and row counts before and after merging.
+- Use comparable reporting windows. Exclude or clearly flag partial periods.
+- Preserve source timezones. Convert event timestamps when possible, but do not pretend an already aggregated daily total can be precisely shifted into another timezone.
+- Use a defensible shared time basis for cross-platform comparisons and document any unavoidable mismatch.
+- Separate paid and organic activity where the source allows it.
+- Compare posts and releases at comparable ages, such as their first seven complete days, when the underlying data supports those windows.
+- Do not assign a post’s current lifetime engagement total to its publication date as if all engagement happened that day.
+- Calculate aggregate rates from compatible summed numerators and denominators where appropriate. Distinguish these from the average rate of an individual post.
+
+Define every derived metric explicitly. For example, “engagement rate” must name its numerator and denominator.
+
+Do not label a ratio between aggregate social views and Spotify listeners as a conversion rate without a valid attribution mechanism.
+
+## 4. Decide which analyses the data supports
+
+Before running significance tests, produce a concise readiness assessment for each important question:
+
+- **Supported:** The definitions, coverage, alignment, and observation structure are adequate for the proposed analysis.
+- **Exploratory:** Descriptive patterns can be examined, but inference is limited.
+- **Blocked:** Essential information or a valid comparison is missing.
+
+For each question, report the available period, unit of analysis, number of usable observations, missingness, and dependence concerns.
+
+Do not apply one universal minimum-row threshold. Evaluate the amount of independent information, variation, coverage, and complexity required by the proposed method.
+
+A few aggregate snapshots do not become a useful time series simply because they contain many metrics. Many tracks observed on the same dates also do not automatically provide independent evidence for an artist-level marketing effect.
+
+Proceed with supported work without waiting for every dataset to be perfect. For blocked questions, identify the smallest additional dataset needed.
+
+Before inspecting correlation results, record a focused analysis plan: the primary questions, outcomes, candidate predictors, comparison periods, plausible lags, and planned sensitivity checks. Label additional questions suggested by the results as exploratory.
+
+## 5. Analyze trends and relationships
+
+Prioritize the questions below according to actual data availability.
+
+### A. Music and audience performance
+
+Investigate:
+
+- How streams, listeners, followers, saves, playlist additions, and available audience measures change over time.
+- Whether growth is broad across the catalog or concentrated in particular songs.
+- Which songs show sustained activity, repeat listening, or strong saving behavior where those measures are supported.
+- How comparable releases perform at similar ages.
+- Whether patterns differ by country, city, audience segment, or stream source.
+- Whether changes coincide with releases, playlist additions, shows, promotions, or other documented events.
+
+Use totals, medians, distributions, concentration measures, absolute changes, and percentage changes where appropriate. Show the underlying baseline when reporting percentages, especially when starting values are small.
+
+Use moving averages for visualization when helpful, but do not treat overlapping smoothed observations as independent data for significance testing.
+
+### B. Social content performance
+
+Where social data exists, investigate:
+
+- Which platforms, formats, topics, songs, and posting patterns are associated with stronger performance.
+- Differences in reach, views, watch time, completion, saves, shares, comments, profile visits, and available link activity.
+- Whether apparent success reflects more exposure, better engagement conditional on exposure, paid promotion, or a single unusually successful post.
+- Whether older posts have an advantage simply because they have accumulated activity longer.
+
+Keep platform definitions visible. Do not assume a “view,” “reach,” or “engagement” means the same thing across platforms.
+
+Separate total impact from efficiency. A high engagement rate on very little reach may imply something different from moderate engagement across a large audience.
+
+### C. Relationships between social activity and Spotify performance
+
+If aligned observations are available, test a small set of meaningful questions such as:
+
+- Is higher social activity associated with higher Spotify activity during the same period or afterward?
+- Do shares, saves, watch time, profile visits, or measured link clicks show useful relationships with streaming outcomes?
+- Are song-specific posts associated with later activity for the corresponding song?
+- Do apparent relationships remain after accounting for measured release timing, promotion, paid activity, playlist changes, or existing trends?
+- Are geographic patterns consistent across platforms, while recognizing that audiences cannot be matched person by person?
+
+Specify lag direction clearly: for example, social activity on day *t* compared with Spotify activity on day *t + 3*.
+
+Choose a limited, plausible lag set based on the data resolution and available history. Do not search every possible lag and report only the strongest result.
+
+If only cumulative post snapshots or incompatible reporting windows are available, explain which cross-platform questions cannot be tested.
+
+## 6. Use appropriate statistics and communicate uncertainty
+
+Select methods that fit the question, measurement scale, and observation structure.
+
+- Use Pearson correlation for suitable linear relationships and Spearman correlation for suitable monotonic relationships. Explain the choice.
+- Inspect scatterplots, distributions, trends, and outlier sensitivity before interpreting coefficients.
+- Assess temporal dependence. Check whether a relationship is explained by shared upward trends, seasonality, or overlapping reporting windows.
+- Where justified, examine changes or appropriately detrended/model-adjusted series as sensitivity analyses.
+- Use uncertainty methods that respect dependence, such as an appropriate time-series model or block resampling. Do not apply ordinary independent-observation tests to dependent daily observations without justification.
+- For comparisons between groups, select a suitable method and report effect sizes and uncertainty. Account for repeated observations of the same track, post, or campaign.
+- Use regression only when the available history and variation support it. Match the model to the outcome, keep the number of predictors modest, and check relevant diagnostics.
+- Treat adjustment for measured confounders as a conditional association, not automatic proof of causality.
+- Watch for relationships created mechanically by shared numerators, denominators, or components of the same total.
+- Address multiple testing across the relationships, segments, and lags examined. Define the testing family and use a suitable correction, such as Benjamini–Hochberg when its assumptions are appropriate.
+- Report all planned tests, including weak and null results. Do not select results solely because their p-values cross a threshold.
+- Where defensible, report 95% confidence intervals, raw p-values, and adjusted p-values. Explain uncertainty in plain language.
+- If model performance is evaluated, use a suitable chronological holdout or time-aware validation. Do not randomly shuffle a forecasting problem.
+- Do not manufacture confidence intervals or p-values when the data cannot support valid inference.
+
+For each substantive statistical finding, report:
+
+1. The question and comparison.
+2. Source data, date range, and unit of analysis.
+3. Number of usable observations and dependence limitations.
+4. Method and relevant assumptions.
+5. Direction and magnitude of the effect.
+6. Uncertainty and adjusted significance, where applicable.
+7. Sensitivity to reasonable alternative periods, aggregation choices, or influential observations.
+8. Practical meaning for the band.
+
+Distinguish **insufficient evidence of a relationship** from **evidence that a meaningful relationship is absent**.
+
+Do not infer person-level behavior from aggregate platform data. A relationship between TikTok activity and Spotify streams does not, by itself, identify which viewers became listeners.
+
+Do not compare us with an “average artist” unless a credible, relevant benchmark is available with compatible definitions and a transparent comparison population.
+
+## 7. Deliver reusable data and a clear report
+
+Save new outputs in a clearly dated project subfolder and provide direct links.
+
+Deliver:
+
+### A. Cleaned data package
+
+Include cleaned CSV files, a data dictionary, source inventory, cleaning log, excluded-record log, and data-quality assessment. Use consistent identifiers and date formats so these files can feed a future Python dashboard.
+
+### B. Reproducible code
+
+Provide a notebook or runnable scripts that reproduce the transformations, analysis tables, and charts from the source files.
+
+Include dependency information, input/output paths, and brief run instructions. Keep credentials out of code and exported files.
+
+### C. Statistical results
+
+Provide a results table containing the tested questions, variables, date ranges, observation counts, methods, effect sizes, uncertainty, adjusted significance where applicable, and limitations.
+
+Preserve a record of analyses that were exploratory or could not be performed.
+
+### D. Findings report
+
+Lead with the most useful supported findings. For each, explain:
+
+- What happened.
+- How strong and practically meaningful the evidence is.
+- What alternative explanations remain.
+- What action or further test it suggests.
+
+Include a small set of useful charts with clear labels, date windows, units, and nearby caveats. Prefer readable time-series plots, distribution comparisons, and scatterplots over a large unexplained correlation heatmap.
+
+Separate supported findings, exploratory signals, and unanswered questions.
+
+Recommend a short, prioritized list of next actions. For promising but uncertain relationships, propose a prospective test with a defined outcome and measurement plan.
+
+### E. Dashboard and collection handoff
+
+Document:
+
+- Which cleaned tables and metrics are ready for the future dashboard.
+- Which caveats need to appear alongside those metrics.
+- Which missing fields or exports would most improve the analysis.
+- How future snapshots should be collected to maintain comparability.
+
+Do not build the dashboard in this task.
+
+## Execution expectations
+
+Work through the inventory, cleaning, preparation, analysis, and deliverables in sequence. Keep me updated on meaningful findings and blockers.
+
+Ask questions only when missing access or a consequential ambiguity prevents reliable progress. Continue independent work when possible.
+
+Before delivery, verify that key totals reconcile, joins do not inflate observations, the original baseline remains intact, and important findings can be traced to their source records.
+
+**If the data cannot answer a question reliably, complete the supported analysis, explain the precise limitation, and specify the smallest additional dataset or prospective measurement needed. Do not fabricate observations, inflate the sample, or force a statistical result.**

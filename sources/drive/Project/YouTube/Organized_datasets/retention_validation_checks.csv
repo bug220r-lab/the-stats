@@ -1,0 +1,58 @@
+﻿report_id,check,status,detail
+retention_l6oU6CbKrsE,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_l6oU6CbKrsE,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_EN6tkiqrL1o,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_EN6tkiqrL1o,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_7tW8CxyzeHY,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_7tW8CxyzeHY,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_YnRQhj1hcTM,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_YnRQhj1hcTM,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_AYb-FnxQ7xo,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_AYb-FnxQ7xo,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_mRHxcD7-IrE,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_mRHxcD7-IrE,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_KciP8jscymA,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_KciP8jscymA,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_mK_jceuq6B8,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_mK_jceuq6B8,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_jf-i9HbqVc0,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_jf-i9HbqVc0,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_QdmsmOHtt8s,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_QdmsmOHtt8s,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_C6UXnRUTVvY,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_C6UXnRUTVvY,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_IQJqJxj6KRM,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_IQJqJxj6KRM,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_ZXoXCeDg154,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_ZXoXCeDg154,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_Fa4_SW2eB6o,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_Fa4_SW2eB6o,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_UCTdXvNroMY,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_UCTdXvNroMY,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_fvhinu1Ovwc,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_fvhinu1Ovwc,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_cFcKyVcQCng,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_cFcKyVcQCng,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_ki7nlIXrcJM,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_ki7nlIXrcJM,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_YfSpDkjlKzc,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_YfSpDkjlKzc,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_tcRYYSDQC4A,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_tcRYYSDQC4A,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_No0vwfv9EBQ,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_No0vwfv9EBQ,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_FeGqXlx4tHk,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_FeGqXlx4tHk,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_Gk8J1KgrhVo,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_Gk8J1KgrhVo,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_WWCF470Tk8Y,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_WWCF470Tk8Y,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_oSYx8uSfRN4,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_oSYx8uSfRN4,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_mLqyervReNE,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_mLqyervReNE,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+retention_bb_7H8ECfv0,all_curve_positions,pass,"100 ordered positions 0-99; complete native percentage bins, not calendar dates"
+retention_bb_7H8ECfv0,original_zip_hash,pass,Original copy agrees with recorded download SHA256
+all,video_inventory_coverage,pass,27 unique video IDs: 19 regular videos and 8 Shorts
+all,all_curve_distinct_hashes,pass,27 distinct All.csv hashes; no exact duplicated curve exports
+all,native_members,pass,27 ZIPs x 9 CSV members = 243 native CSVs

@@ -1,0 +1,14 @@
+﻿field,unit,definition,additivity
+video_position_percent,percent_0_to_100,Elapsed-video position in source percentage bins 0-99; not a reporting date. No fabricated endpoint at 100.,Do not sum positions
+segment_dimension / segment_value / member_name,category,Native member and audience or traffic segment identifiers. These scopes overlap and must remain separate.,Do not add overlapping segments
+value_status,category,reported = numeric nonzero; zero = explicit source numeric zero; unavailable = source blank or dash. Header-only files are recorded in retention_source_files.csv.,Not applicable
+absolute_audience_retention,percent,"Percentage of views at the given video position, as exported. Replays can produce values above 100; do not clamp or sum positions/segments.","Nonadditive across retention positions, videos, or overlapping segments"
+compared_to_other_videos,percent,Source comparison with YouTube videos of similar length. Preserve signed source percentages; do not reinterpret as a ratio or derive absolute retention from this field.,"Nonadditive across retention positions, videos, or overlapping segments"
+started_watching,count,"Source detailed-activity count at this position; blank means unavailable, not zero.","Nonadditive across retention positions, videos, or overlapping segments"
+stopped_watching,count,"Source detailed-activity count at this position; blank means unavailable, not zero.","Nonadditive across retention positions, videos, or overlapping segments"
+moment_seen_count,count,Source count of times the moment was seen; not a unique-viewer count.,"Nonadditive across retention positions, videos, or overlapping segments"
+average_view_duration_seconds,seconds,Derived only by parsing the manually transcribed rounded UI duration string; raw display preserved. Separate method from native CSV curves.,Do not sum or take unweighted averages
+average_percentage_viewed_pct,percent,Rounded manual UI average percentage viewed; values above 100 may occur due to replay.,Do not sum or take unweighted averages
+stayed_to_watch_pct,percent,Rounded Shorts UI Stayed to watch percentage; regular-video absence marked not_applicable.,Do not sum or take unweighted averages
+retrieved_at_utc,ISO8601 UTC timestamp,"Download file LastWriteTimeUtc proxy, separate from source reporting dates. Exact click timestamp was not retained.",Not applicable
+reporting_start / reporting_end,Pacific calendar date,"Since uploaded lifetime bounds, inclusive. Filename end is exclusive and converted to inclusive end. Upload date may precede public publication date.",Overlapping periods must remain separate

@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+.env*
+.streamlit/secrets.toml
+data/
+exports/
+backups/
+*.sqlite*
+*.db
+*.log
+!tests/fixtures/

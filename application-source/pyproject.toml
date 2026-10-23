@@ -1,0 +1,9 @@
+[project]
+name = "the-stats-local"
+version = "0.1.0"
+requires-python = ">=3.11"
+description = "Local music and social analytics with explicit provenance"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

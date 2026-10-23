@@ -1,0 +1,21 @@
+﻿source_field,metric,unit,aggregation,definition
+Views,views,count,additive,Source-reported views. Shorts changed to starts/replays on 2025-03-31. Official all-format first-frame counting rollout announced starting 2026-08-24; this channel retention UI explicitly says views counted differently from 2026-08-27. Preserve both evidence dates; do not impose a single inferred historical breakpoint.
+Engaged views,engaged_views,count,additive,Source-reported engaged views; click/tap to watch or playback beyond initial seconds. Keep separate from total views.
+Watch time (hours),watch_time_hours,hours,additive,Source watch time in hours. Retained without silently changing units.
+Average view duration,average_view_duration_seconds,seconds,nonadditive,Duration parsed from the native h:mm:ss value. Core average uses engaged metrics. Do not average row averages.
+Average percentage viewed (%),average_percentage_viewed,percent,nonadditive,"Source average percentage viewed in percentage points, not a fraction. Replay can make this exceed 100%; retain the reported value without capping. Do not add or average unweighted."
+Subscribers,subscribers_net,count,additive,"Source net subscriber change over the selected period, not subscriber balance."
+Subscribers gained,subscribers_gained,count,additive,Source subscriber gains over the selected period.
+Subscribers lost,subscribers_lost,count,additive,Source subscriber losses over the selected period; positive number of losses.
+Likes,likes,count,additive,Source likes metric for the selected reporting period.
+Dislikes,dislikes,count,additive,Source dislikes metric for the selected reporting period.
+Shares,shares,count,additive,Source shares metric for the selected reporting period.
+Comments added,comments_added,count,additive,Source comments added metric for the selected reporting period.
+Thumbnail impressions,thumbnail_impressions,count,additive,"Eligible thumbnail impressions, not total video exposure across every surface."
+Thumbnail click-through rate (%),thumbnail_ctr,percent_0_100,nonadditive,Source thumbnail CTR in percent units. Preserve reported denominator/scope; do not derive from all views.
+Unique viewers,unique_viewers,estimated_people,nonadditive,"Estimated distinct audience within this exact report window (up to 90 days). Do not sum across videos, dates, or overlapping scopes."
+Returning viewers,returning_viewers,estimated_people,nonadditive,Source estimated returning viewers in the selected reporting window.
+New viewers,new_viewers,estimated_people,nonadditive,Source estimated new viewers in the selected reporting window.
+Average views per viewer,average_views_per_viewer,ratio,nonadditive,Source-reported average views per viewer. Preserve source numerator definition; do not infer unique people from view-segment counts.
+Views (%),views_share_percentage,percent_0_100,nonadditive,Source percentage distribution of views within the report population.
+Watch time (hours) (%),watch_time_share_percentage,percent_0_100,nonadditive,Source percentage distribution of watch time within the report population.
