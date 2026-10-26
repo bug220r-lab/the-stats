@@ -1,0 +1,548 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 317,
+    "sha256": "ebfa4ff34327c90752261550d4751e6797b9dad2e419e27de470c7ef7a9e5735",
+    "source_sha256": "ebfa4ff34327c90752261550d4751e6797b9dad2e419e27de470c7ef7a9e5735",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "app.py",
+    "bytes": 38,
+    "sha256": "1819d07964f22849879097d130e15bf5665206e65b14532456e92434ddeef6a6",
+    "source_sha256": "1819d07964f22849879097d130e15bf5665206e65b14532456e92434ddeef6a6",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "docs/HOSTING.md",
+    "bytes": 7127,
+    "sha256": "22b4f3898c001bd1d49efc2e79976e83837d0624b347d2a12cee7ee002c05321",
+    "source_sha256": "830a85e1909c0f1bb57dc8af43bf5902ebfb7a1c5731c06047bce7bc56129f83",
+    "treatment": "reviewed documentation copy; identity or source-results sections omitted"
+  },
+  {
+    "path": "docs/IMPORTS.md",
+    "bytes": 5637,
+    "sha256": "8ea3ff38e7a1fe36a225fa9bf0d41865f3773a269fb3bde433f34b233a5a3496",
+    "source_sha256": "d75eb94e415ae2a811795fa4938e8b55bdbc3738f5293c8a9b17460f040fb83b",
+    "treatment": "reviewed documentation copy; identity or source-results sections omitted"
+  },
+  {
+    "path": "docs/METRICS.md",
+    "bytes": 1214,
+    "sha256": "07b7ad660301038b033bd2c3e5117478b3ffa34822dea60813b5956789bb691c",
+    "source_sha256": "0a1e6ba03e5f5c2b98abbf87af2959c970060a03847b5b283d8eaa81ba6686ca",
+    "treatment": "reviewed documentation copy; identity or source-results sections omitted"
+  },
+  {
+    "path": "docs/WINDOWS.md",
+    "bytes": 6045,
+    "sha256": "3aeea08dd93c5fdfd522a34885e18ae7faff75b4900ddc2db488aa14b0e73a5e",
+    "source_sha256": "3aeea08dd93c5fdfd522a34885e18ae7faff75b4900ddc2db488aa14b0e73a5e",
+    "treatment": "documentation copied; UTF-8 normalized"
+  },
+  {
+    "path": "launch_windows.bat",
+    "bytes": 614,
+    "sha256": "d86967bbe57a3f9b40717eb548aba5cc2d41cbca0136a3fa1c01d9d4b6f3f752",
+    "source_sha256": "d86967bbe57a3f9b40717eb548aba5cc2d41cbca0136a3fa1c01d9d4b6f3f752",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "pytest.ini",
+    "bytes": 59,
+    "sha256": "f095bba1230875c386a2d0e776e3bb68a2971692aa8606228eb5ad1913181381",
+    "source_sha256": "f095bba1230875c386a2d0e776e3bb68a2971692aa8606228eb5ad1913181381",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "requirements.in",
+    "bytes": 115,
+    "sha256": "4ebf0c66a41c113d432a3470d5853710a57620730f069414d0f1a521a82b8441",
+    "source_sha256": "4ebf0c66a41c113d432a3470d5853710a57620730f069414d0f1a521a82b8441",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "requirements.lock.txt",
+    "bytes": 1066,
+    "sha256": "aa9ef4bfdcf11d79ea80cc5b66f658c4393a783d55b71ce22dc7c6d4547d73c4",
+    "source_sha256": "aa9ef4bfdcf11d79ea80cc5b66f658c4393a783d55b71ce22dc7c6d4547d73c4",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 95,
+    "sha256": "9502acbe97901a017fbeab38fb5f4dc441492bf2ce7af6e26a9b2d9635902561",
+    "source_sha256": "9502acbe97901a017fbeab38fb5f4dc441492bf2ce7af6e26a9b2d9635902561",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "scripts/launch.py",
+    "bytes": 5818,
+    "sha256": "e8418758d8443a2de2b61f0ca88d7e3a392a262117f3fa0252e599cff77267e0",
+    "source_sha256": "e8418758d8443a2de2b61f0ca88d7e3a392a262117f3fa0252e599cff77267e0",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "scripts/prepare_apple_music.py",
+    "bytes": 5613,
+    "sha256": "30d41abb25a75957836c00305448bd239ee3f572b861b7b441edf2e6d076d34f",
+    "source_sha256": "30d41abb25a75957836c00305448bd239ee3f572b861b7b441edf2e6d076d34f",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "scripts/prepare_tiktok.py",
+    "bytes": 5271,
+    "sha256": "bda2c55f7d4f1f36427d28556a9240334d37eecfe0bd2042b0abee3d632a0a5c",
+    "source_sha256": "bda2c55f7d4f1f36427d28556a9240334d37eecfe0bd2042b0abee3d632a0a5c",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "scripts/reproduce_analysis.py",
+    "bytes": 8930,
+    "sha256": "c7c2acdd09cc686b2a47904ded72c5777e729a356eaa2d8635d8b08f5485475a",
+    "source_sha256": "c7c2acdd09cc686b2a47904ded72c5777e729a356eaa2d8635d8b08f5485475a",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "scripts/setup_windows.ps1",
+    "bytes": 4815,
+    "sha256": "39d5b6a9025ea4f754f2d753a702a61f1abf85138481e6cba1addc41a2c2835a",
+    "source_sha256": "39d5b6a9025ea4f754f2d753a702a61f1abf85138481e6cba1addc41a2c2835a",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "setup_windows.bat",
+    "bytes": 550,
+    "sha256": "e57b50a55a608afe392f5f30c1a2898f50b01889ebe5724b5b458d4d4d4d37b5",
+    "source_sha256": "e57b50a55a608afe392f5f30c1a2898f50b01889ebe5724b5b458d4d4d4d37b5",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/__init__.py",
+    "bytes": 76,
+    "sha256": "bc8435223343d254b8481efe62ef58790ff478a35c993f3a138067a00e652bc9",
+    "source_sha256": "bc8435223343d254b8481efe62ef58790ff478a35c993f3a138067a00e652bc9",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/access.py",
+    "bytes": 4195,
+    "sha256": "b78360ace538062f582d4a18c81e1bf15eedf9a783a78d78a12f22012f48c95f",
+    "source_sha256": "b78360ace538062f582d4a18c81e1bf15eedf9a783a78d78a12f22012f48c95f",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/analysis_content.py",
+    "bytes": 19846,
+    "sha256": "b41eb85c17431b3a99b187ef0b6119bae551446275cc2443b72598f85d86edab",
+    "source_sha256": "b41eb85c17431b3a99b187ef0b6119bae551446275cc2443b72598f85d86edab",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/analysis_content_ui.py",
+    "bytes": 12541,
+    "sha256": "1c1083b80671e171b3027cdbf384726bcbf37ed05ecd8b3279fc681fd64ff965",
+    "source_sha256": "1c1083b80671e171b3027cdbf384726bcbf37ed05ecd8b3279fc681fd64ff965",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/analysis_correlation.py",
+    "bytes": 22931,
+    "sha256": "166ecc8462e6b7fa35ef63c7912b2e9b3ddce46e8285ec924c7b8ba006370ef9",
+    "source_sha256": "166ecc8462e6b7fa35ef63c7912b2e9b3ddce46e8285ec924c7b8ba006370ef9",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/analysis_coverage.py",
+    "bytes": 6926,
+    "sha256": "af24c8381f4d93bc04afb19e582e177c4448dcecd8a9bdd0083cdebae4fe4313",
+    "source_sha256": "af24c8381f4d93bc04afb19e582e177c4448dcecd8a9bdd0083cdebae4fe4313",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/analysis_metrics.py",
+    "bytes": 19683,
+    "sha256": "b9f5feffddb3247af9f68264ed0503895af7fcf687045fe3ae539df49eeff318",
+    "source_sha256": "b9f5feffddb3247af9f68264ed0503895af7fcf687045fe3ae539df49eeff318",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/analysis_recovery_ui.py",
+    "bytes": 7940,
+    "sha256": "be90eaa3d7744de3b8de9726ffd92160c9b7dd8b07a4207f27d3f289f6cddc35",
+    "source_sha256": "be90eaa3d7744de3b8de9726ffd92160c9b7dd8b07a4207f27d3f289f6cddc35",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/analysis_repository.py",
+    "bytes": 24392,
+    "sha256": "1d235777435775329da94777326e30779121f7bf65c45316a024e82b4b147619",
+    "source_sha256": "1d235777435775329da94777326e30779121f7bf65c45316a024e82b4b147619",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/analysis_social_metrics.py",
+    "bytes": 10168,
+    "sha256": "e8f0661e8e9c625675e4919beae2bd6584fc712cfeda262af1d3cad44ed75a00",
+    "source_sha256": "e8f0661e8e9c625675e4919beae2bd6584fc712cfeda262af1d3cad44ed75a00",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/analysis_spikes.py",
+    "bytes": 16557,
+    "sha256": "3c2c1b00195498b3bc2d9a4b501590ab21d311ad2d18637e834daee8d9fe5d87",
+    "source_sha256": "3c2c1b00195498b3bc2d9a4b501590ab21d311ad2d18637e834daee8d9fe5d87",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/analysis_spikes_ui.py",
+    "bytes": 21999,
+    "sha256": "104e82aab952e0248ddc3ff4e36a4538760ac4ce32f40834103b5d5a58f761a6",
+    "source_sha256": "104e82aab952e0248ddc3ff4e36a4538760ac4ce32f40834103b5d5a58f761a6",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/analysis_spotify_audience_ui.py",
+    "bytes": 5829,
+    "sha256": "580d24f77e4735d483258c46fe3b3bee600b96f12640d50334eb3b491e408641",
+    "source_sha256": "580d24f77e4735d483258c46fe3b3bee600b96f12640d50334eb3b491e408641",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/analysis_ui_common.py",
+    "bytes": 1979,
+    "sha256": "d21835f2646cf2e26825c21fca72e95240c69bd7855d560677b7a48f8259959d",
+    "source_sha256": "d21835f2646cf2e26825c21fca72e95240c69bd7855d560677b7a48f8259959d",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/apple_music.py",
+    "bytes": 26740,
+    "sha256": "83b23b00039342d1bb972b4b6858926cbcfdab282cb0dcae9873aa06c8a474d0",
+    "source_sha256": "83b23b00039342d1bb972b4b6858926cbcfdab282cb0dcae9873aa06c8a474d0",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/archive_repository.py",
+    "bytes": 12796,
+    "sha256": "f6a96e9cfa8a9c528793bf1878a0f07b921661bcec038a40e9cd16b9e62a9522",
+    "source_sha256": "f6a96e9cfa8a9c528793bf1878a0f07b921661bcec038a40e9cd16b9e62a9522",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/backup.py",
+    "bytes": 15387,
+    "sha256": "b9177cd1832f6416a871286c0da6925aaa592f859d5ad065ea1dbd639a2ebbd5",
+    "source_sha256": "b9177cd1832f6416a871286c0da6925aaa592f859d5ad065ea1dbd639a2ebbd5",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/branding.py",
+    "bytes": 1226,
+    "sha256": "e0151ff4096eccb51a928ec604c47345fa66542346a9f507ca0d893471e226d7",
+    "source_sha256": "e0151ff4096eccb51a928ec604c47345fa66542346a9f507ca0d893471e226d7",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/calculations.py",
+    "bytes": 7032,
+    "sha256": "b5c8f6ff7d2a6f7bb386339014c2511bcadd007a0dd185fa580db404cdf385f1",
+    "source_sha256": "b5c8f6ff7d2a6f7bb386339014c2511bcadd007a0dd185fa580db404cdf385f1",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/campaign_log.py",
+    "bytes": 14243,
+    "sha256": "3d5f6f9ee5698f3259f2fdfdb79169e91d986b130e3bf8009286859bb2a675c2",
+    "source_sha256": "3d5f6f9ee5698f3259f2fdfdb79169e91d986b130e3bf8009286859bb2a675c2",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/campaign_ui.py",
+    "bytes": 7971,
+    "sha256": "bb9e714b31537df241e78d403c05bb625e0d4ff2c3c0309152d0cb486d80464b",
+    "source_sha256": "bb9e714b31537df241e78d403c05bb625e0d4ff2c3c0309152d0cb486d80464b",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/config.py",
+    "bytes": 1575,
+    "sha256": "5303e66934a74ace6a33e8d31d430ee779f8ef4bd231d6c18750dbf65899d7ae",
+    "source_sha256": "5303e66934a74ace6a33e8d31d430ee779f8ef4bd231d6c18750dbf65899d7ae",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/content_summaries.py",
+    "bytes": 6359,
+    "sha256": "7072ed4a0767c270fedf65f8e7751432c7b9974aef09f0d7abf18b1aa2dd2653",
+    "source_sha256": "7072ed4a0767c270fedf65f8e7751432c7b9974aef09f0d7abf18b1aa2dd2653",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/dashboard_controls.py",
+    "bytes": 4635,
+    "sha256": "b96d55a6d18591d84a7d506f8355dac799c08927f20484ff93dfaff986f1a7b4",
+    "source_sha256": "b96d55a6d18591d84a7d506f8355dac799c08927f20484ff93dfaff986f1a7b4",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/decision_ui.py",
+    "bytes": 13677,
+    "sha256": "0ed75682b33c66258d8fe13995ad7709fe855365ef2f9365ca482893ded51b0a",
+    "source_sha256": "0ed75682b33c66258d8fe13995ad7709fe855365ef2f9365ca482893ded51b0a",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/ingestion.py",
+    "bytes": 11201,
+    "sha256": "23f78c7bf3819fbfb480b99ef15688f0955a20ef54a0040f38812639bc42d0f0",
+    "source_sha256": "23f78c7bf3819fbfb480b99ef15688f0955a20ef54a0040f38812639bc42d0f0",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/library.py",
+    "bytes": 10599,
+    "sha256": "70c3aabd0f714b1036805fc95bc9a9bb81a48974ccb2e6386183d1a34d6ef87c",
+    "source_sha256": "70c3aabd0f714b1036805fc95bc9a9bb81a48974ccb2e6386183d1a34d6ef87c",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/meta_collection.py",
+    "bytes": 19605,
+    "sha256": "0ff12265bb9ca65558a32dbdaa388f66fa92e69ce234f1a320f9102d96bcb26a",
+    "source_sha256": "0ff12265bb9ca65558a32dbdaa388f66fa92e69ce234f1a320f9102d96bcb26a",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/meta_content.py",
+    "bytes": 41133,
+    "sha256": "2effdabef6d3af3c44de370f3c55cbf5c5a9f0cb8ff49a59d0324218c1573c54",
+    "source_sha256": "2effdabef6d3af3c44de370f3c55cbf5c5a9f0cb8ff49a59d0324218c1573c54",
+    "treatment": "unchanged source copy; public band handle in parser identity rule reviewed"
+  },
+  {
+    "path": "stats_app/meta_followup.py",
+    "bytes": 14384,
+    "sha256": "908d5eea0c2e1b2b71a652500ca06d972740f8f02c1a86811cd280e09a4ea353",
+    "source_sha256": "908d5eea0c2e1b2b71a652500ca06d972740f8f02c1a86811cd280e09a4ea353",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/navigation.py",
+    "bytes": 2901,
+    "sha256": "73f340baa77bfec7b0bb81e94cb28fc555fa20f8b89913d8511d3d21ab8db6a0",
+    "source_sha256": "73f340baa77bfec7b0bb81e94cb28fc555fa20f8b89913d8511d3d21ab8db6a0",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/retained_store.py",
+    "bytes": 33635,
+    "sha256": "997890712124d4a905012296eb34912e4796d6f8ff6f0744bce05355a0cc3cd9",
+    "source_sha256": "997890712124d4a905012296eb34912e4796d6f8ff6f0744bce05355a0cc3cd9",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/seed.py",
+    "bytes": 802,
+    "sha256": "5b9d01b6399f645f27294b7013962393ac01e155a3bf44e886426ea40018b848",
+    "source_sha256": "5b9d01b6399f645f27294b7013962393ac01e155a3bf44e886426ea40018b848",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/service.py",
+    "bytes": 3481,
+    "sha256": "45559dc8271e6fe8cc7de4532b403eb3772145d904d06b2e3c85f24355b26e8c",
+    "source_sha256": "45559dc8271e6fe8cc7de4532b403eb3772145d904d06b2e3c85f24355b26e8c",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/shopify_repository.py",
+    "bytes": 25466,
+    "sha256": "d881370ff206d56dda9d3aad47cf0dd9ad1c5a090273fff8dd5b0a932b8a4b47",
+    "source_sha256": "d881370ff206d56dda9d3aad47cf0dd9ad1c5a090273fff8dd5b0a932b8a4b47",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/shopify_ui.py",
+    "bytes": 36091,
+    "sha256": "61af8227275887966d69e1c2a19b72d829137e3974935110fb0b266a8bd0b3ca",
+    "source_sha256": "61af8227275887966d69e1c2a19b72d829137e3974935110fb0b266a8bd0b3ca",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/spotify_audience.py",
+    "bytes": 11603,
+    "sha256": "a94a129938846efd90e9405bc1e00478bf93f82a0f071d4763fb6f2c12a6ccea",
+    "source_sha256": "a94a129938846efd90e9405bc1e00478bf93f82a0f071d4763fb6f2c12a6ccea",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/storage.py",
+    "bytes": 24811,
+    "sha256": "eda38321ed8fdc0993ba409ae4e98b37820447eb60bacb9a39b8cc615c89fd5c",
+    "source_sha256": "eda38321ed8fdc0993ba409ae4e98b37820447eb60bacb9a39b8cc615c89fd5c",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/tiktok.py",
+    "bytes": 25461,
+    "sha256": "0e5f9c31a7ca145744da75cbcbca4b7b960e1b78b09a890293013f7e5a7c074e",
+    "source_sha256": "0e5f9c31a7ca145744da75cbcbca4b7b960e1b78b09a890293013f7e5a7c074e",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/ui.py",
+    "bytes": 36683,
+    "sha256": "893acee79b5423c65b7214a8db261ec3260b66c2e5f7d2136b16ea53eef1b15a",
+    "source_sha256": "893acee79b5423c65b7214a8db261ec3260b66c2e5f7d2136b16ea53eef1b15a",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/validation.py",
+    "bytes": 6990,
+    "sha256": "d800c83b661a44a59d40864c41d85ce422ea6461cec392cea0e0afaf89728ff3",
+    "source_sha256": "d800c83b661a44a59d40864c41d85ce422ea6461cec392cea0e0afaf89728ff3",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "stats_app/youtube_daily_ui.py",
+    "bytes": 8927,
+    "sha256": "c978425421f34ae2073f1b5688683b2c0822f7ec18effe5d2ecd392e621c4e77",
+    "source_sha256": "c978425421f34ae2073f1b5688683b2c0822f7ec18effe5d2ecd392e621c4e77",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "templates/apple_music.daily.mapping.template.json",
+    "bytes": 991,
+    "sha256": "4579eef3e6ab06cf8573425f97c2924e71826e3fa6cb3bb200ab3195a8390799",
+    "source_sha256": "4579eef3e6ab06cf8573425f97c2924e71826e3fa6cb3bb200ab3195a8390799",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "templates/apple_music.metadata.template.json",
+    "bytes": 273,
+    "sha256": "fd7bed8905e141e9e1ecb781b1a53700af1cdc283daf913f0bdf6c9781d5824e",
+    "source_sha256": "fd7bed8905e141e9e1ecb781b1a53700af1cdc283daf913f0bdf6c9781d5824e",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "templates/apple_music.period.mapping.template.json",
+    "bytes": 1106,
+    "sha256": "ed8cea6b1e3b41f20b2a1a27e4466937d484f0eb7902121d4306fea308bff0b1",
+    "source_sha256": "ed8cea6b1e3b41f20b2a1a27e4466937d484f0eb7902121d4306fea308bff0b1",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "templates/apple_music.recording_crosswalk.template.csv",
+    "bytes": 148,
+    "sha256": "5b0fedab5a20c33f28a6a8778df0dd8c3ed41919d589bc4fe95a5963625502c9",
+    "source_sha256": "5b0fedab5a20c33f28a6a8778df0dd8c3ed41919d589bc4fe95a5963625502c9",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "templates/content_campaign_log.csv",
+    "bytes": 393,
+    "sha256": "b1809b80c91df1972f218cceb754098e603593ee986dbd5d1b8b86e8d7306ec4",
+    "source_sha256": "b1809b80c91df1972f218cceb754098e603593ee986dbd5d1b8b86e8d7306ec4",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "templates/observations.csv",
+    "bytes": 217,
+    "sha256": "dcc1cf81b5241a33397be61f0f3d0129055be1ed9c13095ee691800a542a2212",
+    "source_sha256": "dcc1cf81b5241a33397be61f0f3d0129055be1ed9c13095ee691800a542a2212",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "templates/tiktok.account_daily.mapping.template.json",
+    "bytes": 1485,
+    "sha256": "8894aa416dc12451c7fb26bd49c4e97751816b3afc454aea6a5fb4d4664d4168",
+    "source_sha256": "8894aa416dc12451c7fb26bd49c4e97751816b3afc454aea6a5fb4d4664d4168",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "templates/tiktok.metadata.template.json",
+    "bytes": 308,
+    "sha256": "1e1320c4eb5e1e6283a7db6bb5a2603dd357484a1e6e6a3d21d9cb841911ebf2",
+    "source_sha256": "1e1320c4eb5e1e6283a7db6bb5a2603dd357484a1e6e6a3d21d9cb841911ebf2",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "templates/tiktok.song_daily.mapping.template.json",
+    "bytes": 1087,
+    "sha256": "acf8c31b5ddabcf4568dc6970d1deb1256dc7618e7a3091b189bc35f29909b11",
+    "source_sha256": "acf8c31b5ddabcf4568dc6970d1deb1256dc7618e7a3091b189bc35f29909b11",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "templates/tiktok.sound_recording_crosswalk.template.csv",
+    "bytes": 205,
+    "sha256": "8413ff2e0b3af41427a5b2df9d08b434952f9eadbe070b3fca30287ff4a34d52",
+    "source_sha256": "8413ff2e0b3af41427a5b2df9d08b434952f9eadbe070b3fca30287ff4a34d52",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "templates/tiktok.video_snapshot.mapping.template.json",
+    "bytes": 2471,
+    "sha256": "f2c7834cb3255bea49ec6fd02394bd9333361c199db2f5f8577e7db9289a4637",
+    "source_sha256": "f2c7834cb3255bea49ec6fd02394bd9333361c199db2f5f8577e7db9289a4637",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "tests/test_apple_music.py",
+    "bytes": 11530,
+    "sha256": "5dc6e03219254fa60db364945f7995df5dc0273aa9715887dc81d100953c9b6b",
+    "source_sha256": "5dc6e03219254fa60db364945f7995df5dc0273aa9715887dc81d100953c9b6b",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "tests/test_calculations.py",
+    "bytes": 6485,
+    "sha256": "8a07d4e8be4a58c418c7d931e71167a7d56842517021001c2521bfc548b95e1f",
+    "source_sha256": "8a07d4e8be4a58c418c7d931e71167a7d56842517021001c2521bfc548b95e1f",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "tests/test_content_summaries.py",
+    "bytes": 8869,
+    "sha256": "7ecf56cc8f8e3ccf2b536afebaac47bed47eafb2d2e544dbfe9476d87be861d3",
+    "source_sha256": "7ecf56cc8f8e3ccf2b536afebaac47bed47eafb2d2e544dbfe9476d87be861d3",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "tests/test_import_preview.py",
+    "bytes": 4509,
+    "sha256": "6c66fea15eb3a6c51bd6cae89cc39b6cdb9492552a163a19d4cc97d01dd38589",
+    "source_sha256": "6c66fea15eb3a6c51bd6cae89cc39b6cdb9492552a163a19d4cc97d01dd38589",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "tests/test_ingestion.py",
+    "bytes": 8782,
+    "sha256": "865ee2afbb90d9d8a55ef50b54efa40d9ab63426acaa453fce89ce276f76529e",
+    "source_sha256": "865ee2afbb90d9d8a55ef50b54efa40d9ab63426acaa453fce89ce276f76529e",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "tests/test_navigation.py",
+    "bytes": 4884,
+    "sha256": "882113e22df21f878e2406c97007ee95965319dc2f9695e2697c4f91bd1ca781",
+    "source_sha256": "882113e22df21f878e2406c97007ee95965319dc2f9695e2697c4f91bd1ca781",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "tests/test_storage.py",
+    "bytes": 12272,
+    "sha256": "468fa6974e298809691cdd8b5b56b328bf7e5a5524b2f928d9671fe382434746",
+    "source_sha256": "468fa6974e298809691cdd8b5b56b328bf7e5a5524b2f928d9671fe382434746",
+    "treatment": "unchanged source copy"
+  },
+  {
+    "path": "tests/test_tiktok.py",
+    "bytes": 14954,
+    "sha256": "1fe70cec20fee98231d8ce75d31e6d973b42fc8318c8111dab3c6a517be9ca71",
+    "source_sha256": "1fe70cec20fee98231d8ce75d31e6d973b42fc8318c8111dab3c6a517be9ca71",
+    "treatment": "unchanged source copy"
+  }
+]

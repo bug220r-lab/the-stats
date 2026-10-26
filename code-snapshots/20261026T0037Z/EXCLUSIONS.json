@@ -1,0 +1,530 @@
+[
+  {
+    "path": "approved_users.example.json",
+    "reason": "Identity/configuration example omitted; no credentials or identity configuration published."
+  },
+  {
+    "path": "assets/branding/couch-sticker-original.png",
+    "reason": "Artwork/provenance assets omitted from code/documentation scope; originals retained privately."
+  },
+  {
+    "path": "assets/branding/README.md",
+    "reason": "Artwork/provenance assets omitted from code/documentation scope; originals retained privately."
+  },
+  {
+    "path": "assets/branding/redacted-sticker-original.png",
+    "reason": "Artwork/provenance assets omitted from code/documentation scope; originals retained privately."
+  },
+  {
+    "path": "assets/branding/sources.json",
+    "reason": "Artwork/provenance assets omitted from code/documentation scope; originals retained privately."
+  },
+  {
+    "path": "config.example.env",
+    "reason": "Identity/configuration example omitted; no credentials or identity configuration published."
+  },
+  {
+    "path": "COORDINATION_STATUS_2026-10-23T061459Z_a7c11445.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/ADDITIONAL_DATA.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/ANALYSIS_REPRODUCTION.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/APPLE_MUSIC_INTEGRATION_20261025.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/APPLE_MUSIC_PREPARATION.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/ARCHIVE_BACKUP.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/CAMPAIGNS.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/DECISION_VALIDATION_2026-10-23.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/DECISION_WORKFLOW.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/INSTAGRAM_AUDIO_STORAGE.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/INSTAGRAM_STORY_OWNER_STORAGE.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/META_COLLECTION.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/META_COLLECTION_NORMALIZATION.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/META_COLLECTION_PASS_20261024.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/META_CONTENT_COLLECTION_20261023.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/META_FOLLOWUP_STORAGE.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/META_STORY_BACKFILL_20261024.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/POST_SONG_EVENT_MAPPING.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/POSTS_SPOTIFY_DASHBOARD_20261023.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/PROGRAM_AUDIT_REPAIRS_20261025.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/PROMOTION_APPROVAL.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/REAUDIT_2026-10-23.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/RECOVERY.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/SHOPIFY.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/SOURCE_AUDIT_2026-10-23.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/TIKTOK_INTEGRATION_20261025.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/TIKTOK_PREPARATION.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/VALIDATION.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "docs/YOUTUBE.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "README.md",
+    "reason": "Detailed source/audit/coordination narrative may contain private evidence, identities or source-derived results."
+  },
+  {
+    "path": "scripts/analyze_meta_spotify_ads.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/analyze_meta_spotify_correlations.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/analyze_meta_spotify_events.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/audit_additional_inputs.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/audit_historical_ad_identity.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/audit_meta_collection.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/audit_meta_collection_independent.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/audit_meta_followup_semantics.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/audit_meta_followup_storage.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/audit_story_backfill_comparison.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/build_post_song_event_map.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/finalize_instagram_story_owner_handoff.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/finalize_meta_followup_evidence.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/finalize_meta_followup_library.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/import_apple_music_collection.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/integrate_spotify_recovery.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/normalize_instagram_audio_review.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/normalize_instagram_story_owner.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/normalize_meta_collection.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/normalize_meta_content.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/normalize_meta_followup_links.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/normalize_meta_followup_stories.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/preflight_meta_followup.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/promote_analysis.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/promote_handoff.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/refresh_analysis.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "scripts/stage_meta_content_20261023.py",
+    "reason": "Collection/audit/promotion workflow outside the generic preparation/reproduction subset; may contain fixed evidence or source results."
+  },
+  {
+    "path": "stats_app/analysis_correlation_ui.py",
+    "reason": "Evidence-bound integration, fixed collection validation or source-derived narrative/results; conservative omission."
+  },
+  {
+    "path": "stats_app/analysis_meta_ui.py",
+    "reason": "Evidence-bound integration, fixed collection validation or source-derived narrative/results; conservative omission."
+  },
+  {
+    "path": "stats_app/analysis_social_ui.py",
+    "reason": "Evidence-bound integration, fixed collection validation or source-derived narrative/results; conservative omission."
+  },
+  {
+    "path": "stats_app/analysis_ui.py",
+    "reason": "Evidence-bound integration, fixed collection validation or source-derived narrative/results; conservative omission."
+  },
+  {
+    "path": "stats_app/decision_report.py",
+    "reason": "Evidence-bound integration, fixed collection validation or source-derived narrative/results; conservative omission."
+  },
+  {
+    "path": "stats_app/instagram_audio.py",
+    "reason": "Evidence-bound integration, fixed collection validation or source-derived narrative/results; conservative omission."
+  },
+  {
+    "path": "stats_app/instagram_story_owner.py",
+    "reason": "Evidence-bound integration, fixed collection validation or source-derived narrative/results; conservative omission."
+  },
+  {
+    "path": "stats_app/spotify_archive.py",
+    "reason": "Evidence-bound integration, fixed collection validation or source-derived narrative/results; conservative omission."
+  },
+  {
+    "path": "stats_app/spotify_recovery.py",
+    "reason": "Evidence-bound integration, fixed collection validation or source-derived narrative/results; conservative omission."
+  },
+  {
+    "path": "stats_app/youtube_daily_supplement.py",
+    "reason": "Evidence-bound integration, fixed collection validation or source-derived narrative/results; conservative omission."
+  },
+  {
+    "path": "stats_app/youtube_repository.py",
+    "reason": "Evidence-bound integration, fixed collection validation or source-derived narrative/results; conservative omission."
+  },
+  {
+    "path": "stats_app/youtube_ui.py",
+    "reason": "Evidence-bound integration, fixed collection validation or source-derived narrative/results; conservative omission."
+  },
+  {
+    "path": "tests/test_analysis_app.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_analysis_correlation.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_analysis_correlation_ui.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_analysis_metrics.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_analysis_repository.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_analysis_reproduction.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_analysis_social.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_analysis_spikes.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_analysis_spikes_ui.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_analysis_versioning.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_app.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_apple_music_cli.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_archive_app.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_archive_repository.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_audit_input_repairs.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_audit_meta_collection.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_audit_repair_ui.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_audit_runtime_repairs.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_audit_shopify_promotion.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_audit_staging_repairs.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_audit_storage_repairs.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_backup_library.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_campaign_log.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_content_supplement_loading.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_current_coverage.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_dashboard_usability.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_decision_metrics.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_decision_report.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_historical_ad_identity.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_instagram_audio.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_instagram_story_owner.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_launcher.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_meta_collection.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_meta_content_normalizer.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_meta_content_views.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_meta_followup.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_meta_followup_links.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_normalize_meta_collection.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_post_song_event_map.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_real_sources.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_reaudit_metrics.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_recovery_dashboard.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_shopify_backup.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_shopify_repository.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_shopify_ui.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_social_search_filters.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_spike_capture_context.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_spotify_archive.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_spotify_audience.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_spotify_recovery.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_tiktok_cli.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_youtube_app.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_youtube_backup.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_youtube_daily_app.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_youtube_daily_supplement.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_youtube_repository.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  },
+  {
+    "path": "tests/test_youtube_usability.py",
+    "reason": "Not in the explicitly reviewed synthetic core fixture subset; source/collection-dependent fixtures omitted."
+  }
+]

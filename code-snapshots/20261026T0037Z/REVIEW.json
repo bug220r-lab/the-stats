@@ -1,0 +1,55 @@
+{
+  "review_date": "2026-10-26",
+  "scope": "reviewed partial code/documentation snapshot only",
+  "repository": "bug220r-lab/the-stats",
+  "required_visibility": "private",
+  "source_file_count": 78,
+  "source_bytes": 734769,
+  "candidate_files": 210,
+  "candidate_excluded_files": 132,
+  "review_controls": [
+    "Explicit file allowlist; no private directory traversal in publication selection",
+    "Credential/provider-token/private-key/JWT/assignment scan; values never printed",
+    "Private capture/customer/analytics review of strings and fixed numeric source conclusions",
+    "All external URLs reviewed: public documentation, loopback launcher and synthetic fixture URL only",
+    "Empty templates verified; no private fixtures copied",
+    "Public account handle in parser reviewed as source logic, not private analytics",
+    "Exact unmodified code hashes verified against originals; documentation changes recorded"
+  ],
+  "unresolved_secret_findings": 0,
+  "unresolved_private_data_findings": 0,
+  "validation": {
+    "python_parse": "passed",
+    "json_parse": "passed",
+    "csv_templates": "header only",
+    "synthetic_core_tests": {
+      "passed": 168,
+      "failed": 0,
+      "runtime_seconds": 4.04,
+      "test_files": [
+        "tests/test_calculations.py",
+        "tests/test_ingestion.py",
+        "tests/test_storage.py",
+        "tests/test_import_preview.py",
+        "tests/test_apple_music.py",
+        "tests/test_tiktok.py"
+      ]
+    },
+    "standalone_application": "not claimed; partial source snapshot"
+  },
+  "excluded_top_level_categories": [
+    "data/",
+    "outputs/",
+    "backups/",
+    "logs/",
+    "handoff/",
+    "test-results/",
+    ".streamlit/",
+    ".venv/",
+    ".pytest_cache/",
+    "__pycache__/",
+    "identity/configuration files",
+    "unreviewed artwork"
+  ],
+  "note": "Scan results are review evidence, not a guarantee that automated detection can identify every possible secret."
+}
