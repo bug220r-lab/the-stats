@@ -9,7 +9,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 from stats_app.access import enforce_access
-from stats_app.branding import render_brand_header
+from stats_app.branding import LOGO_PATH, render_brand_header
 from stats_app.calculations import chart_data, summarize_metric
 from stats_app.config import PROJECT_ROOT, load_settings
 from stats_app.ingestion import PROFILES, detect_profile, parse_export, read_table, sheet_names
@@ -415,7 +415,8 @@ def _optional_youtube(settings, *, keys_only=False):
 
 
 def main():
-    st.set_page_config(page_title="The Stats · Growth analysis", page_icon="📊", layout="wide")
+    st.set_page_config(page_title="The Stats · [REDACTED]",
+                       page_icon=str(LOGO_PATH) if LOGO_PATH.is_file() else "S", layout="wide")
     try:
         settings = load_settings()
     except ValueError as exc:

@@ -2,6 +2,15 @@
 
 A private music and social reporting dashboard for Lewis, Brandon, and Samman. Python runs the application backend on this Windows PC; your browser provides the interface. The existing Streamlit, Plotly, pandas, and SQLite application now includes the audited music and marketing analysis. Local use needs no account, API key, cloud database, Docker, WSL, or paid service.
 
+**Dedicated Windows window — October 30, 2026:** The Stats now has a monochrome
+Matrix / [REDACTED] desktop view with its own window, taskbar identity and original
+band artwork. Start the protected library session through the installed
+INTERLINKED Stats controls, then open the built `TheStats.exe`. **Open INTERLINKED**
+returns to those controls; closing the Stats window leaves the backend running.
+See [desktop build, launch and validation](desktop/README.md). On THIS-MACHINE,
+this managed route takes precedence over the standalone setup instructions below;
+reuse the existing environment and library instead of initializing a new one.
+
 **October 26 Spotify Growth Analysis release:** The spacious interface, grouped navigation, source-backed findings, Apple Music and Linktree views are available. The [dated release handoff](outputs/gui_growth_release_20261026/HANDOFF.md) includes final checks, screenshots and rollback instructions. The 200% zoom check is explicitly deferred and unverified at the user's request.
 
 **October 24 data integration:** Data quality and Coverage show coverage derived from the selected analysis, with older assessments retained as historical receipts. Social publishing and Decision content summaries use the expanded posts-and-Stories inventory with distinct identities, compatible metric scopes and separate capture-day groups. Spotify → Audience & sources → Audience segments exposes retained segment history, audience movement and rolling super listeners. Overview can use a separately recovered listener total only when its dates and scope exactly match the comparison. See the [implementation and verification handoff](handoff/DATA_INTEGRATION_20261024.md).

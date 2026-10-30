@@ -12,3 +12,8 @@ Do not launch against an empty default library when continuing existing work.
 Git commits/pushes protect maintained code. INTERLINKED Save library to MSI +
 verify protects its managed data workspace; it does not save this checkout.
 See `current-app/docs/INTERLINKED.md` for the managed launcher contract.
+
+The dedicated monochrome Windows view is maintained under
+[`current-app/desktop/`](current-app/desktop/README.md). It displays the existing
+INTERLINKED-managed dashboard in its own window; INTERLINKED retains ownership
+of backend startup, shutdown and the data cache lock.

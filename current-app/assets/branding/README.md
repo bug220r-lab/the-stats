@@ -18,3 +18,21 @@ The current [Instagram profile, @redactedbandoh](https://www.instagram.com/redac
 `stats_app/branding.py` resolves assets with `pathlib` from the project root. Branding performs no database access and makes no external runtime requests. The existing authentication gate runs before the branded content. A missing logo falls back to the band name, leaving the dashboard usable.
 
 The [Facebook band profile](https://www.facebook.com/redactedbandoh/) was also inspected on October 23. It uses a white bracketed wordmark on a black profile image and links to the same Linktree. The current screenshot and link capture are retained in `data/collection/meta-followup-20261023/social_branding/facebook-profile.png` and `facebook-profile.json`. This supports the neutral black/white presentation; it supplies no official font or color specification.
+
+## Monochrome Matrix presentation — October 30, 2026
+
+The user selected a Matrix-inspired desktop identity in **black and white** to
+match the band. The dashboard now uses near-black surfaces, white rules and
+focus indicators, compact terminal typography and a faint static line texture.
+The original couch artwork stays unchanged and appears once in the compact
+sidebar block; the main pane continues to start with the current page content.
+All typography uses existing system fonts, and there are no runtime font,
+artwork or animation downloads. Reduced-motion settings suppress the short
+navigation hover transition; no decorative animation or flashing is used.
+
+The shared chart frame uses neutral labels, grid lines and default series colors.
+The earlier yellow brand accent becomes white. Explicit semantic colors, trace
+styles and missing-data gaps remain available rather than applying a grayscale
+filter to analytical content. This supersedes the earlier yellow-accent interface
+choice while preserving the dated source and design evidence above. These are
+presentation changes only: calculations, selections and registrations are unaffected.

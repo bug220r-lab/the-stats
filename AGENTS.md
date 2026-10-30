@@ -3,6 +3,10 @@
 - Primary Codex folder: `C:\Users\Jude\Documents\Codex\The-Stats` on
   `THIS-MACHINE` as `Jude`. Reuse this outer checkout and its existing environment.
   Maintained application code is in `current-app/`.
+- The dedicated Windows view is in `current-app/desktop/`; read its README before
+  building or changing it. It attaches to the reviewed INTERLINKED-managed server
+  and must not become a second launcher or cache owner. Keep generated packages
+  and WebView profiles outside Git, and preserve the original band artwork.
 - Start with `CURRENT_APP.md`, `docs/CODEX_HANDOFF.md`, `current-app/README.md`,
   `current-app/docs/INTERLINKED.md`, and
   `current-app/docs/THIS_MACHINE_VALIDATION.md`. Verify machine/user, working

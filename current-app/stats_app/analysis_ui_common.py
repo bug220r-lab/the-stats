@@ -10,7 +10,23 @@ def fmt(value, digits=0):
 
 def chart(fig, key=None, **layout):
     fig.update_layout(margin=dict(t=20,l=10,r=10,b=20), paper_bgcolor="rgba(0,0,0,0)",
-                      plot_bgcolor="rgba(0,0,0,0)", font=dict(size=15), legend=dict(orientation="h",y=-.18))
+                      plot_bgcolor="rgba(0,0,0,0)", font=dict(size=15, color="#f4f4f4"),
+                      colorway=["#f4f4f4", "#a3a3a3", "#737373", "#d4d4d4", "#525252"],
+                      legend=dict(orientation="h",y=-.18),
+                      hoverlabel=dict(bgcolor="#171717", bordercolor="#737373", font_color="#f4f4f4"))
+    fig.update_xaxes(gridcolor="rgba(255,255,255,.08)", zerolinecolor="#525252", linecolor="#525252")
+    fig.update_yaxes(gridcolor="rgba(255,255,255,.08)", zerolinecolor="#525252", linecolor="#525252")
+    # The former brand accent becomes white; explicit semantic series colors,
+    # missing-value gaps, trace order and chart-specific line styles are retained.
+    for trace in fig.data:
+        line = getattr(trace, "line", None)
+        line_color = getattr(line, "color", None)
+        if isinstance(line_color, str) and line_color.lower() == "#edd264":
+            line.color = "#f4f4f4"
+        marker = getattr(trace, "marker", None)
+        marker_color = getattr(marker, "color", None)
+        if isinstance(marker_color, str) and marker_color.lower() == "#edd264":
+            marker.color = "#f4f4f4"
     if layout:
         fig.update_layout(**layout)
     st.plotly_chart(fig, width="stretch", key=key, config={"displaylogo":False})

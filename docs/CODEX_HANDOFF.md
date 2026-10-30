@@ -137,3 +137,56 @@ Setup leaves the existing checkout and environment ready for the next developmen
 task. Initial setup left these guidance files uncommitted. Subsequent source
 changes follow explicit Git commit/push requests. Recheck Git changes and installed
 sessions before editing or runtime use.
+
+## Dedicated monochrome Windows view — October 30, 2026
+
+The user's desktop identity is Matrix / [REDACTED] in **black and white**.
+The original couch artwork is unchanged. Dashboard presentation uses neutral
+surfaces, terminal headings, white focus states and a static line texture;
+explicit analytical series colors and missing-data behavior remain intact.
+
+Desktop source, offline build instructions and isolated checks are in
+[`current-app/desktop/`](../current-app/desktop/README.md). The tested local package
+is `current-app/outputs/desktop/The-Stats-20261030-r2/TheStats.exe`, with a
+`DESKTOP-CHECKSUMS.json` identifying every delivered file and its source hashes.
+Its source base is `a876726ad04a183ea49e3e743073af84e9ebc836` plus the explicitly
+recorded uncommitted feature changes. Binaries remain ignored and outside source
+control. A **The Stats** shortcut on Jude's desktop targets this package.
+
+This is a dedicated view of the existing protected session. **Open INTERLINKED**
+activates the installed controls; **Reload** revalidates and reconnects. Closing
+the desktop view leaves the backend running. It never becomes a second launcher
+or cache owner. Production uses the reviewed machine/source/connection, current
+process identity and local readiness endpoint; it accepts no arbitrary URL or
+data-directory override. The separate InPrivate WebView2 profile is under
+`%LOCALAPPDATA%\TheStatsDesktop\WebView2`.
+
+The package bundles the pinned WebView2 SDK libraries and notices. THIS-MACHINE
+supplies .NET Framework 4.8, the installed WebView2 Runtime, INTERLINKED and the
+existing Python environment. This is local-machine delivery evidence, not a
+self-contained Python distribution or clean-machine portability claim.
+
+Validation: the revised dashboard's isolated portable scope passed **968 tests,
+99 skipped, one deselected**, exit 0, in 84.23 seconds. The package passed **34
+refusal/policy/copy/health checks and ten native WebView2 checks**, with nine payload
+hashes verified. The native fixtures never opened the managed library. Detailed
+receipts and logs remain outside Git in this chat's visualization artifacts.
+The corrected header uses separate logo, title/tagline and control columns.
+Native checks verify text fit and non-overlap at the default width and the
+980-pixel minimum. The delivered executable SHA-256 is
+`f79583e18ac5800a0c98ef871ec4271684003668ed192fc96ffdface2d1f6247`.
+
+Live acceptance on October 30: the installed INTERLINKED controls restarted
+Stats against the same local library (backend PID `47392`). The delivered native
+window (PID `54300`) displayed the full band header without overlap and the
+populated Overview with `meta-story-backfill-20261024` selected. The observed
+Overview showed 4,246 streams and 1,062 period-unique listeners for its unchanged
+latest-28-day comparison. No source selector, import or registration action was
+performed. All five registry hashes and all three runtime pins matched the
+fresh pre-launch snapshot; nine analyses, two YouTube collections and one each
+of Shopify, Linktree and TikTok remained registered. The Stats desktop shortcut
+was read back pointing at the corrected package. This is an agent walkthrough
+of Overview and header rendering, not acceptance of every analytical view or a
+user-confirmed review of all results. Stats was left running with the native
+window open. At the end of that walkthrough, source changes were local and
+uncommitted. Subsequent publication follows explicit Git commit/push requests.
