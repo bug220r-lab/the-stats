@@ -270,7 +270,7 @@ class LinktreeRepository:
 
 def _registry(data_dir):
     path = _not_link(Path(data_dir) / REGISTRY_FILENAME)
-    registry = _json(native_path(path).read_bytes(), REGISTRY_FILENAME) if path.exists() else {"schema_version": 1, "collections": []}
+    registry = _json(native_path(path).read_bytes(), REGISTRY_FILENAME) if native_path(path).exists() else {"schema_version": 1, "collections": []}
     if registry.get("schema_version") != SCHEMA_VERSION or not isinstance(registry.get("collections"), list):
         raise StorageError("Unsupported Linktree collection registry.")
     seen = set()
@@ -291,7 +291,7 @@ def list_registered_linktree(data_dir):
     root = _not_link(data_dir)
     records = _registry(root)["collections"]
     for row in records:
-        if not _not_link(root / row["package_dir"]).is_dir():
+        if not native_path(_not_link(root / row["package_dir"])).is_dir():
             raise StorageError("Registered Linktree package directory is missing.")
     return json.loads(json.dumps(records))
 
@@ -315,7 +315,7 @@ def load_registered_linktree(data_dir, key=None):
 def _lock(root):
     path = _not_link(root / ".linktree_import.lock")
     try:
-        handle = path.open("x", encoding="ascii")
+        handle = native_path(path).open("x", encoding="ascii")
     except FileExistsError as exc:
         raise StorageError("Another Linktree import is active.") from exc
     try:
@@ -324,20 +324,20 @@ def _lock(root):
         yield
     finally:
         handle.close()
-        path.unlink()
+        native_path(path).unlink()
 
 
 def _atomic_registry(root, registry):
-    descriptor, temporary = tempfile.mkstemp(prefix=".linktree-registry-", suffix=".json", dir=root)
+    descriptor, temporary = tempfile.mkstemp(prefix=".linktree-registry-", suffix=".json", dir=native_path(root))
     try:
         with os.fdopen(descriptor, "w", encoding="utf-8") as handle:
             json.dump(registry, handle, ensure_ascii=False, indent=2)
             handle.write("\n")
             handle.flush()
             os.fsync(handle.fileno())
-        os.replace(temporary, root / REGISTRY_FILENAME)
+        os.replace(temporary, native_path(root / REGISTRY_FILENAME))
     finally:
-        Path(temporary).unlink(missing_ok=True)
+        native_path(temporary).unlink(missing_ok=True)
 
 
 def import_linktree_collection(package_dir, data_dir):
@@ -346,7 +346,7 @@ def import_linktree_collection(package_dir, data_dir):
     root, source = _not_link(data_dir), incoming.package_dir
     if root.is_relative_to(source) or source.is_relative_to(root):
         raise StorageError("Keep the incoming Linktree package outside the destination library.")
-    root.mkdir(parents=True, exist_ok=True)
+    native_path(root).mkdir(parents=True, exist_ok=True)
     key = incoming.metadata["collection_key"]
     with _lock(root):
         registry = _registry(root)
@@ -359,18 +359,19 @@ def import_linktree_collection(package_dir, data_dir):
                     "manifest_sha256": retained.manifest_sha256, "inventory_sha256": retained.inventory_sha256,
                     "package_dir": str(retained.package_dir), "tables": len(retained.tables), "integrity": "ok"}
         parent = _not_link(root / "collections")
-        parent.mkdir(exist_ok=True)
+        native_path(parent).mkdir(exist_ok=True)
         output = _not_link(parent / key)
-        if output.exists():
+        if native_path(output).exists():
             raise StorageError("Unregistered Linktree destination exists; preserve and inspect it.")
-        with tempfile.TemporaryDirectory(prefix=".linktree-stage-", dir=parent) as temporary:
-            stage = Path(temporary)
+        with tempfile.TemporaryDirectory(prefix=".linktree-stage-", dir=native_path(parent)) as temporary:
+            # Keep extended paths at the I/O boundary, out of portable records.
+            stage = parent / Path(temporary).name
             package = stage / "package"
-            package.mkdir()
+            native_path(package).mkdir()
             for name in incoming.sources().path:
                 target = package / name
-                target.parent.mkdir(parents=True, exist_ok=True)
-                with target.open("xb") as handle:
+                native_path(target.parent).mkdir(parents=True, exist_ok=True)
+                with native_path(target).open("xb") as handle:
                     handle.write(incoming.original_bytes(name))
             copied = LinktreeRepository(package, manifest_sha256=incoming.manifest_sha256,
                                        inventory_sha256=incoming.inventory_sha256, package_sha256=incoming.package_sha256)
@@ -378,7 +379,7 @@ def import_linktree_collection(package_dir, data_dir):
             final = LinktreeRepository(source)
             if final.package_sha256 != incoming.package_sha256:
                 raise StorageError("Incoming Linktree collection changed during import.")
-            stage.rename(output)
+            native_path(stage).rename(native_path(output))
         record = {"key": key, "evidence_root": f"collections/{key}", "package_dir": f"collections/{key}/package",
                   "label": incoming.metadata["label"], "manifest_sha256": copied.manifest_sha256,
                   "inventory_sha256": copied.inventory_sha256, "package_sha256": copied.package_sha256,

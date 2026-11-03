@@ -9,6 +9,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 from stats_app import dashboard_controls as controls
+from stats_app.analysis_metrics import complete_sum
 from stats_app.analysis_ui_common import chart, download, fmt
 from stats_app.calculations import SERIES_FIELDS, chart_data, summarize_metric
 from stats_app.source_context import SourceContext, render_context
@@ -52,8 +53,22 @@ def matched_artist_activity(apple, spotify, start, end):
         return None
     if not apple.source_timezone.eq("UTC").all() or spotify.empty:
         return None
-    low = max(start, date.fromisoformat(str(spotify.date.min())))
-    high = min(end, date.fromisoformat(str(spotify.date.max())))
+    required = {"date", "daily_streams", "artist_id", "snapshot_class", "reporting_timezone"}
+    if not required.issubset(spotify):
+        return None
+    for column in ("artist_id", "snapshot_class"):
+        values = spotify[column].fillna("").astype(str)
+        if values.str.strip().eq("").any() or values.nunique() != 1:
+            return None
+    if not spotify.reporting_timezone.fillna("").eq("UTC").all():
+        return None
+    spotify = spotify.copy()
+    try:
+        spotify["date"] = spotify.date.map(lambda value: date.fromisoformat(str(value)).isoformat())
+        low = max(start, date.fromisoformat(spotify.date.min()))
+        high = min(end, date.fromisoformat(spotify.date.max()))
+    except (TypeError, ValueError):
+        return None
     if low > high:
         return None
     result = daily_statistics(apple, low, high)
@@ -61,14 +76,14 @@ def matched_artist_activity(apple, spotify, start, end):
     dimensions = json.loads(apple.dimensions_json.iloc[0] or "{}")
     if dimensions.get("entity_scope") != "artist" or set(dimensions) - {"entity_scope", "precision"}:
         return None
-    rows = spotify.loc[spotify.date.between(str(low), str(high))].copy()
-    values = pd.to_numeric(rows.daily_streams, errors="coerce")
-    if (not result["complete"] or len(rows) != (high - low).days + 1
-            or rows.date.duplicated().any() or values.isna().any()
-            or result["summary"].value is None):
+    try:
+        streams, _, days = complete_sum(spotify, "daily_streams", low, high)
+    except (TypeError, ValueError):
+        return None
+    if not result["complete"] or streams is None or result["summary"].value is None:
         return None
     return {"start": low, "end": high, "apple_plays": result["summary"].value,
-            "spotify_streams": float(values.sum()), "days": len(rows)}
+            "spotify_streams": streams, "days": days}
 
 
 def _scope_label(scope):

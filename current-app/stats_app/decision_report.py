@@ -95,9 +95,58 @@ def content_distributions(repo):
     return content_summary(repo)[3]
 
 
-def experiments():
+def _experiment_candidates(songs):
+    """Rank only complete loaded-catalog evidence; missing totals cannot rank last."""
+    if songs is None or songs.empty:
+        return None, None, "No recording evidence is available.", "No recording comparison is available."
+    required = {"song_id", "recording_label", "current", "previous", "complete"}
+    if not required.issubset(songs):
+        return None, None, "Recording coverage is unavailable.", "Recording comparison coverage is unavailable."
+    data = songs.copy()
+    for field in ("current", "previous"):
+        data[field] = pd.to_numeric(data[field], errors="coerce")
+    def valid(values):
+        return values.map(lambda value: pd.notna(value) and math.isfinite(value) and value >= 0).all()
+    if not data.complete.eq(True).all() or not valid(data.current):
+        return None, None, "The loaded catalog has incomplete selected-period coverage.", "The loaded catalog has incomplete selected-period coverage."
+    demand = data.sort_values(["current", "song_id"], ascending=[False, True]).iloc[0]
+    if demand.current <= 0:
+        return None, None, "No positive selected-period recording activity is observed.", "No positive recording increase is observed."
+    if not valid(data.previous):
+        return demand, None, "", "The loaded catalog has incomplete preceding-period coverage."
+    data["absolute_change"] = data.current - data.previous
+    momentum = data.sort_values(["absolute_change", "song_id"], ascending=[False, True]).iloc[0]
+    if momentum.absolute_change <= 0:
+        return demand, None, "", "No positive recording increase is observed."
+    return demand, momentum, "", ""
+
+
+def experiments(songs=None, start=None, end=None, timezone=None):
+    bounded = start is not None and end is not None and timezone is not None
+    demand, momentum, demand_reason, momentum_reason = _experiment_candidates(songs if bounded else None)
+    source_period = f"{start} through {end} {timezone}" if bounded else "Unavailable: no selected reporting interval."
+    if bounded:
+        first, last = date.fromisoformat(str(start)), date.fromisoformat(str(end))
+        prior_end = first - timedelta(days=1)
+        prior_start = prior_end - (last-first)
+        comparison_period = f"{prior_start} through {prior_end} {timezone}"
+    else:
+        comparison_period = "Unavailable: no selected reporting interval."
+    demand_basis = (f"{demand.recording_label}: {demand.current:g} streams, the highest complete selected-period total in the loaded catalog."
+                    if demand is not None else "No song selected. " + demand_reason)
+    momentum_basis = (f"{momentum.recording_label}: +{momentum.absolute_change:g} streams, the largest positive absolute change in the loaded catalog against the preceding equal interval."
+                      if momentum is not None else "No momentum candidate selected. " + momentum_reason)
+    hook_change = (f"Two hooks for the same {demand.recording_label} excerpt."
+                   if demand is not None else "Choose one excerpt prospectively and compare two hooks for that same excerpt.")
+    if demand is not None and momentum is not None and demand.song_id != momentum.song_id:
+        excerpt_change = f"Compare {demand.recording_label} and {momentum.recording_label} excerpts after the hook test; one tagged destination per post."
+    elif demand is not None:
+        excerpt_change = f"Test a {demand.recording_label} excerpt against a prospectively chosen matched alternative after the hook test; one tagged destination per post."
+    else:
+        excerpt_change = "Choose two matched excerpts prospectively after the hook test; one tagged destination per post."
     return [
-        dict(decision="Which opening hook merits repeat production?", change="Two hooks for the same Funny Guy excerpt.",
+        dict(decision="Which opening hook merits repeat production?", change=hook_change,
+             source_period=source_period, candidate_basis=demand_basis,
              comparable="Same platform, format, duration band, destination and paid/organic status; record publishing slot.",
              primary_outcome="Unique measured outbound clicks per post in its first 7 days; retain click and reach counts separately.",
              window="7 days per post; 4 weeks of collection.", repetition="At least four matched pairs; randomize hook order within pairs and rotate time slots.",
@@ -109,7 +158,9 @@ def experiments():
              repetition="Capture every post, including low performers; review missing captures weekly.",
              worthwhile="At least 90% complete paired snapshots, a proposed measurement-quality target.",
              limitations="Enables fairer descriptive comparisons; does not itself establish causal content effects."),
-        dict(decision="Does a promising excerpt deserve further promotion?", change="Rotate Funny Guy (current demand) and Waste Away (recent momentum) excerpts after the hook test; one tagged destination per post.",
+        dict(decision="Does a promising excerpt deserve further promotion?", change=excerpt_change,
+             source_period=source_period, comparison_period=comparison_period,
+             candidate_basis=demand_basis + " " + momentum_basis + " These are descriptive test candidates, not causal rankings or evidence of future lift.",
              comparable="Same hook/format, duration band, spend and 7-day observation age; record releases, shows and playlist events.",
              primary_outcome="Measured outbound clicks per post; song streams tracked as a separate exploratory outcome.",
              window="7 days per post plus a separately specified next-7-day song-listening response.",
@@ -230,7 +281,7 @@ def build_report(repo, start=None, end=None):
         cross_platform=dict(planned=len(statistical),eligible=int(statistical.inference_eligible.fillna(False).sum()),
                             minimum_adjusted_p=q.min(),adjusted_significant=int(q.lt(.05).sum()),
                             input_status="Original retained testing family; new descriptive follows repair does not rerun or alter inference."),
-        hypotheses=hypotheses,findings=findings,experiments=experiments(),reconciliation=reconciliation,sources=sources,
+        hypotheses=hypotheses,findings=findings,experiments=experiments(songs,start,end,daily.reporting_timezone.iloc[0]),reconciliation=reconciliation,sources=sources,
         limitations=["Daily Spotify dates are UTC; Meta dates are Pacific. Daily totals cannot be accurately reassigned across zones.",
                      "Rolling listener counts and daily unique listeners are not additive. Platform audiences are never summed into unique fans.",
                      "Lifetime content, release-age windows and top-N geography retain their own source periods; the activity-date filter does not reassign them to another period. Content distributions keep typed account identity, metric scope, measurement type, author, format and UTC capture-day cohort separate; their overlapping groups cannot be added.",

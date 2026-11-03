@@ -493,8 +493,8 @@ def main():
                 from stats_app.saved_insights_ui import render_saved_insights
                 render_saved_insights()
             elif page == "Content plan":
-                from stats_app.content_plan_ui import render_content_plan
-                render_content_plan()
+                st.info("The 14-day content plan view is unavailable. Use Campaigns to plan posts and record measured outcomes.")
+                controls.jump("Open Campaigns", "Campaigns", key="content-plan:open-campaigns")
             elif page == "Apple Music":
                 from stats_app.apple_music_ui import render_apple_music
                 render_apple_music(library, analysis)

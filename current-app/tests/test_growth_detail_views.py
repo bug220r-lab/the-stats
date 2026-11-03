@@ -3,6 +3,7 @@ from datetime import date
 import json
 
 import pandas as pd
+import pytest
 from streamlit.testing.v1 import AppTest
 
 from stats_app.apple_music_ui import apple_snapshot_catalog, daily_statistics, matched_artist_activity
@@ -20,6 +21,18 @@ def apple_rows(metric="plays", values=(0, 6, 9)):
                          value=value, status="observed" if value is not None else "missing", observation_id=f"local::{number}",
                          source_names="source.csv", captured_at="2026-10-25T12:00:00Z"))
     return pd.DataFrame(rows)
+
+
+def spotify_rows(values=(10, 20, 30)):
+    return pd.DataFrame({
+        "date": [f"2026-10-{number:02d}" for number in range(1, len(values) + 1)],
+        "daily_streams": pd.Series(values, dtype=float),
+        "artist_id": "spotify-artist",
+        "snapshot_class": "original_baseline",
+        "reporting_timezone": "UTC",
+        "value_status": "observed",
+        "partial_day": pd.Series([False] * len(values), dtype="boolean"),
+    })
 
 
 class AppleRepo:
@@ -70,7 +83,7 @@ def test_apple_missingness_daily_unique_and_scope_are_not_combined():
 
 def test_apple_spotify_matching_uses_only_complete_exact_utc_artist_dates():
     apple = apple_rows()
-    spotify = pd.DataFrame({"date": ["2026-10-01", "2026-10-02"], "daily_streams": [10, 20]})
+    spotify = spotify_rows((10, 20))
     result = matched_artist_activity(apple, spotify, date(2026, 10, 1), date(2026, 10, 3))
     assert result == {"start": date(2026, 10, 1), "end": date(2026, 10, 2), "apple_plays": 6,
                       "spotify_streams": 30, "days": 2}
@@ -79,6 +92,72 @@ def test_apple_spotify_matching_uses_only_complete_exact_utc_artist_dates():
     apple["dimensions_json"] = '{"entity_scope":"artist"}'
     spotify.loc[1, "daily_streams"] = None
     assert matched_artist_activity(apple, spotify, date(2026, 10, 1), date(2026, 10, 3)) is None
+
+
+@pytest.mark.parametrize("column,value", [
+    ("daily_streams", None),
+    ("daily_streams", float("inf")),
+    ("daily_streams", float("-inf")),
+    ("daily_streams", -1),
+    ("value_status", "unavailable"),
+    ("value_status", "suppressed"),
+    ("daily_streams_status", "unavailable"),
+    ("partial_day", True),
+    ("partial_day", None),
+    ("reporting_timezone", "America/Los_Angeles"),
+    ("reporting_timezone", None),
+    ("artist_id", "another-artist"),
+    ("artist_id", ""),
+    ("snapshot_class", "later_capture"),
+    ("snapshot_class", None),
+])
+def test_matched_activity_withholds_invalid_or_incompatible_spotify_evidence(column, value):
+    spotify = spotify_rows()
+    if column not in spotify:
+        spotify[column] = "observed"
+    spotify.loc[2, column] = value
+    original = spotify.copy(deep=True)
+    assert matched_artist_activity(apple_rows(), spotify, date(2026, 10, 1), date(2026, 10, 3)) is None
+    pd.testing.assert_frame_equal(spotify, original)
+
+
+@pytest.mark.parametrize("column", ["artist_id", "snapshot_class", "reporting_timezone"])
+def test_matched_activity_requires_identified_spotify_scope(column):
+    spotify = spotify_rows().drop(columns=column)
+    assert matched_artist_activity(apple_rows(), spotify, date(2026, 10, 1), date(2026, 10, 3)) is None
+
+
+def test_matched_activity_keeps_genuine_zero_but_withholds_missing_or_duplicate_dates():
+    spotify = spotify_rows((0, 0, 0))
+    spotify["value_status"] = "observed_zero"
+    result = matched_artist_activity(apple_rows(), spotify, date(2026, 10, 1), date(2026, 10, 3))
+    assert result["spotify_streams"] == 0 and result["days"] == 3
+    assert matched_artist_activity(apple_rows(), spotify.drop(index=1), date(2026, 10, 1), date(2026, 10, 3)) is None
+    duplicate = pd.concat([spotify, spotify.iloc[[0]]], ignore_index=True)
+    assert matched_artist_activity(apple_rows(), duplicate, date(2026, 10, 1), date(2026, 10, 3)) is None
+
+
+@pytest.mark.parametrize("partial", [False, True])
+def test_apple_ui_only_labels_valid_spotify_overlap_as_complete(partial):
+    script = f'''from types import SimpleNamespace
+from test_growth_detail_views import AppleRepo, spotify_rows
+from stats_app.apple_music_ui import render_apple_music
+spotify = spotify_rows()
+spotify.loc[2, "partial_day"] = {partial!r}
+analysis = SimpleNamespace(table=lambda path: spotify)
+render_apple_music(AppleRepo(), analysis)
+'''
+    app = AppTest.from_string(script).run()
+    assert not app.exception and not app.error
+    matched = [item for item in app.metric if item.label == "Spotify streams · matched dates"]
+    assert next(item for item in app.metric if item.label == "Apple plays").value == "15"
+    if partial:
+        assert not matched
+        assert any("complete matching UTC artist window on Spotify is unavailable" in item.value for item in app.caption)
+        assert not any("3 complete UTC days" in item.value for item in app.caption)
+    else:
+        assert len(matched) == 1 and matched[0].value == "60"
+        assert any("3 complete UTC days" in item.value for item in app.caption)
 
 
 def test_apple_ui_keeps_daily_listener_and_monthly_source_facts_separate():
