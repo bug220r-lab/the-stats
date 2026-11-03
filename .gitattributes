@@ -1,0 +1,3 @@
+* -text
+current-app/** text=auto eol=lf
+current-app/assets/** -text

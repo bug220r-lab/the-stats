@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "encoding": "utf-8-sig",
+  "delimiter": ",",
+  "header_row": 1,
+  "date_format": "%Y-%m-%d",
+  "time_grain": "daily",
+  "number_format": "plain",
+  "columns": {
+    "date": "REPLACE_WITH_EXACT_REPORTING_DATE_HEADER",
+    "entity_id": "REPLACE_WITH_EXACT_TIKTOK_SONG_ID_HEADER",
+    "entity_name": "REPLACE_WITH_EXACT_SONG_NAME_HEADER"
+  },
+  "dimensions": {},
+  "metrics": [
+    {"metric":"song_video_views","column":"REPLACE_WITH_EXACT_DAILY_SONG_VIDEO_VIEWS_HEADER","unit":"count","measurement_basis":"period_count","definition":"Source-reported views of TikTok posts using this song in this reporting day and community scope; not the artist account's owned-post views or music-streaming plays.","value_tokens":{"":"missing"}},
+    {"metric":"song_video_posts","column":"REPLACE_WITH_EXACT_DAILY_SONG_POSTS_HEADER","unit":"count","measurement_basis":"period_count","definition":"Source-reported posts using this song in this reporting day and community scope; not verified artist-authored publishing or unique creators.","value_tokens":{"":"missing"}}
+  ]
+}

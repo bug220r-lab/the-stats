@@ -1,0 +1,13 @@
+# Decision workflow implementation — October 23, 2026
+
+Continue the existing Streamlit application in place. The live registry was verified as **instagram-story-owner-20261023**, with six separate analysis versions. The current owner-Story handoff was updated by other ongoing work during this pass and was preserved. All six Story song assignments remain unresolved; this task makes no new assignment or attribution claim.
+
+The app now includes **Decision report** and **Campaigns**. The report shares calculations with the dated JSON/Markdown refresh command. Campaigns imports metadata into separate writable SQLite tables with immutable revision history, source bytes and hashes. No production campaign rows were imported. Registered performance snapshots, original exports, baseline designations and registry pointers were not changed.
+
+Read [workflow and commands](../docs/DECISION_WORKFLOW.md), [source audit](../docs/SOURCE_AUDIT_2026-10-23.md), [campaign log](../docs/CAMPAIGNS.md), [generated report](../data/reconciliation/decision-report-20261023-final/decision_report.md), and [verification receipt](../docs/DECISION_VALIDATION_2026-10-23.md). The refresh receipt includes source database hashes before/after and hashes for source tables and analytical code.
+
+Source-qualified findings: September 23–October 20 Spotify streams 4,246 vs 4,011 (+5.86%); direct listeners 1,062 vs 1,121 (-5.26%); follower endpoints 1,616→1,644 (+28). Funny Guy contributes 1,488 streams (35.04%), while Waste Away rises 157→190. Repaired Instagram follow events are 15 vs 15. Current Spotify collection status remains 36 complete, 5 partial, 2 blocked. The 765/25,633 figures are additions, not the cumulative 1,269/37,311 source rows and not statistical sample sizes.
+
+Normal launch remains `launch_windows.bat`. Restart an older running server with Ctrl+C in its own console before relaunching; file watching is disabled by the established launcher. Refresh uses `scripts/refresh_analysis.py --output <new-directory>` and does not collect live data or rerun historical inference. No deployment, external sharing, credentials or system settings changed.
+
+Remaining limits include original October 20 archive membership, TikTok data, equal-age content measurements, complete campaign/link measurement, song-specific Story mappings and causal stream attribution. The original YouTube ZIP is verified; the registered live database was inaccessible to this tool session. A separate staged copy successfully loaded through the normal launcher and existing YouTube views. Do not replace the live library merely to work around a tool-session access restriction.
