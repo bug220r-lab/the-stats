@@ -160,6 +160,39 @@ render_apple_music(AppleRepo(), analysis)
         assert any("3 complete UTC days" in item.value for item in app.caption)
 
 
+@pytest.mark.parametrize("error", [
+    pytest.param("No parsed domain CSV at spotify/cleaned/artist_daily.csv", id="missing-table"),
+    pytest.param("Analysis source SHA-256 verification failed.", id="failed-hash"),
+])
+def test_apple_ui_preserves_original_sources_when_spotify_table_is_unreadable(error):
+    script = f'''from types import SimpleNamespace
+from test_growth_detail_views import AppleRepo
+from stats_app.apple_music_ui import render_apple_music
+from stats_app.storage import StorageError
+
+class ReadableAppleRepo(AppleRepo):
+    def original_source(self, digest):
+        assert digest == "test-source"
+        return b"date,plays\\n2026-10-01,0\\n"
+
+def unreadable_spotify_table(path):
+    assert path == "spotify/cleaned/artist_daily.csv"
+    raise StorageError({error!r})
+
+render_apple_music(ReadableAppleRepo(), SimpleNamespace(table=unreadable_spotify_table))
+'''
+    app = AppTest.from_string(script)
+    app.session_state["apple:evidence"] = True
+    app.run()
+    assert not app.exception and not app.error
+    assert any("daily Spotify data could not be read" in item.value for item in app.caption)
+    assert all(item.label != "Spotify streams · matched dates" for item in app.metric)
+    assert next(item for item in app.metric if item.label == "Apple plays").value == "15"
+    assert {item.label for item in app.get("download_button")} >= {
+        "Download filtered records · CSV", "Download unchanged Apple source",
+    }
+
+
 def test_apple_ui_keeps_daily_listener_and_monthly_source_facts_separate():
     assert len(apple_snapshot_catalog(AppleRepo())) == 2
     script = '''from test_growth_detail_views import AppleRepo

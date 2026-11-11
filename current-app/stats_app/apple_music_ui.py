@@ -3,6 +3,7 @@ from __future__ import annotations
 
 from datetime import date, timedelta
 import json
+import sqlite3
 
 import pandas as pd
 import plotly.graph_objects as go
@@ -192,16 +193,21 @@ def render_apple_music(repo, analysis=None):
         figure.update_layout(height=350, xaxis_title="Source reporting date", yaxis_title=METRIC_LABELS.get(metric, metric))
         chart(figure, "apple:daily-chart")
         if analysis is not None and metric == "plays" and entity[0] == "artist":
-            matched = matched_artist_activity(data, analysis.table("spotify/cleaned/artist_daily.csv"), start, end)
-            if matched:
-                st.markdown("**Same dates on Spotify and Apple Music**")
-                st.caption(f"{matched['start']} – {matched['end']} · {matched['days']} complete UTC days. Each service retains its own metric.")
-                left, right = st.columns(2)
-                left.metric("Apple plays · matched dates", fmt(matched["apple_plays"]))
-                right.metric("Spotify streams · matched dates", fmt(matched["spotify_streams"]))
-                st.caption("Separate platform activity totals; no combined audience or referral conversion is inferred.")
+            try:
+                spotify = analysis.table("spotify/cleaned/artist_daily.csv")
+            except (OSError, sqlite3.Error, ValueError):
+                st.caption("The Spotify comparison is unavailable because daily Spotify data could not be read from the selected analysis.")
             else:
-                st.caption("A complete matching UTC artist window on Spotify is unavailable for this selection.")
+                matched = matched_artist_activity(data, spotify, start, end)
+                if matched:
+                    st.markdown("**Same dates on Spotify and Apple Music**")
+                    st.caption(f"{matched['start']} – {matched['end']} · {matched['days']} complete UTC days. Each service retains its own metric.")
+                    left, right = st.columns(2)
+                    left.metric("Apple plays · matched dates", fmt(matched["apple_plays"]))
+                    right.metric("Spotify streams · matched dates", fmt(matched["spotify_streams"]))
+                    st.caption("Separate platform activity totals; no combined audience or referral conversion is inferred.")
+                else:
+                    st.caption("A complete matching UTC artist window on Spotify is unavailable for this selection.")
     else:
         periods = sorted(set(zip(data.period_start, data.period_end)))
         period = controls.selectbox("Exact Apple source period", periods, index=len(periods) - 1,

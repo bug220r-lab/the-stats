@@ -66,6 +66,9 @@ def test_report_candidates_follow_selected_source_period_and_changed_rankings():
     assert "Synthetic Beta: +14 streams" in excerpts["candidate_basis"]
     assert excerpts["source_period"] == "2026-02-16 through 2026-03-01 UTC"
     assert excerpts["comparison_period"] == "2026-02-02 through 2026-02-15 UTC"
+    early_song = next(finding for finding in early["findings"] if finding["id"] == "song")
+    assert "Synthetic Alpha: 98 streams" in early_song["observed"]
+    assert "70.00% of artist streams" in early_song["observed"]
 
     later = build_report(repo, "2026-03-02", "2026-03-15")
     hook, _, excerpts = later["experiments"]
@@ -74,6 +77,7 @@ def test_report_candidates_follow_selected_source_period_and_changed_rankings():
     assert "prospectively chosen matched alternative" in excerpts["change"]
     assert excerpts["source_period"] == "2026-03-02 through 2026-03-15 UTC"
     assert excerpts["comparison_period"] == "2026-02-16 through 2026-03-01 UTC"
+    assert "Synthetic Beta" in next(finding["observed"] for finding in later["findings"] if finding["id"] == "song")
     for report in (early, later):
         encoded = json.dumps(report, allow_nan=False)
         text = markdown_report(report)
@@ -82,6 +86,8 @@ def test_report_candidates_follow_selected_source_period_and_changed_rankings():
             assert experiment["source_period"] in text and experiment["source_period"] in encoded
         assert "Funny Guy" not in encoded and "Waste Away" not in encoded
         assert report["analysis_key"] == "synthetic-other-songs"
+        assert "This report does not use TikTok Studio data" in text
+        assert "Explore → TikTok" in text
 
 
 @pytest.mark.parametrize("unavailable", ["missing", "partial"])
@@ -94,7 +100,9 @@ def test_incomplete_current_recording_cannot_be_ranked_below_a_complete_recordin
     else:
         tracks["partial_day"] = False
         tracks.loc[row, "partial_day"] = True
-    result = build_report(repo, "2026-02-16", "2026-03-01")["experiments"]
+    report = build_report(repo, "2026-02-16", "2026-03-01")
+    assert all(finding["id"] != "song" for finding in report["findings"])
+    result = report["experiments"]
     for experiment in (result[0], result[2]):
         assert "Synthetic" not in experiment["change"]
         assert "incomplete selected-period coverage" in experiment["candidate_basis"]
@@ -121,8 +129,20 @@ def test_flat_declining_and_zero_activity_supply_no_positive_momentum(current, p
     assert "No momentum candidate selected. No positive recording increase is observed." in excerpts["candidate_basis"]
     assert "+" not in excerpts["candidate_basis"]
     if current == 0:
+        assert all(finding["id"] != "song" for finding in report["findings"])
         assert "Synthetic" not in report["experiments"][0]["change"]
         assert "Synthetic" not in excerpts["change"]
+
+
+def test_complete_recording_demand_can_be_reported_without_artist_share():
+    repo = MemoryRepo()
+    artist = repo.assets[SP + "artist_daily.csv"]
+    artist.loc[artist.date.eq("2026-02-20"), "value_status"] = "unavailable"
+    report = build_report(repo, "2026-02-16", "2026-03-01")
+    finding = next(finding for finding in report["findings"] if finding["id"] == "song")
+    assert "Synthetic Alpha: 98 streams" in finding["observed"]
+    assert "Artist share is unavailable" in finding["observed"]
+    assert "nan%" not in markdown_report(report)
 
 
 def test_momentum_uses_absolute_change_even_when_previous_total_is_zero():

@@ -251,11 +251,15 @@ def build_report(repo, start=None, end=None):
         finding("intensity", f"Direct period listeners: {unique['current_value']} versus {unique['previous_value']}. Streams per period listener: {ratio['value']:.3f}." if ratio['value'] is not None else "Listening intensity unavailable.",
                 "More streams per listener can reflect concentrated listening; it does not identify returning people.",
                 "Track listening intensity alongside distinct audience size.", [SP+"artist_daily.csv", SP+"artist_period_dashboard.csv"])
-    if not songs.empty and pd.notna(songs.iloc[0].current):
-        top = songs.iloc[0]
-        finding("song", f"{top.recording_label}: {top.current:.0f} streams; {top.share_of_artist_pct:.2f}% of artist streams in the matched window.",
+    demand, _, _, _ = _experiment_candidates(songs)
+    if demand is not None:
+        share = demand.share_of_artist_pct
+        share_text = (f"{share:.2f}% of artist streams in the selected window."
+                      if math.isfinite(share) else "Artist share is unavailable for the selected window.")
+        finding("song", f"{demand.recording_label}: {demand.current:.0f} streams. {share_text}",
                 "Current demand supports testing this recording; unequal promotion and release age prevent causal ranking.",
-                "Use the leading recording as a test candidate, with a matched alternative and tagged links.", [SP+"track_daily_long.csv",SP+"recordings.csv"])
+                "Use the leading recording in the loaded catalog as a test candidate, with a matched alternative and tagged links.",
+                [SP+"track_daily_long.csv", SP+"recordings.csv", SP+"artist_daily.csv"])
     hypotheses = [
         {"question":"Do song posts precede unusual song listening?", "outcome":"Song streams per UTC day", "predictor":"Verified song-specific posts", "unit":"Song-day/event", "response":"Next 7 days", "baseline":"Prior matched weekdays", "status":"insufficient evidence", "missing":"Complete verified audio-to-song map, promotion/event calendar and enough separated repeated events; current captions do not prove played audio.", "controls":"Release age, weekday, trend, playlist events and spend needed; currently incomplete."},
         {"question":"Which format produces stronger link activity?", "outcome":"Measured outbound clicks", "predictor":"Format/hook", "unit":"Post at 7 days", "response":"First 7 days", "baseline":"Same-platform matched posts", "status":"insufficient evidence", "missing":"Per-post tagged-link counts and equal-age histories with paid/organic scope.", "controls":"Song, duration, publishing slot, distribution and spend."},
@@ -285,7 +289,8 @@ def build_report(repo, start=None, end=None):
         limitations=["Daily Spotify dates are UTC; Meta dates are Pacific. Daily totals cannot be accurately reassigned across zones.",
                      "Rolling listener counts and daily unique listeners are not additive. Platform audiences are never summed into unique fans.",
                      "Lifetime content, release-age windows and top-N geography retain their own source periods; the activity-date filter does not reassign them to another period. Content distributions keep typed account identity, metric scope, measurement type, author, format and UTC capture-day cohort separate; their overlapping groups cannot be added.",
-                     "TikTok has no accessible analytical dataset. Original baseline membership, post-to-stream attribution and repeat-person retention remain unavailable.",
+                     "This report does not use TikTok Studio data. When a Studio collection is registered, open Explore → TikTok to inspect it separately.",
+                     "Original baseline membership, post-to-stream attribution and repeat-person retention remain unavailable.",
                      "Instagram follows repair is explicit daily evidence; these are follow actions, not a net follower-stock series.",
                      "Saved readiness rows describe their original input versions; current social coverage above includes the separately reviewed follows repair."]))
 
