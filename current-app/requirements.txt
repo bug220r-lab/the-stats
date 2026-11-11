@@ -1,0 +1,2 @@
+# Fully pinned dependency set tested on Python 3.12.14 / Windows x64.
+-r requirements.lock.txt
