@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "encoding": "utf-8-sig",
+  "delimiter": ",",
+  "header_row": 1,
+  "date_format": "%Y-%m-%d",
+  "time_grain": "daily",
+  "number_format": "plain",
+  "columns": {
+    "date": "REPLACE_WITH_EXACT_DAILY_DATE_HEADER"
+  },
+  "dimensions": {},
+  "metrics": [
+    {
+      "metric": "plays",
+      "column": "REPLACE_WITH_EXACT_PLAYS_HEADER",
+      "unit": "count",
+      "measurement_basis": "period_count",
+      "definition": "Apple Music song plays lasting more than 30 seconds, including Apple Music radio-station plays, in this source reporting day.",
+      "value_tokens": {"": "missing"}
+    },
+    {
+      "metric": "daily_unique_listeners",
+      "column": "REPLACE_WITH_EXACT_DAILY_UNIQUE_LISTENERS_HEADER",
+      "unit": "count",
+      "measurement_basis": "distinct_count",
+      "definition": "Unique Apple Music listeners in this source reporting day; not additive across dates, songs, or other platforms.",
+      "value_tokens": {"": "missing"}
+    }
+  ]
+}

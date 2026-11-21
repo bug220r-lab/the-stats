@@ -1,0 +1,7 @@
+streamlit[auth]==1.64.0
+pandas==2.3.3
+plotly==6.3.1
+openpyxl==3.1.5
+pytest==8.4.2
+scipy==1.17.0
+matplotlib==3.10.8

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "encoding": "utf-8-sig",
+  "delimiter": ",",
+  "header_row": 1,
+  "date_format": "%Y-%m-%d",
+  "publication_date_format": "%Y-%m-%d",
+  "time_grain": "snapshot",
+  "number_format": "plain",
+  "columns": {
+    "entity_id": "REPLACE_WITH_EXACT_VIDEO_ID_HEADER",
+    "caption": "REPLACE_WITH_EXACT_CAPTION_HEADER",
+    "permalink": "REPLACE_WITH_EXACT_VIDEO_LINK_HEADER",
+    "publication_date": "REPLACE_WITH_EXACT_PUBLICATION_DATE_HEADER",
+    "published_local": "REPLACE_WITH_EXACT_PUBLICATION_TEXT_HEADER",
+    "sound_id": "REPLACE_WITH_EXACT_SOUND_ID_HEADER"
+  },
+  "dimensions": {},
+  "metrics": [
+    {"metric":"video_views","column":"REPLACE_WITH_EXACT_LIFETIME_VIEWS_HEADER","unit":"count","measurement_basis":"cumulative_count","definition":"Retained native cumulative video views as of this capture; lifetime reporting bounds may be unknown and publication date is not an activity date.","value_tokens":{"":"missing"}},
+    {"metric":"likes","column":"REPLACE_WITH_EXACT_LIFETIME_LIKES_HEADER","unit":"count","measurement_basis":"cumulative_count","definition":"Retained native cumulative video likes as of this capture; separate from daily like activity.","value_tokens":{"":"missing"}},
+    {"metric":"comments","column":"REPLACE_WITH_EXACT_LIFETIME_COMMENTS_HEADER","unit":"count","measurement_basis":"cumulative_count","definition":"Retained native cumulative video comments as of this capture; separate from daily comment activity.","value_tokens":{"":"missing"}},
+    {"metric":"shares","column":"REPLACE_WITH_EXACT_LIFETIME_SHARES_HEADER","unit":"count","measurement_basis":"cumulative_count","definition":"Retained native cumulative video shares as of this capture; separate from daily share activity.","value_tokens":{"":"missing"}},
+    {"metric":"average_watch_time","column":"REPLACE_WITH_EXACT_AVERAGE_WATCH_SECONDS_HEADER","unit":"seconds","measurement_basis":"average","definition":"Source-reported average watch time in seconds for this video's stated snapshot scope; no averaging or unit conversion is inferred.","value_tokens":{"":"missing"}},
+    {"metric":"completion_rate","column":"REPLACE_WITH_EXACT_COMPLETION_PERCENT_HEADER","unit":"percent","measurement_basis":"rate","allow_percent_suffix":true,"definition":"Source-reported completion rate in percentage points for this video and snapshot scope; denominator and replay treatment must be verified from the actual source.","value_tokens":{"":"missing"}}
+  ]
+}

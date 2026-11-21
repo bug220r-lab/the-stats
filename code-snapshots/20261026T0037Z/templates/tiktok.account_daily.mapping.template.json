@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "encoding": "utf-8-sig",
+  "delimiter": ",",
+  "header_row": 1,
+  "date_format": "%Y-%m-%d",
+  "time_grain": "daily",
+  "number_format": "plain",
+  "columns": {"date": "REPLACE_WITH_EXACT_REPORTING_DATE_HEADER"},
+  "dimensions": {},
+  "metrics": [
+    {"metric":"video_views","column":"REPLACE_WITH_EXACT_DAILY_VIEWS_HEADER","unit":"count","measurement_basis":"period_count","definition":"TikTok views reported for this account and source reporting day, under the recorded source filters; not unique viewers or music streams.","value_tokens":{"":"missing"}},
+    {"metric":"profile_views","column":"REPLACE_WITH_EXACT_DAILY_PROFILE_VIEWS_HEADER","unit":"count","measurement_basis":"period_count","definition":"TikTok profile views in this source reporting day and scope; not unique people unless explicitly defined by the source.","value_tokens":{"":"missing"}},
+    {"metric":"net_followers","column":"REPLACE_WITH_EXACT_DAILY_NET_FOLLOWERS_HEADER","unit":"count","measurement_basis":"period_count","definition":"Explicitly reported net follower change in this source reporting day; signed and separate from gross new followers and the follower balance.","value_tokens":{"":"missing"}},
+    {"metric":"followers","column":"REPLACE_WITH_EXACT_FOLLOWER_BALANCE_HEADER","unit":"count","measurement_basis":"point_in_time","definition":"Follower balance at the source daily endpoint, not new followers or an additive count.","value_tokens":{"":"missing"}}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "account": "",
+  "entity_type": "artist",
+  "entity_id": "",
+  "entity_name": "",
+  "source_kind": "artists_csv",
+  "source_timezone": "unknown",
+  "captured_at": "",
+  "period_start": "",
+  "period_end": "",
+  "report_scope": "",
+  "source_url": "",
+  "filters": {}
+}
